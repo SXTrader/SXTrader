@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCF2ABDD-58A4-4387-9F59-1B0ABD1F78D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>net.sxtrader.bftradingstrategies.bfuestrategy</RootNamespace>
+    <AssemblyName>BFUEStrategy</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>sxtrader.pfx</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Relase 64Bit|AnyCPU' ">
+    <OutputPath>..\Release64\Plugins\LayTheDraw\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Relase 64Bit|x64' ">
+    <OutputPath>..\Release64\Plugins\LayTheDraw\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ImapX">
+      <HintPath>..\Libraries\ImapX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataModel\BetgreenLTDTipp.cs" />
+    <Compile Include="IPTraderObj\BFUEFBInPlayTraderConfigElement.cs" />
+    <Compile Include="BFUEStrategy.cs" />
+    <Compile Include="BFUEWatcher.cs" />
+    <Compile Include="ctlConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlConfiguration.Designer.cs">
+      <DependentUpon>ctlConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlFastLay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlFastLay.Designer.cs">
+      <DependentUpon>ctlFastLay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlLayDraw_v2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlLayDraw_v2.Designer.cs">
+      <DependentUpon>ctlLayDraw_v2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLocalConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLocalConfig.Designer.cs">
+      <DependentUpon>frmLocalConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTargetOdds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTargetOdds.Designer.cs">
+      <DependentUpon>frmTargetOdds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPTraderObj\ctlIPTElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IPTraderObj\ctlIPTElement.Designer.cs">
+      <DependentUpon>ctlIPTElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPTraderObj\ctlIPTElementEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IPTraderObj\ctlIPTElementEdit.Designer.cs">
+      <DependentUpon>ctlIPTElementEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPTraderObj\frmIPTradeConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPTraderObj\frmIPTradeConfig.Designer.cs">
+      <DependentUpon>frmIPTradeConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPTraderObj\IPTEventClasses.cs" />
+    <Compile Include="IPTraderObj\IPTraderPrepManager.cs" />
+    <Compile Include="IPTraderObj\IPTraderPrepManagerObj.cs" />
+    <Compile Include="LayTheDraw2.0\LayTheDraw.cs" />
+    <Compile Include="LayTheDraw2.0\LTDExceptions.cs" />
+    <Compile Include="MailInterface\BetGreenMailParser.cs" />
+    <Compile Include="MailInterface\NonStandardTippMailFormatParser.cs" />
+    <Compile Include="MailInterface\StandardTippMailFormatParser.cs" />
+    <Compile Include="MailInterface\IMailFormatParser.cs" />
+    <Compile Include="MailInterface\LTDMail.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Resourcen\Resourcen.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resourcen.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LayTheDraw.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LayTheDraw.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LTDConfigurationReader.cs" />
+    <Compile Include="LTDConfigurationRW.cs" />
+    <Compile Include="PlugInLayDraw.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LiveScoreParser\LiveScoreParser.csproj">
+      <Project>{B23844E2-09DF-4CF3-866B-4DC7E1A76A84}</Project>
+      <Name>LiveScoreParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSParserInterfaces\LSParserInterfaces.csproj">
+      <Project>{4E60BC29-BA92-4D93-B880-145F9D84BCE4}</Project>
+      <Name>LSParserInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlugInIF\PlugInIF.csproj">
+      <Project>{62850BCF-339F-47F2-934A-D3592EA87B76}</Project>
+      <Name>PlugInIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXALInterfaces\SXALInterfaces.csproj">
+      <Project>{D311CC73-E41E-4C5F-BCEC-337D37A3C0BF}</Project>
+      <Name>SXALInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXAL\SXAL.csproj">
+      <Project>{1D29135D-1DEB-40B8-8506-6D05F586068C}</Project>
+      <Name>SXAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXFastBet\SXFastBet.csproj">
+      <Project>{4B277CA4-28BC-40DE-84CC-60E747E7A27C}</Project>
+      <Name>SXFastBet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXHelper\SXHelper.csproj">
+      <Project>{C30454F3-F2E6-422F-9A6D-68A285E3CB93}</Project>
+      <Name>SXHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXMUK\SXMUK.csproj">
+      <Project>{C14A6A65-342A-4172-B666-6BAC5EF8B09D}</Project>
+      <Name>SXMUK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ctlConfiguration.de.resx">
+      <DependentUpon>ctlConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlConfiguration.resx">
+      <DependentUpon>ctlConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlFastLay.de.resx">
+      <DependentUpon>ctlFastLay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlFastLay.resx">
+      <DependentUpon>ctlFastLay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlLayDraw_v2.de.resx">
+      <DependentUpon>ctlLayDraw_v2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlLayDraw_v2.resx">
+      <DependentUpon>ctlLayDraw_v2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLocalConfig.de.resx">
+      <DependentUpon>frmLocalConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLocalConfig.resx">
+      <DependentUpon>frmLocalConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTargetOdds.de.resx">
+      <DependentUpon>frmTargetOdds.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTargetOdds.resx">
+      <DependentUpon>frmTargetOdds.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPTraderObj\ctlIPTElement.de.resx">
+      <DependentUpon>ctlIPTElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPTraderObj\ctlIPTElement.resx">
+      <DependentUpon>ctlIPTElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPTraderObj\ctlIPTElementEdit.de.resx">
+      <DependentUpon>ctlIPTElementEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPTraderObj\ctlIPTElementEdit.resx">
+      <DependentUpon>ctlIPTElementEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPTraderObj\frmIPTradeConfig.de.resx">
+      <DependentUpon>frmIPTradeConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPTraderObj\frmIPTradeConfig.resx">
+      <DependentUpon>frmIPTradeConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayTheDraw.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayTheDraw.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LayTheDraw.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resourcen\Resourcen.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resourcen.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LTD.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\IPS.ico" />
+    <None Include="sxtrader.pfx" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

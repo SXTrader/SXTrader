@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnTradeConfig.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;spnVolumeHigh.Name" xml:space="preserve">
+    <value>spnVolumeHigh</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="spnPlaytimeLow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 9</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblAnd2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbxRedCard.Text" xml:space="preserve">
+    <value>Red Card Behaviour</value>
+  </data>
+  <data name="&gt;&gt;lblPlaytime1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="chkAlreadyTraded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 342</value>
+  </data>
+  <data name="lblAnd1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMarketVolume.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;spnVolumeHigh.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="chkOneOne.Text" xml:space="preserve">
+    <value>1 - 1</value>
+  </data>
+  <data name="chkZeroZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="lblScore1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;rbnNoRedCards.Name" xml:space="preserve">
+    <value>rbnNoRedCards</value>
+  </data>
+  <data name="&gt;&gt;chkAlreadyTraded.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;gbxUnsettledMarket.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnNew.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 40</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeLow.Name" xml:space="preserve">
+    <value>spnPlaytimeLow</value>
+  </data>
+  <data name="lblAnd2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeHigh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnOddsLow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbnUnsettledNo.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;chkTwoTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbnEqualRedCards.Text" xml:space="preserve">
+    <value>Equal Red Cards</value>
+  </data>
+  <data name="&gt;&gt;spnVolumeHigh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkTwoTwo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkZeroZero.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbnUnsettledNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="&gt;&gt;lblOdds1.Name" xml:space="preserve">
+    <value>lblOdds1</value>
+  </data>
+  <data name="&gt;&gt;rbnSettledNo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPlaytime1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkThreeThree.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;btnTradeConfig.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;gbxSettledMarket.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;rbnUnsettledYes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPlaytime1.Text" xml:space="preserve">
+    <value>Playtime between</value>
+  </data>
+  <data name="gbxRedCard.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 6</value>
+  </data>
+  <data name="rbnUnsettledNo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlControls.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbnUnsettledYes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbnTeamBMoreRed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="lblMarketVolume.Text" xml:space="preserve">
+    <value>Market Volume between</value>
+  </data>
+  <data name="&gt;&gt;chkZeroZero.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;spnOddsHigh.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;spnVolumeLow.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkZeroZero.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gbxUnsettledMarket.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOneOne.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblAnd1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnTeamBMoreRed.Parent" xml:space="preserve">
+    <value>gbxRedCard</value>
+  </data>
+  <data name="&gt;&gt;rbnTeamAMoreRed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlreadyTraded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="rbnTeamAMoreRed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOdds1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 73</value>
+  </data>
+  <data name="btnTradeConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="rbnNoRedCards.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblAnd1.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;lblScore1.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="rbnTeamAMoreRed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="chkOneOne.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblAnd3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnSettledYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnUnsettledNo.Name" xml:space="preserve">
+    <value>rbnUnsettledNo</value>
+  </data>
+  <data name="&gt;&gt;chkOneOne.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="chkOneOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 23</value>
+  </data>
+  <data name="gbxUnsettledMarket.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblAnd2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pnlControls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;rbnSettledYes.Parent" xml:space="preserve">
+    <value>gbxSettledMarket</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Name" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="chkTwoTwo.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;spnVolumeLow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAnd1.Name" xml:space="preserve">
+    <value>lblAnd1</value>
+  </data>
+  <data name="&gt;&gt;chkZeroZero.Name" xml:space="preserve">
+    <value>chkZeroZero</value>
+  </data>
+  <data name="cbxRedCard.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblAnd2.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="lblMarketVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
+  </data>
+  <data name="&gt;&gt;gbxRedCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnSettledYes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxUnsettledMarket.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="lblPlaytime1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 13</value>
+  </data>
+  <data name="chkZeroZero.Text" xml:space="preserve">
+    <value>0 - 0</value>
+  </data>
+  <data name="chkTwoTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 23</value>
+  </data>
+  <data name="&gt;&gt;rbnTeamAMoreRed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spnVolumeLow.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlControls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 373</value>
+  </data>
+  <data name="rbnSettledNo.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="rbnEqualRedCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 43</value>
+  </data>
+  <data name="btnTradeConfig.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMarketVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 103</value>
+  </data>
+  <data name="&gt;&gt;lblAnd3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblMarketVolume.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rbnSettledNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="&gt;&gt;spnOddsHigh.Name" xml:space="preserve">
+    <value>spnOddsHigh</value>
+  </data>
+  <data name="spnOddsLow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 69</value>
+  </data>
+  <data name="spnOddsHigh.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;spnOddsLow.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;lblAnd2.Name" xml:space="preserve">
+    <value>lblAnd2</value>
+  </data>
+  <data name="gbxRedCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 69</value>
+  </data>
+  <data name="&gt;&gt;rbnTeamBMoreRed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblAnd3.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblOdds1.Text" xml:space="preserve">
+    <value>Odds between</value>
+  </data>
+  <data name="lblAnd3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;pnlControls.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gbxSettledMarket.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 143</value>
+  </data>
+  <data name="&gt;&gt;rbnUnsettledYes.Name" xml:space="preserve">
+    <value>rbnUnsettledYes</value>
+  </data>
+  <data name="gbxUnsettledMarket.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 143</value>
+  </data>
+  <data name="lblScore1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 43</value>
+  </data>
+  <data name="spnOddsHigh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 69</value>
+  </data>
+  <data name="rbnTeamAMoreRed.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;spnOddsHigh.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;lblAnd3.Name" xml:space="preserve">
+    <value>lblAnd3</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbxSettledMarket.Name" xml:space="preserve">
+    <value>gbxSettledMarket</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeLow.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;lblPlaytime1.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;lblPlaytime1.Name" xml:space="preserve">
+    <value>lblPlaytime1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxSettledMarket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 79</value>
+  </data>
+  <data name="&gt;&gt;rbnSettledYes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkTwoTwo.Text" xml:space="preserve">
+    <value>2 - 2</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rbnSettledNo.Parent" xml:space="preserve">
+    <value>gbxSettledMarket</value>
+  </data>
+  <data name="lblAnd2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 73</value>
+  </data>
+  <data name="&gt;&gt;rbnEqualRedCards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnTeamBMoreRed.Name" xml:space="preserve">
+    <value>rbnTeamBMoreRed</value>
+  </data>
+  <data name="&gt;&gt;btnTradeConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnEqualRedCards.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbnNoRedCards.Parent" xml:space="preserve">
+    <value>gbxRedCard</value>
+  </data>
+  <data name="&gt;&gt;rbnNoRedCards.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblScore1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="rbnEqualRedCards.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbnTeamAMoreRed.Text" xml:space="preserve">
+    <value>Team A more Red Cards</value>
+  </data>
+  <data name="&gt;&gt;chkOneOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkThreeThree.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;rbnUnsettledNo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblMarketVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="spnPlaytimeLow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="gbxUnsettledMarket.Text" xml:space="preserve">
+    <value>Open Trade if there is a unsettled market</value>
+  </data>
+  <data name="spnPlaytimeHigh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 9</value>
+  </data>
+  <data name="&gt;&gt;lblOdds1.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;lblMarketVolume.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;chkOneOne.Name" xml:space="preserve">
+    <value>chkOneOne</value>
+  </data>
+  <data name="rbnNoRedCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="spnVolumeLow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 99</value>
+  </data>
+  <data name="chkZeroZero.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="lblPlaytime1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnNoRedCards.Text" xml:space="preserve">
+    <value>No Red Cards</value>
+  </data>
+  <data name="rbnTeamBMoreRed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbxSettledMarket.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="gbxRedCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 252</value>
+  </data>
+  <data name="&gt;&gt;chkThreeThree.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="rbnUnsettledYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 17</value>
+  </data>
+  <data name="&gt;&gt;chkOneOne.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="chkThreeThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 23</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeHigh.Name" xml:space="preserve">
+    <value>spnPlaytimeHigh</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Name" xml:space="preserve">
+    <value>btnNew</value>
+  </data>
+  <data name="rbnTeamBMoreRed.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblAnd1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 13</value>
+  </data>
+  <data name="spnOddsLow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="&gt;&gt;chkZeroZero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Parent" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="chkZeroZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 23</value>
+  </data>
+  <data name="&gt;&gt;lblScore1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="rbnUnsettledYes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;cbxRedCard.Name" xml:space="preserve">
+    <value>cbxRedCard</value>
+  </data>
+  <data name="chkOneOne.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;cbxRedCard.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;lblOdds1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;pnlControls.Name" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="btnNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 7</value>
+  </data>
+  <data name="&gt;&gt;gbxUnsettledMarket.Name" xml:space="preserve">
+    <value>gbxUnsettledMarket</value>
+  </data>
+  <data name="chkTwoTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 38</value>
+  </data>
+  <data name="chkThreeThree.Text" xml:space="preserve">
+    <value>3 - 3</value>
+  </data>
+  <data name="spnVolumeHigh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 99</value>
+  </data>
+  <data name="spnVolumeLow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="&gt;&gt;lblOdds1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAnd1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="&gt;&gt;rbnSettledYes.Name" xml:space="preserve">
+    <value>rbnSettledYes</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ctlIPTElementEdit</value>
+  </data>
+  <data name="&gt;&gt;chkThreeThree.Name" xml:space="preserve">
+    <value>chkThreeThree</value>
+  </data>
+  <data name="spnPlaytimeHigh.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbnTeamBMoreRed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTradeConfig.Name" xml:space="preserve">
+    <value>btnTradeConfig</value>
+  </data>
+  <data name="btnNew.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkTwoTwo.Name" xml:space="preserve">
+    <value>chkTwoTwo</value>
+  </data>
+  <data name="chkThreeThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 38</value>
+  </data>
+  <data name="rbnSettledYes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="&gt;&gt;spnVolumeLow.Name" xml:space="preserve">
+    <value>spnVolumeLow</value>
+  </data>
+  <data name="btnNew.Text" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbxRedCard.Text" xml:space="preserve">
+    <value>Observe Red Cards</value>
+  </data>
+  <data name="cbxRedCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 229</value>
+  </data>
+  <data name="rbnNoRedCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="btnTradeConfig.Text" xml:space="preserve">
+    <value>Trade Configuration</value>
+  </data>
+  <data name="&gt;&gt;rbnEqualRedCards.Parent" xml:space="preserve">
+    <value>gbxRedCard</value>
+  </data>
+  <data name="lblAnd2.Text" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="lblAnd1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;spnOddsHigh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxRedCard.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;chkAlreadyTraded.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="&gt;&gt;lblScore1.Name" xml:space="preserve">
+    <value>lblScore1</value>
+  </data>
+  <data name="&gt;&gt;rbnNoRedCards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnTeamAMoreRed.Parent" xml:space="preserve">
+    <value>gbxRedCard</value>
+  </data>
+  <data name="lblAnd3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="spnVolumeLow.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;spnOddsLow.Name" xml:space="preserve">
+    <value>spnOddsLow</value>
+  </data>
+  <data name="&gt;&gt;chkAlreadyTraded.Name" xml:space="preserve">
+    <value>chkAlreadyTraded</value>
+  </data>
+  <data name="chkZeroZero.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblScore1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblMarketVolume.Name" xml:space="preserve">
+    <value>lblMarketVolume</value>
+  </data>
+  <data name="lblOdds1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="cbxRedCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="&gt;&gt;rbnUnsettledYes.Parent" xml:space="preserve">
+    <value>gbxUnsettledMarket</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeHigh.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 6</value>
+  </data>
+  <data name="rbnUnsettledYes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkTwoTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="pnlButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblAnd3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlreadyTraded.Text" xml:space="preserve">
+    <value>Step has already traded</value>
+  </data>
+  <data name="lblAnd3.Text" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="&gt;&gt;cbxRedCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTradeConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="rbnUnsettledNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 52</value>
+  </data>
+  <data name="rbnNoRedCards.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkThreeThree.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;rbnUnsettledNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAnd2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="chkThreeThree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkTwoTwo.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="lblScore1.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="&gt;&gt;chkTwoTwo.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="rbnTeamBMoreRed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 43</value>
+  </data>
+  <data name="spnVolumeHigh.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lblOdds1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="rbnEqualRedCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="chkAlreadyTraded.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="pnlButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 373</value>
+  </data>
+  <data name="&gt;&gt;chkThreeThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPlaytime1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="&gt;&gt;pnlControls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAnd3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 103</value>
+  </data>
+  <data name="lblPlaytime1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="gbxSettledMarket.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="chkAlreadyTraded.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnSettledNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 52</value>
+  </data>
+  <data name="rbnUnsettledNo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbnSettledNo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnEqualRedCards.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnUnsettledYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="pnlControls.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbnSettledYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 17</value>
+  </data>
+  <data name="&gt;&gt;spnVolumeHigh.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lblOdds1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblAnd1.Text" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="&gt;&gt;gbxRedCard.Name" xml:space="preserve">
+    <value>gbxRedCard</value>
+  </data>
+  <data name="rbnSettledNo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeLow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbnTeamBMoreRed.Text" xml:space="preserve">
+    <value>Team B more Red Cards</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeLow.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="rbnUnsettledYes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxUnsettledMarket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 79</value>
+  </data>
+  <data name="&gt;&gt;rbnSettledNo.Name" xml:space="preserve">
+    <value>rbnSettledNo</value>
+  </data>
+  <data name="&gt;&gt;gbxSettledMarket.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxRedCard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblAnd1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbnSettledYes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxRedCard.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="btnTradeConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 339</value>
+  </data>
+  <data name="chkOneOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 38</value>
+  </data>
+  <data name="&gt;&gt;rbnEqualRedCards.Name" xml:space="preserve">
+    <value>rbnEqualRedCards</value>
+  </data>
+  <data name="&gt;&gt;chkAlreadyTraded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnTeamAMoreRed.Name" xml:space="preserve">
+    <value>rbnTeamAMoreRed</value>
+  </data>
+  <data name="gbxSettledMarket.Text" xml:space="preserve">
+    <value>Open Trade if there is a settled market</value>
+  </data>
+  <data name="&gt;&gt;rbnUnsettledNo.Parent" xml:space="preserve">
+    <value>gbxUnsettledMarket</value>
+  </data>
+  <data name="lblScore1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="spnOddsHigh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="spnPlaytimeLow.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbnTeamAMoreRed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 19</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="spnPlaytimeHigh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="&gt;&gt;gbxRedCard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMarketVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="rbnSettledYes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbnSettledNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAnd2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnOddsLow.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pnlControls.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeHigh.Parent" xml:space="preserve">
+    <value>pnlControls</value>
+  </data>
+  <data name="spnVolumeHigh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 413</value>
+  </data>
+  <data name="spnOddsLow.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

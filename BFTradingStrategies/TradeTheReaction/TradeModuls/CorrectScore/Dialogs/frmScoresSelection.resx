@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 1</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 1</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pnlButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 143</value>
+  </data>
+  <data name="pnlButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 25</value>
+  </data>
+  <data name="pnlButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Name" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpScores.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chk00.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk00.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk00.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk00.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="chk00.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk00.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chk00.Text" xml:space="preserve">
+    <value>0 - 0</value>
+  </data>
+  <data name="chk00.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk00.Name" xml:space="preserve">
+    <value>chk00</value>
+  </data>
+  <data name="&gt;&gt;chk00.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk00.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk00.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk01.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk01.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk01.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk01.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 3</value>
+  </data>
+  <data name="chk01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk01.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chk01.Text" xml:space="preserve">
+    <value>0 - 1</value>
+  </data>
+  <data name="chk01.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk01.Name" xml:space="preserve">
+    <value>chk01</value>
+  </data>
+  <data name="&gt;&gt;chk01.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk01.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk01.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chk02.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk02.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk02.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk02.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 3</value>
+  </data>
+  <data name="chk02.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk02.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chk02.Text" xml:space="preserve">
+    <value>0 - 2</value>
+  </data>
+  <data name="chk02.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk02.Name" xml:space="preserve">
+    <value>chk02</value>
+  </data>
+  <data name="&gt;&gt;chk02.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk02.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk02.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chk03.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk03.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk03.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk03.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="chk03.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk03.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chk03.Text" xml:space="preserve">
+    <value>0 - 3</value>
+  </data>
+  <data name="chk03.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk03.Name" xml:space="preserve">
+    <value>chk03</value>
+  </data>
+  <data name="&gt;&gt;chk03.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk03.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk03.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chk10.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 31</value>
+  </data>
+  <data name="chk10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk10.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chk10.Text" xml:space="preserve">
+    <value>1 - 0</value>
+  </data>
+  <data name="chk10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk10.Name" xml:space="preserve">
+    <value>chk10</value>
+  </data>
+  <data name="&gt;&gt;chk10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk10.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chk11.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 31</value>
+  </data>
+  <data name="chk11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk11.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chk11.Text" xml:space="preserve">
+    <value>1 - 1</value>
+  </data>
+  <data name="chk11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk11.Name" xml:space="preserve">
+    <value>chk11</value>
+  </data>
+  <data name="&gt;&gt;chk11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk11.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk11.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chk12.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 31</value>
+  </data>
+  <data name="chk12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk12.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chk12.Text" xml:space="preserve">
+    <value>1 - 2</value>
+  </data>
+  <data name="chk12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk12.Name" xml:space="preserve">
+    <value>chk12</value>
+  </data>
+  <data name="&gt;&gt;chk12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk12.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk12.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chk13.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 31</value>
+  </data>
+  <data name="chk13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk13.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chk13.Text" xml:space="preserve">
+    <value>1 - 3</value>
+  </data>
+  <data name="chk13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk13.Name" xml:space="preserve">
+    <value>chk13</value>
+  </data>
+  <data name="&gt;&gt;chk13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk13.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk13.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chk20.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 59</value>
+  </data>
+  <data name="chk20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk20.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chk20.Text" xml:space="preserve">
+    <value>2 - 0</value>
+  </data>
+  <data name="chk20.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk20.Name" xml:space="preserve">
+    <value>chk20</value>
+  </data>
+  <data name="&gt;&gt;chk20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk20.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk20.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chk21.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk21.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 59</value>
+  </data>
+  <data name="chk21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk21.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="chk21.Text" xml:space="preserve">
+    <value>2 - 1</value>
+  </data>
+  <data name="chk21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk21.Name" xml:space="preserve">
+    <value>chk21</value>
+  </data>
+  <data name="&gt;&gt;chk21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk21.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk21.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chk22.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk22.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 59</value>
+  </data>
+  <data name="chk22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk22.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chk22.Text" xml:space="preserve">
+    <value>2 - 2</value>
+  </data>
+  <data name="chk22.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk22.Name" xml:space="preserve">
+    <value>chk22</value>
+  </data>
+  <data name="&gt;&gt;chk22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk22.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk22.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chk23.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk23.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 59</value>
+  </data>
+  <data name="chk23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk23.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="chk23.Text" xml:space="preserve">
+    <value>2 - 3</value>
+  </data>
+  <data name="chk23.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk23.Name" xml:space="preserve">
+    <value>chk23</value>
+  </data>
+  <data name="&gt;&gt;chk23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk23.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk23.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chk30.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk30.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 87</value>
+  </data>
+  <data name="chk30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk30.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="chk30.Text" xml:space="preserve">
+    <value>3 - 0</value>
+  </data>
+  <data name="chk30.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk30.Name" xml:space="preserve">
+    <value>chk30</value>
+  </data>
+  <data name="&gt;&gt;chk30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk30.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk30.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chk31.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk31.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk31.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 87</value>
+  </data>
+  <data name="chk31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk31.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="chk31.Text" xml:space="preserve">
+    <value>3 - 1</value>
+  </data>
+  <data name="chk31.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk31.Name" xml:space="preserve">
+    <value>chk31</value>
+  </data>
+  <data name="&gt;&gt;chk31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk31.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk31.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="chk32.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk32.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 87</value>
+  </data>
+  <data name="chk32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk32.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="chk32.Text" xml:space="preserve">
+    <value>3 - 2</value>
+  </data>
+  <data name="chk32.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk32.Name" xml:space="preserve">
+    <value>chk32</value>
+  </data>
+  <data name="&gt;&gt;chk32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk32.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk32.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="chk33.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk33.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk33.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chk33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 87</value>
+  </data>
+  <data name="chk33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="chk33.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chk33.Text" xml:space="preserve">
+    <value>3 - 3</value>
+  </data>
+  <data name="chk33.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk33.Name" xml:space="preserve">
+    <value>chk33</value>
+  </data>
+  <data name="&gt;&gt;chk33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk33.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chk33.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="chkOthers.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkOthers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkOthers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chkOthers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 115</value>
+  </data>
+  <data name="chkOthers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 25</value>
+  </data>
+  <data name="chkOthers.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chkOthers.Text" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="chkOthers.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkOthers.Name" xml:space="preserve">
+    <value>chkOthers</value>
+  </data>
+  <data name="&gt;&gt;chkOthers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOthers.Parent" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;chkOthers.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tlpScores.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpScores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpScores.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tlpScores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 143</value>
+  </data>
+  <data name="tlpScores.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tlpScores.Name" xml:space="preserve">
+    <value>tlpScores</value>
+  </data>
+  <data name="&gt;&gt;tlpScores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpScores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpScores.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpScores.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="chk00" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="chk01" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="chk02" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="chk03" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="chk10" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="chk11" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="chk12" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="chk13" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="chk20" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="chk21" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="chk22" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="chk23" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="chk30" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="chk31" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="chk32" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="chk33" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="chkOthers" Row="4" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,20,Percent,20,Percent,20,Percent,20" /&gt;&lt;Rows Styles="Percent,20,Percent,20,Percent,20,Percent,20,Percent,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>494, 168</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAAAAEACACoCAAAJgAAACAgAAABACAAqBAAAM4IAAAoAAAAIAAAAEAAAAABAAgAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAACiANra2gBsqtMArIMBAKR6AgDKysoAREviAAAAvACOjo4AxcXFALq6
+        ugDdzY0A4uLiABQW0wD28doAAQGRAL6+vgDGqDsAMzfYAMi9iQDDw8MApoEiALWshgD8+/QAn5qIAFtk
+        7AC9n0YAZoitAClGcwBdibgAm5ubANfX1wATLFgAAACZAOXl5QDt4rMAFBbEAObXlQBVXukAsrKyAPTt
+        0AD59uYA0NDQALa2tgDSt1YApaWlAAQEwwCGhoYA09PTAKqqqgAAAMkAFBX/AOjanQAjJ8YA6t2mAMSo
+        UwB7e3sAXFxcAMjIyADe3t4AJyvnAOfYmQDz68oA7OCuAOrn2ABahbMASG6cAE11owCRkZEAlWkDAG1t
+        bQD39/cA7uO2AAAA7gAPEMQAr6+vAHWA9QDv5bwA8Oa+APTv2wAfIugAIybRAKGhoQC1lDsA5dSOAIWT
+        +gA8XosAzs7OAERERAB9ivoA8unGAJxxAgA0VYIAAACrAAAAjABmZmYA6tykAO/v7wAAAIgAlZWVABMV
+        pgCZbQMAtY0BAJxzEgCyiQEA9e7VAPTszgBlb/oA3cl5ALmRAQD48+EAAACzAAUGsQDm1ZIAGzZjAOLP
+        gACTZwMA5NOMAOLPgQAuMv8AbHb/ACUp/wB0gP8A8OfAAGNs/wA3PP8AHB//AFpj/wB9if8AP0b/AJ91
+        AgBIT/8AUVn/AP///wCAgIAAhpP/APv7+wDRsjIA8/PzAPPszQDp6ekAAADiAPDw8ADs7OwAAAD6AAAA
+        1gCgdQIACwz/ALyVAADAmQAAxJ0AAI+d/wCXbQoAX468AA0O0QDYwnAAVX+uAF9o8wAKC/cAGh33AGWc
+        yABoocwACAngAK+MMAAjJvcARk30AHNzcwBvsdkADxHgANXV1QBilMEAUlJSADg+5ABgcIcA+vfrAAAA
+        8gBtd/QAzawgADhahwBJSksA4c17AJKPggC3khsACAmwAPj49QANDrkAERPfAF2BpwDs36wAjIqBAKyF
+        EAAgPGkAjabAAOfapACuucQACQqYACww7ADz8ewA+vjsACUopgDWu0sAgIKFAMzAjADo3bsA1sWYAPHu
+        4wDDngsA07Y8AO7ozQCfqrYAe4aRADtB9wALDKYAoXgLANW/eQBCSNEAgoWIADFBWgC/vbMAVVpjADBP
+        fADx6cwACAnYAN3IbgAsMPMAs4wRAHmXtwD38t4ACAnFAAsMyQDq3KMAzrVgANC4agD18NYAoXoaAOnc
+        pwBEXoIAVl/7ADtB+wD4+PgARk3MAFZf0QAmQ28AbXf6AMKcAAD+/foAAACHAKd9AgCln4QA6uC6AO7k
+        uADGoAAAAACFAAAAwgDMzMwAAAAAAP//////////////////////////////////////////////////
+        /////////////////////////////////////////////P////////////////////9e////////////
+        /////Pwh/F7///////////////9eXvz8/P///////////PwPB/32D/xe//////////9e/AcHYg8h/Pz/
+        /////Pxeb/39/WIPIQD8Xv////9e/DIH/f1iDyEAXfz8//xiXf39/f39Yg8hAF1v/F5e/I2RMv39/WIP
+        IQBdbwf8/Af9/f39/f1iDyEAXW8HYl5JjZEy/f39Yg8hAF1vB/z8/f39/f39/WIPIQBdbwcHr0mNkTL9
+        /f1iDyEAXW8H/Pz9/f39/f39Yg8hAF1vB/2QSY2RMv39/WIPIQBdbwf8/P39/f39/f1iDyEAXW8H/ZBJ
+        jZEy/f39Yg8hAF1vB/z8/f39/f39/WIPIQBdbwf9kEmNkTL9/f1iDyEAXW8H/Pz9/f39/eQmxw8hAF1v
+        B/2QSY2RMv39UfHDIQBdbwf8/P39/f0GVZeX8WQAXW8H/ZBJjZEySiaXl1XwAF1vB/z8/f1RTIeHh4eH
+        Wde3bwf9kEmN3gZZh4eHh4dMNW8H/PxKGYCAgICAgICAgLA1B/2QSTzzgICAgICAgICAGUr8/J16enp6
+        enp6enp6enomDTPtenp6enp6enp6enp6nfz8/RJreHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4axIH/Pz9
+        /eSsfHx8fHx8fHx8fHx8fHx8fHx8fHx8fBJwbwf8/P39/f3lpX9/f39/f39/f39/f39/f39/fwbUAF1v
+        B/z8/f39/f39DaWEhISEhISEhISEhISEhKVkDyEAXW8H/Pz9/f39/f0uPIODg4ODg4ODg4ODg4ODPA8P
+        IQBdbwf8/P39/f39De6BgYGBgYGBgYGBgYGBgYGB0yQhAF1vB/z8/f39muB9fX19fX19fX19fX19fX19
+        fX19fcS5XW8H/Pz9LlB3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3dQLgf8/Lp5eXl5eXl5eXl5eXmkJCSk
+        eXl5eXl5eXl5eXl5uvz8fn5+fn5+fn5+fn5+DQ/8/A8Nfn5+fn5+fn5+fn5+/P/8XjMzMzMzMzMzM/z8
+        //////z8MzMzMzMzMzMzXvz//////PyTk5OTnvz8///////////8/J6Tk5OT/Pz///////////z8Sfxe
+        ////////////////XvxJ/Pz////////////////8//////////////////////z/////////////////
+        //////////////////////////////////////////////7//3/4P/wf4A/wB4ADwAEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACAA8AB4A/wB/g//B/+//9//////ygAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAjAAAAMwAAACwAAAAMAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAACwAAAAzAAAAIwAA
+        AAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAZAAAAMwAAADMAAAAzAAAAMwAA
+        ADMAAAAmAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAACYAAAAzAAAAMwAA
+        ZWYAAAAzAAAAMwAAABkAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAAALAAAADMAAC8/AACHsgAA
+        lf8AAI/YAABZWQAAADMAAAAzAAAAHAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAwAAABwAAAAzAAAAMwAA
+        WVkAAI/YAACV/wAAj9gAAFlZAAAAMwAAACwAAAATAAAAAAAAAAAAAAAMAAAAJgAAADMAAAAzAABlZgAA
+        keUAAJX/AACp/wAAlf8AAJX/AAB/mQAAADMAAAAzAAAALwAAABMAAAAAAAAAAAAAABMAAAAvAAAAMwAA
+        ADMAAH+ZAACV/wAAm/8AAJX/AACV/wAAlf8AAHqMAAAAMwAAADMAAAAmAAAADAAAADMAAAAzAAAvPwAA
+        hKUAAJX/AACj/wAAxP8AAMv/AACX/wAAmv8AAJX/AACP2AAAWVkAAAAzAAAAMwAAACkAAAApAAAAMwAA
+        ADMAAFlZAACP2AAAlf8AALD/AADI/wAAmP8AAJ7/AACZ/wAAlf8AAI3MAAAvPwAAADMAAAAzAAAAMwAA
+        ZWYAAJHlAACb/wAAvf8AAMv/AADL/wAAy/8AAJj/AACg/wAApP8AAJz/AACV/wAAf5kAAAAzAAAAMwAA
+        ADMAAAAzAAB/mQAAlf8AAKf/AADE/wAAy/8AAMv/AACY/wAAoP8AAKf/AACo/wAAmf8AAJPyAABucgAA
+        ADMAAISlAACY/wAAtP8AAMv/AADL/wAAy/8AAMv/AADL/wAAmP8AAKD/AACn/wAAr/8AAK7/AACc/wAA
+        j9gAAFlZAABZWQAAj9gAAKT/AADL/wAA0f8AAMv/AADL/wAAy/8AAJj/AACg/wAAp/8AAK//AAC3/wAA
+        rP8AAJj/AACEpQAAlf8AAMj/AADL/wAAy/8AAMv/AADL/wAAy/8AAMv/AACY/wAAoP8AAKf/AACv/wAA
+        t/8AAL7/AAC0/wAAmP8AAJv/AADP/wAA5/8AAN3/AADR/wAAy/8AAMv/AADL/wAAmP8AAKD/AACn/wAA
+        r/8AALf/AAC+/wAAw/8AAJX/AACV/wAAy/8AAMv/AADL/wAAy/8AAMv/AADL/wAAy/8AAJj/AACg/wAA
+        p/8AAK//AAC3/wAAvv8AAMb/AADI/wAA9P8AAPH/AADn/wAA3f8AANH/AADL/wAAy/8AAMv/AACY/wAA
+        oP8AAKf/AACv/wAAt/8AAL7/AADG/wAAlf8AAJX/AADL/wAAy/8AAMv/AADL/wAAy/8AAMv/AADL/wAA
+        mP8AAKD/AACn/wAAr/8AALf/AAC+/wAAxv8AAMv/AAD7/wAA8f8AAOf/AADd/wAA0f8AAMv/AADL/wAA
+        y/8AAJj/AACg/wAAp/8AAK//AAC3/wAAvv8AAMb/AACV/wAAlf8AAMv/AADL/wAAy/8AAMv/AADL/wAA
+        y/8AAMv/AACY/wAAoP8AAKf/AACv/wAAt/8AAL7/AADG/wAAy/8AAPv/AADx/wAA5/8AAN3/AADR/wAA
+        y/8AAMv/AADL/wAAmP8AAKD/AACn/wAAr/8AALf/AAC+/wAAxv8AAJX/AACV/wAAy/8AAMv/AADL/wAA
+        y/8AAMv/AADL/wAAy/8AAJj/AACg/wAAp/8AAK//AAC3/wAAvv8AAMb/AADL/wAA+/8AAPH/AADn/wAA
+        3f8AANH/AADL/wAAy/8AAMv/AACY/wAAoP8AAKf/AACv/wAAt/8AAL7/AADG/wAAlf8AAJX/AADL/wAA
+        y/8AAMv/AADL/wAAy/8QEs7/Zm7o/zQ3s/8AAKD/AACn/wAAr/8AALf/AAC+/wAAxv8AAMv/AAD7/wAA
+        8f8AAOf/AADd/wAA0f8AAMv/AADL/zQ32P9mbtP/EBKm/wAAp/8AAK//AAC3/wAAvv8AAMb/AACV/wAA
+        lf8AAMv/AADL/wAAy/8AAMv/WF/l/5Wi/P+eq///nqv//2pz3f8bHrP/AACv/wAAt/8AAL7/AADG/wAA
+        y/8AAPv/AADx/wAA5/8AAN3/AADR/xse0f9qc+z/nqv//56r//+Vovn/WF/U/wAAr/8AALf/AAC+/wAA
+        xv8AAJX/AACV/wAAy/8AAMv/LjPY/4aQ+P+Wov//lqL//5ai//+Wov//lqL//42a+f9TWtj/DxC8/wAA
+        vv8AAMb/AADL/wAA+/8AAPH/AADn/w8Q3v9TWuj/jZr8/5ai//+Wov//lqL//5ai//+Wov//hpD1/y4z
+        yv8AAL7/AADG/wAAlf8AAJX/GRrR/2948v+Nmf//jZn//42Z//+Nmf//jZn//42Z//+Nmf//jZn//42Z
+        //9+iPb/NTnT/wAAxv8AAMv/AAD7/wAA8f81Oe//foj7/42Z//+Nmf//jZn//42Z//+Nmf//jZn//42Z
+        //+Nmf//jZn//2947/8ZGs3/AACV/wAAlf9xevX/hZD//4WQ//+FkP//hZD//4WQ//+FkP//hZD//4WQ
+        //+FkP//hZD//4WQ//+FkP//aHHx/yAj1f8gI/3/aHH8/4WQ//+FkP//hZD//4WQ//+FkP//hZD//4WQ
+        //+FkP//hZD//4WQ//+FkP//hZD//3F69f8AAJX/AACV/wAAy/9AReL/d4D8/32H//99h///fYf//32H
+        //99h///fYf//32H//99h///fYf//32H//99h///fYf//32H//99h///fYf//32H//99h///fYf//32H
+        //99h///fYf//32H//99h///fYf//3eA+v9ARdz/AADG/wAAlf8AAJX/AADL/wAAy/8MDc7/SU/o/3V9
+        //91ff//dX3//3V9//91ff//dX3//3V9//91ff//dX3//3V9//91ff//dX3//3V9//91ff//dX3//3V9
+        //91ff//dX3//3V9//91ff//dX3//3V9//9JT93/DA28/wAAvv8AAMb/AACV/wAAlf8AAMv/AADL/wAA
+        y/8AAMv/ExTR/1Zd8v9sdf//bHX//2x1//9sdf//bHX//2x1//9sdf//bHX//2x1//9sdf//bHX//2x1
+        //9sdf//bHX//2x1//9sdf//bHX//2x1//9WXej/ExSz/wAAr/8AALf/AAC+/wAAxv8AAJX/AACV/wAA
+        y/8AAMv/AADL/wAAy/8AAMv/AADL/yAj2P9ZYPj/Y2v//2Nr//9ja///Y2v//2Nr//9ja///Y2v//2Nr
+        //9ja///Y2v//2Nr//9ja///Y2v//2Nr//9ZYPj/ICOz/wAAoP8AAKf/AACv/wAAt/8AAL7/AADG/wAA
+        lf8AAJX/AADL/wAAy/8AAMv/AADL/wAAy/8AAMv/CAjO/zc76P9aYf//WmH//1ph//9aYf//WmH//1ph
+        //9aYf//WmH//1ph//9aYf//WmH//1ph//9aYf//WmH//zc76P8ICJ7/AACg/wAAp/8AAK//AAC3/wAA
+        vv8AAMb/AACV/wAAlf8AAMv/AADL/wAAy/8AAMv/AADL/yIl3v9MUvz/UFj//1BY//9QWP//UFj//1BY
+        //9QWP//UFj//1BY//9QWP//UFj//1BY//9QWP//UFj//1BY//9QWP//UFj//0xS+P8iJcT/AACn/wAA
+        r/8AALf/AAC+/wAAxv8AAJX/AACV/wAAy/8AAMv/AADL/xYX2P88QPX/SE3//0hN//9ITf//SE3//0hN
+        //9ITf//SE3//0hN//9ITf//SE3//0hN//9ITf//SE3//0hN//9ITf//SE3//0hN//9ITf//SE3//0hN
+        //88QO//FhfE/wAAt/8AAL7/AADG/wAAlf8AAJX/AADL/woK0f8tMO7/PkL//z5C//8+Qv//PkL//z5C
+        //8+Qv//PkL//z5C//8+Qv//PkL//z5C//8+Qv//PkL//z5C//8+Qv//PkL//z5C//8+Qv//PkL//z5C
+        //8+Qv//PkL//z5C//8+Qv//LTDp/woKx/8AAMb/AACV/wAAlf8bHuX/NDj//zQ4//80OP//NDj//zQ4
+        //80OP//NDj//zQ4//80OP//NDj//zQ4//80OP//MTX4/x4gy/8eIMv/MTX4/zQ4//80OP//NDj//zQ4
+        //80OP//NDj//zQ4//80OP//NDj//zQ4//80OP//NDj//xse4/8AAJX/AACV7xkay/8nKvj/KS3//ykt
+        //8pLf//KS3//ykt//8pLf//KS3//ykt//8pLf//KS3//x0f2P8ICKP/AACVnwAAlZ8ICKP/HR/Y/ykt
+        //8pLf//KS3//ykt//8pLf//KS3//ykt//8pLf//KS3//ykt//8nKvj/GRrL/wAAle8AAJUPAACVnwMD
+        m/8WF9j/HyD//x8g//8fIP//HyD//x8g//8fIP//HyD//xkb5f8KDLD/AACVvwAAlT8AAAAAAAAAAAAA
+        lT8AAJW/Cgyw/xkb5f8fIP//HyD//x8g//8fIP//HyD//x8g//8fIP//FhfY/wMDm/8AAJWfAACVDwAA
+        AAAAAAAAAACVLwAAlb8FBan/DxDl/xMU//8TFP//ExT//xIT+P8KCr3/AACV7wAAlV8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAJVfAACV7woKvf8SE/j/ExT//xMU//8TFP//DxDl/wUFqf8AAJW/AACVLwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlU8AAJXfAwO3/wUF8v8FBcv/AACb/wAAlX8AAJUPAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJUPAACVfwAAm/8FBcv/BQXy/wMDt/8AAJXfAACVTwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlQ8AAJV/AACV7wAAlZ8AAJUfAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACVHwAAlZ8AAJXvAACVfwAA
+        lQ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+D/8H+AP8AfAA8ADAAGAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAGAAMAH4APwD/AP+D/8H/////8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Score Selection</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmScoresSelection</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

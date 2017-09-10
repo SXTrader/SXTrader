@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB0788FD-0431-4FAC-9C29-40B037982FD2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>net.sxtrader.bftradingstrategies.ttr</RootNamespace>
+    <AssemblyName>TradeTheReaction</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>sxtrader.pfx</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Relase 64Bit|AnyCPU' ">
+    <OutputPath>..\Release64\Plugins\TradeTheReaction\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Relase 64Bit|x64' ">
+    <OutputPath>..\Release64\Plugins\TradeTheReaction\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.core">
+      <HintPath>..\packages\NUnitTestAdapter.WithFramework.0.96.0\lib\nunit.core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.core.interfaces">
+      <HintPath>..\packages\NUnitTestAdapter.WithFramework.0.96.0\lib\nunit.core.interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnitTestAdapter.WithFramework.0.96.0\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.util">
+      <HintPath>..\packages\NUnitTestAdapter.WithFramework.0.96.0\lib\nunit.util.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NUnit.VisualStudio.TestAdapter">
+      <HintPath>..\packages\NUnitTestAdapter.WithFramework.0.96.0\lib\NUnit.VisualStudio.TestAdapter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\TTRConfigRWCS.cs" />
+    <Compile Include="Configuration\TTRConfigRWOU.cs" />
+    <Compile Include="Configuration\TTRConfigurationRW.cs" />
+    <Compile Include="GUI\Configuration\ctlConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Configuration\ctlConfiguration.Designer.cs">
+      <DependentUpon>ctlConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Configuration\ctlFBConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Configuration\ctlFBConfiguration.Designer.cs">
+      <DependentUpon>ctlFBConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Configuration\ctlGenConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Configuration\ctlGenConfiguration.Designer.cs">
+      <DependentUpon>ctlGenConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Configuration\ctlTradeOutRuleDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Configuration\ctlTradeOutRuleDisplay.Designer.cs">
+      <DependentUpon>ctlTradeOutRuleDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmMassLoaderLeague.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmMassLoaderLeague.Designer.cs">
+      <DependentUpon>frmMassLoaderLeague.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlCSConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlCSConfiguration.Designer.cs">
+      <DependentUpon>ctlCSConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlCSOverview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlCSOverview.Designer.cs">
+      <DependentUpon>ctlCSOverview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlTradeOutRuleEditCSLay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlTradeOutRuleEditCSLay.Designer.cs">
+      <DependentUpon>ctlTradeOutRuleEditCSLay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\CorrectScoreBetPlacer.cs" />
+    <Compile Include="TradeModuls\CorrectScore\CorrectScoreTrade.BackMode.cs" />
+    <Compile Include="TradeModuls\CorrectScore\CorrectScoreTrade.cs" />
+    <Compile Include="TradeModuls\CorrectScore\CorrectScoreTrade.LayMode.cs" />
+    <Compile Include="TradeModuls\CorrectScore\CorrectScoreTradeLoader.cs" />
+    <Compile Include="TradeModuls\OverUnder\Controls\ctlOUConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\OverUnder\Controls\ctlOUConfiguration.Designer.cs">
+      <DependentUpon>ctlOUConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\OverUnder\Controls\ctlTradeOutRuleEditOver.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\OverUnder\Controls\ctlTradeOutRuleEditOver.Designer.cs">
+      <DependentUpon>ctlTradeOutRuleEditOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Configuration\ctlTradeOutRuleEditAbstract.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Configuration\ctlTradeOutRuleEditAbstract.Designer.cs">
+      <DependentUpon>ctlTradeOutRuleEditAbstract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Configuration\frmTradeOutConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Configuration\frmTradeOutConfig.Designer.cs">
+      <DependentUpon>frmTradeOutConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ctlTTRTotalOverview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ctlTTRTotalOverview.Designer.cs">
+      <DependentUpon>ctlTTRTotalOverview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\TTRHelper.cs" />
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlASCSConfigElementBack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlASCSConfigElementBack.Designer.cs">
+      <DependentUpon>ctlASCSConfigElementBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlASCSConfigElementLay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlASCSConfigElementLay.Designer.cs">
+      <DependentUpon>ctlASCSConfigElementLay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Dialogs\frmScoresSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Dialogs\frmScoresSelection.Designer.cs">
+      <DependentUpon>frmScoresSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\OverUnder\Controls\ctlOUOverview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\OverUnder\Controls\ctlOUOverview.Designer.cs">
+      <DependentUpon>ctlOUOverview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\OverUnder\OverUnderBetPlacer.cs" />
+    <Compile Include="TradeModuls\OverUnder\Controls\ctlASOUConfigElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\OverUnder\Controls\ctlASOUConfigElement.Designer.cs">
+      <DependentUpon>ctlASOUConfigElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\OverUnder\Dialogs\frmTradeInMoneyConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\OverUnder\Dialogs\frmTradeInMoneyConfig.Designer.cs">
+      <DependentUpon>frmTradeInMoneyConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\OverUnder\OverUnderTrade.cs" />
+    <Compile Include="TradeModuls\OverUnder\OverUnderTradeLoader.cs" />
+    <Compile Include="TradeModuls\Scoreline00\Controls\ctlASSL00ConfigElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\Scoreline00\Controls\ctlASSL00ConfigElement.designer.cs">
+      <DependentUpon>ctlASSL00ConfigElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\Scoreline00\Controls\ctlSL00Configuration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\Scoreline00\Controls\ctlSL00Configuration.Designer.cs">
+      <DependentUpon>ctlSL00Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Configuration\frmLocalConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Configuration\frmLocalConfig.Designer.cs">
+      <DependentUpon>frmLocalConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ctlASConfigElementDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ctlASConfigElementDisplay.Designer.cs">
+      <DependentUpon>ctlASConfigElementDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ctlAutoTradeStarter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ctlAutoTradeStarter.Designer.cs">
+      <DependentUpon>ctlAutoTradeStarter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ctlFastBet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ctlFastBet.Designer.cs">
+      <DependentUpon>ctlFastBet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ctlTTR.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ctlTTR.Designer.cs">
+      <DependentUpon>ctlTTR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PluginTradeTheReaction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resourcen\Resourcen.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resourcen.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\Scoreline00\Controls\ctlSL00Overview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\Scoreline00\Controls\ctlSL00Overview.Designer.cs">
+      <DependentUpon>ctlSL00Overview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlTradeOutRuleEditCSBack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeModuls\CorrectScore\Controls\ctlTradeOutRuleEditCSBack.Designer.cs">
+      <DependentUpon>ctlTradeOutRuleEditCSBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeModuls\Scoreline00\Scoreline00BetPlacer.cs" />
+    <Compile Include="TradeModuls\Scoreline00\Scoreline00TradeLoader.cs" />
+    <Compile Include="TradeModuls\Scoreline00\ScorelineTrade00.cs" />
+    <Compile Include="GUI\ctlASConfigElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ctlASConfigElement.Designer.cs">
+      <DependentUpon>ctlASConfigElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeRules\ITradeOutRuleEdit.cs" />
+    <Compile Include="TradeStarter\AutoStarterPrepManager.cs" />
+    <Compile Include="TradeStarter\AutoStarterPrepObj.cs" />
+    <Compile Include="TradeStarter\BetPlacer.cs" />
+    <Compile Include="TradeStarter\RuleChecker.cs" />
+    <Compile Include="TradeStarter\TradeLoader.cs" />
+    <Compile Include="TradeStarter\TradeStarterConfigElement.cs" />
+    <Compile Include="TradeTheReaction.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TradeTheReaction.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TTRWatcher.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonHistoryGraph\CommonHistoryGraph.csproj">
+      <Project>{FAA5ED6D-4606-4A47-8979-765C22FB8987}</Project>
+      <Name>CommonHistoryGraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LiveScoreParser\LiveScoreParser.csproj">
+      <Project>{B23844E2-09DF-4CF3-866B-4DC7E1A76A84}</Project>
+      <Name>LiveScoreParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSParserInterfaces\LSParserInterfaces.csproj">
+      <Project>{4E60BC29-BA92-4D93-B880-145F9D84BCE4}</Project>
+      <Name>LSParserInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlugInIF\PlugInIF.csproj">
+      <Project>{62850BCF-339F-47F2-934A-D3592EA87B76}</Project>
+      <Name>PlugInIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXALInterfaces\SXALInterfaces.csproj">
+      <Project>{D311CC73-E41E-4C5F-BCEC-337D37A3C0BF}</Project>
+      <Name>SXALInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXAL\SXAL.csproj">
+      <Project>{1D29135D-1DEB-40B8-8506-6D05F586068C}</Project>
+      <Name>SXAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXFastBet\SXFastBet.csproj">
+      <Project>{4B277CA4-28BC-40DE-84CC-60E747E7A27C}</Project>
+      <Name>SXFastBet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXHelper\SXHelper.csproj">
+      <Project>{C30454F3-F2E6-422F-9A6D-68A285E3CB93}</Project>
+      <Name>SXHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXMUK\SXMUK.csproj">
+      <Project>{C14A6A65-342A-4172-B666-6BAC5EF8B09D}</Project>
+      <Name>SXMUK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXStatisticBase\SXStatisticBase.csproj">
+      <Project>{7B85279B-9FDE-410C-885D-84C98BFBCCDA}</Project>
+      <Name>SXStatisticBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TradeInterfaces\TradeInterfaces.csproj">
+      <Project>{6BE2D983-5D3B-4FAB-A76F-EC21A1199389}</Project>
+      <Name>TradeInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GUI\Configuration\ctlConfiguration.de.resx">
+      <DependentUpon>ctlConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\ctlConfiguration.resx">
+      <DependentUpon>ctlConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\ctlFBConfiguration.de.resx">
+      <DependentUpon>ctlFBConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\ctlFBConfiguration.resx">
+      <DependentUpon>ctlFBConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\ctlGenConfiguration.de.resx">
+      <DependentUpon>ctlGenConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\ctlGenConfiguration.resx">
+      <DependentUpon>ctlGenConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\ctlTradeOutRuleDisplay.de.resx">
+      <DependentUpon>ctlTradeOutRuleDisplay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\ctlTradeOutRuleDisplay.resx">
+      <DependentUpon>ctlTradeOutRuleDisplay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\frmLocalConfig.de.resx">
+      <DependentUpon>frmLocalConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\frmTradeOutConfig.de.resx">
+      <DependentUpon>frmTradeOutConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlASConfigElement.de.resx">
+      <DependentUpon>ctlASConfigElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlASConfigElementDisplay.de.resx">
+      <DependentUpon>ctlASConfigElementDisplay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlAutoTradeStarter.de.resx">
+      <DependentUpon>ctlAutoTradeStarter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlFastBet.de.resx">
+      <DependentUpon>ctlFastBet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlTTR.de.resx">
+      <DependentUpon>ctlTTR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlTTRTotalOverview.de.resx">
+      <DependentUpon>ctlTTRTotalOverview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmMassLoaderLeague.de.resx">
+      <DependentUpon>frmMassLoaderLeague.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmMassLoaderLeague.resx">
+      <DependentUpon>frmMassLoaderLeague.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlASCSConfigElementBack.de.resx">
+      <DependentUpon>ctlASCSConfigElementBack.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlASCSConfigElementLay.de.resx">
+      <DependentUpon>ctlASCSConfigElementLay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlCSConfiguration.de.resx">
+      <DependentUpon>ctlCSConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlCSConfiguration.resx">
+      <DependentUpon>ctlCSConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlCSOverview.de.resx">
+      <DependentUpon>ctlCSOverview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlCSOverview.resx">
+      <DependentUpon>ctlCSOverview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlTradeOutRuleEditCSBack.de.resx">
+      <DependentUpon>ctlTradeOutRuleEditCSBack.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlTradeOutRuleEditCSBack.resx">
+      <DependentUpon>ctlTradeOutRuleEditCSBack.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlTradeOutRuleEditCSLay.de.resx">
+      <DependentUpon>ctlTradeOutRuleEditCSLay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlTradeOutRuleEditCSLay.resx">
+      <DependentUpon>ctlTradeOutRuleEditCSLay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Dialogs\frmScoresSelection.de.resx">
+      <DependentUpon>frmScoresSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\OverUnder\Controls\ctlASOUConfigElement.de.resx">
+      <DependentUpon>ctlASOUConfigElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\OverUnder\Controls\ctlOUConfiguration.de.resx">
+      <DependentUpon>ctlOUConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\OverUnder\Controls\ctlOUConfiguration.resx">
+      <DependentUpon>ctlOUConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\OverUnder\Controls\ctlOUOverview.de.resx">
+      <DependentUpon>ctlOUOverview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\OverUnder\Controls\ctlTradeOutRuleEditOver.de.resx">
+      <DependentUpon>ctlTradeOutRuleEditOver.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\OverUnder\Controls\ctlTradeOutRuleEditOver.resx">
+      <DependentUpon>ctlTradeOutRuleEditOver.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\frmTradeOutConfig.resx">
+      <DependentUpon>frmTradeOutConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlTTRTotalOverview.resx">
+      <DependentUpon>ctlTTRTotalOverview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlASCSConfigElementBack.resx">
+      <DependentUpon>ctlASCSConfigElementBack.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Controls\ctlASCSConfigElementLay.resx">
+      <DependentUpon>ctlASCSConfigElementLay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\CorrectScore\Dialogs\frmScoresSelection.resx">
+      <DependentUpon>frmScoresSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\OverUnder\Controls\ctlASOUConfigElement.resx">
+      <DependentUpon>ctlASOUConfigElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\OverUnder\Controls\ctlOUOverview.resx">
+      <DependentUpon>ctlOUOverview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\OverUnder\Dialogs\frmTradeInMoneyConfig.de.resx">
+      <DependentUpon>frmTradeInMoneyConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\OverUnder\Dialogs\frmTradeInMoneyConfig.resx">
+      <DependentUpon>frmTradeInMoneyConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\Scoreline00\Controls\ctlASSL00ConfigElement.de.resx">
+      <DependentUpon>ctlASSL00ConfigElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\Scoreline00\Controls\ctlASSL00ConfigElement.resx">
+      <DependentUpon>ctlASSL00ConfigElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\Scoreline00\Controls\ctlSL00Configuration.de.resx">
+      <DependentUpon>ctlSL00Configuration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\Scoreline00\Controls\ctlSL00Configuration.resx">
+      <DependentUpon>ctlSL00Configuration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuration\frmLocalConfig.resx">
+      <DependentUpon>frmLocalConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlASConfigElementDisplay.resx">
+      <DependentUpon>ctlASConfigElementDisplay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlAutoTradeStarter.resx">
+      <DependentUpon>ctlAutoTradeStarter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlFastBet.resx">
+      <DependentUpon>ctlFastBet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlTTR.resx">
+      <DependentUpon>ctlTTR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ctlASConfigElement.resx">
+      <DependentUpon>ctlASConfigElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resourcen\Resourcen.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resourcen.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\Scoreline00\Controls\ctlSL00Overview.de.resx">
+      <DependentUpon>ctlSL00Overview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeModuls\Scoreline00\Controls\ctlSL00Overview.resx">
+      <DependentUpon>ctlSL00Overview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeTheReaction.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TradeTheReaction.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resourcen\TTRStarter.ico" />
+    <Content Include="Resourcen\TTRTrade.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagramms\RuleConfig.cd" />
+    <None Include="ClassDiagramms\TTRStarter.cd" />
+    <None Include="packages.config" />
+    <None Include="sxtrader.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

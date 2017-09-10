@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Map livescore="Paris Saint Germain" betfair="Paris St-G" />
+  <Map livescore="Nantes" betfair="Nantes" />
+  <Map livescore="Tottenham Hotspur" betfair="Tottenham" />
+  <Map livescore="Tottenham Hotspur(N)" betfair="Tottenham" />
+  <Map livescore="Aston Villa" betfair="Aston Villa" />
+  <Map livescore="Xerez Deportivo" betfair="Xerez" />
+  <Map livescore="Cordoba C.F." betfair="Cordoba" />
+  <Map livescore="West Bromwich(WBA)" betfair="West Brom" />
+  <Map livescore="Aston Villa" betfair="Aston Villa" />
+  <Map livescore="Almeria" betfair="Almeria" />
+  <Map livescore="Malaga" betfair="Malaga" />
+  <Map livescore="Viking" betfair="Viking" />
+  <Map livescore="Stabaek" betfair="Stabæk" />
+  <Map livescore="Stabaek" betfair="Stabaek" />
+  <Map livescore="Stabaek(N)" betfair="Stabaek" />
+  <Map livescore="Marseille" betfair="Marseille" />
+  <Map livescore="Monaco" betfair="Monaco" />
+  <Map livescore="Manchester United" betfair="Man Utd" />
+  <Map livescore="Middlesbrough" betfair="Middlesbrough" />
+  <Map livescore="Leixoes" betfair="Leixoes" />
+  <Map livescore="Rio Ave" betfair=" Rio Ave" />
+  <Map livescore="Borussia Dortmund" betfair="Dortmund" />
+  <Map livescore="Hertha BSC Berlin" betfair="Hertha" />
+  <Map livescore="Hertha BSC Berlin" betfair="Hertha BSC" />
+  <Map livescore="Hertha BSC Berlin" betfair="H Berlin" />
+  <Map livescore="Hertha BSC Berlin" betfair="Hertha Berlin" />
+  <Map livescore="Osasuna" betfair="Osasuna" />
+  <Map livescore="Deportivo La Coruna" betfair="Deportivo" />
+  <Map livescore="Grays Athletic" betfair="Grays Athletic" />
+  <Map livescore="Stevenage Borough" betfair="Stevenage" />
+  <Map livescore="VfL Osnabruck" betfair="Osnabrück" />
+  <Map livescore="VfL Osnabruck" betfair="Osnabruck" />
+  <Map livescore="TuS Koblenz" betfair="Koblenz" />
+  <Map livescore="Lechia Gdansk" betfair="Lechia Gdansk" />
+  <Map livescore="Polonia Warszawa" betfair="Polonia Warsaw" />
+  <Map livescore="Kyoto Purple Sanga" betfair="Kyoto" />
+  <Map livescore="JEF United Ichihara" betfair="Chiba" />
+  <Map livescore="Celta Vigo" betfair="Celta Vigo" />
+  <Map livescore="Tenerife" betfair="Tenerife" />
+  <Map livescore="LKS Lodz" betfair="LKS Lodz" />
+  <Map livescore="Lech Poznan" betfair="Lech Poznan" />
+  <Map livescore="Karlsruher SC" betfair="Karlsruhe" />
+  <Map livescore="Wolfsburg" betfair="Wolfsburg" />
+  <Map livescore="Xanthi" betfair="Xanthi" />
+  <Map livescore="Thrasivoulos" betfair="Thrasivoulos F." />
+  <Map livescore="Thrasivoulos" betfair="Thras F." />
+  <Map livescore="Aalesund FK" betfair="Aalesunds" />
+  <Map livescore="Rosenborg" betfair="Rosenborg" />
+  <Map livescore="Nurnberg" betfair="Nürnberg" />
+  <Map livescore="Nurnberg" betfair="Nurnberg" />
+  <Map livescore="MSV Duisburg" betfair="Duisburg" />
+  <Map livescore="SC Freiburg" betfair="Freiburg" />
+  <Map livescore="RW Oberhausen" betfair="Oberhausen" />
+  <Map livescore="Augsburg" betfair="Augsburg" />
+  <Map livescore="Arminia Bielefeld" betfair="Bielefeld" />
+  <Map livescore="Ergotelis" betfair="Ergotelis" />
+  <Map livescore="PAOK Saloniki" betfair="PAOK" />
+  <Map livescore="Sturm Graz" betfair="Sturm Graz" />
+  <Map livescore="Austria Karnten" betfair="Austria Käntern" />
+  <Map livescore="FC Kaiserslautern" betfair="Kaiserslautern" />
+  <Map livescore="West Ham United" betfair="West Ham" />
+  <Map livescore="Bolton Wanderers" betfair="Bolton" />
+  <Map livescore="SC Heerenveen" betfair="Heerenveen" />
+  <Map livescore="Ajax Amsterdam" betfair="Ajax" />
+  <Map livescore="Energie Cottbus" betfair="Cottbus" />
+  <Map livescore="Hamburger" betfair="Hamburg" />
+  <Map livescore="Hannover 96" betfair="Hannover" />
+  <Map livescore="Vitoria FC Setubal" betfair="Setubal" />
+  <Map livescore="Maritimo" betfair="Maritimo" />
+  <Map livescore="Stevenage Borough" betfair="Stevenage" />
+  <Map livescore="Mansfield Town" betfair="Mansfield" />
+  <Map livescore="Milton Keynes Dons" betfair="MK Dons" />
+  <Map livescore="Carlisle" betfair="Carlisle" />
+  <Map livescore="Scotland" betfair="Schottland" />
+  <Map livescore="Norway" betfair="Norwegen" />
+  <Map livescore="Georgia" betfair="Georgien" />
+  <Map livescore="Cyprus" betfair="Zypern" />
+  <Map livescore="Ukraine" betfair="Ukraine" />
+  <Map livescore="Croatia" betfair="Kroatien" />
+  <Map livescore="Hungary" betfair="Ungarn" />
+  <Map livescore="Albania" betfair="Albanien" />
+  <Map livescore="Eastbourne Borough" betfair="Eastbourne" />
+  <Map livescore="Stevenage Borough" betfair="Stevenage" />
+  <Map livescore="Partick Thistle" betfair="Partick" />
+  <Map livescore="Airdrie" betfair="Airdrie Utd" />
+  <Map livescore="Bochum" betfair="Bochum" />
+  <Map livescore="Monchengladbach" betfair="Mgladbach" />
+  <Map livescore="Chelsea FC" betfair="Chelsea" />
+  <Map livescore="Eintracht Frankfurt" betfair="Frankfurt" />
+  <Map livescore="Bayer Leverkusen" betfair="Leverkusen" />
+  <Map livescore="Hoffenheim" betfair="Hoffenheim" />
+  <Map livescore="Austria Wien" betfair="Austria Wien" />
+  <Map livescore="Austria Wien" betfair="Austria Vienna" />
+  <Map livescore="LASK Linz" betfair="LASK Linz" />
+  <Map livescore="Kocaelispor" betfair="Kocaelispor" />
+  <Map livescore="Fenerbahce" betfair="Fenerbahce" />
+  <Map livescore="Hercules CF" betfair="Hercules" />
+  <Map livescore="Elche" betfair="Elche" />
+  <Map livescore="N.E.C. Nijmegen" betfair="NEC Nijmegen" />
+  <Map livescore="Vitesse Arnhem" betfair="Vitesse" />
+  <Map livescore="Hansa Rostock" betfair="H Rostock" />
+  <Map livescore="Willem II" betfair="Willem II" />
+  <Map livescore="Feyenoord Rotterdam" betfair="Feyenoord" />
+  <Map livescore="AC Milan" betfair="AC Mailand" />
+  <Map livescore="AC Milan" betfair="AC Milan" />
+  <Map livescore="Sampdoria" betfair="Sampdoria" />
+  <Map livescore="Schalke 04" betfair="Schalke 04" />
+  <Map livescore="Schalke 04" betfair="Schalke" />
+  <Map livescore="Real Betis" betfair="Betis" />
+  <Map livescore="Athletic Bilbao" betfair="Ath Bilbao" />
+  <Map livescore="Barcelona" betfair="Barcelona" />
+  <Map livescore="Brann" betfair="Brann" />
+  <Map livescore="Orebro" betfair="Orebro" />
+  <Map livescore="Helsingborg IF" betfair="Helsingborgs" />
+  <Map livescore="TSV Alemannia Aachen" betfair="Aachen" />
+  <Map livescore="Mainz" betfair="Mainz" />
+  <Map livescore="Tours FC" betfair="Tours" />
+  <Map livescore="Lens" betfair="Lens" />
+  <Map livescore="Newcastle" betfair="Newcastle" />
+  <Map livescore="Manchester City" betfair="Man City" />
+  <Map livescore="Arsenal" betfair="Arsenal" />
+  <Map livescore="FC Porto" betfair="Porto" />
+  <Map livescore="Dynamo Kyiv" betfair="Dinamo Kiev" />
+  <Map livescore="Fiorentina" betfair="Fiorentina" />
+  <Map livescore="Steaua Bucuresti" betfair="Steaua Bukarest" />
+  <Map livescore="Lyonnais" betfair="Lyon" />
+  <Map livescore="Bordeaux" betfair="Bordeaux" />
+  <Map livescore="CFR Cluj" betfair="CFR Cluj" />
+  <Map livescore="PSV Eindhoven" betfair="PSV" />
+  <Map livescore="Panathinaikos" betfair="Panathinaikos" />
+  <Map livescore="Werder Bremen" betfair="W Bremen" />
+  <Map livescore="FC Shakhtar Donetsk" betfair="Shakhtar" />
+  <Map livescore="FC Shakhtar Donetsk" betfair="Shakhtar Donetsk" />
+  <Map livescore="Sporting Lisbon" betfair="Sp Lisbon" />
+  <Map livescore="CSKA Moscow" betfair="CSKA Moscow" />
+  <Map livescore="Udinese" betfair="Udinese" />
+  <Map livescore="Galatasaray" betfair="Galatasaray" />
+  <Map livescore="Galatasaray(N)" betfair="Galatasaray" />
+  <Map livescore="Olympiakos Piraeus" betfair="Olympiacos" />
+  <Map livescore="SL Benfica" betfair="Benfica" />
+  <Map livescore="Dinamo Zagreb" betfair="Dinamo Zagreb" />
+  <Map livescore="Club Brugge" betfair="Club Brügge" />
+  <Map livescore="Shamrock Rovers" betfair="Shamrock Rovers" />
+  <Map livescore="Nancy" betfair="Nancy" />
+  <Map livescore="Partizan Belgrade" betfair="Partizan Belgrade" />
+  <Map livescore="Sivasspor" betfair="Sivasspor" />
+  <Map livescore="Besiktas JK" betfair="Besiktas" />
+  <Map livescore="Empoli" betfair="Empoli" />
+  <Map livescore="Pisa" betfair="Pisa" />
+  <Map livescore="Koln" betfair="1. FC Köln" />
+  <Map livescore="Koln" betfair="FC Köln" />
+  <Map livescore="Koln" betfair="FC Koln" />
+  <Map livescore="Heracles Almelo" betfair="Heracles" />
+  <Map livescore="ADO Den Haag" betfair="ADO Den Haag" />
+  <Map livescore="Liverpool" betfair="Liverpool" />
+  <Map livescore="Atalanta" betfair="Atalanta" />
+  <Map livescore="Bologna" betfair="Bologna" />
+  <Map livescore="Sporting de Gijon" betfair="Gijon" />
+  <Map livescore="Lillestrom" betfair="Lillestrom" />
+  <Map livescore="Portsmouth" betfair="Portsmouth" />
+  <Map livescore="Fulham" betfair="Fulham" />
+  <Map livescore="Zlin" betfair="Zlin" />
+  <Map livescore="Banik Ostrava" betfair="Banik Ostrava" />
+  <Map livescore="Villarreal" betfair="Villarreal" />
+  <Map livescore="Atletico de Madrid" betfair="Atl Madrid" />
+  <Map livescore="Los Angeles Galaxy" betfair="Los Angeles" />
+  <Map livescore="FC Dallas" betfair="Dallas" />
+  <Map livescore="NK Rijeka" betfair="Rijeka" />
+  <Map livescore="Dinamo Zagreb" betfair="Dinamo Zagreb" />
+  <Map livescore="Sporting Braga" betfair="Braga" />
+  <Map livescore="Amadora" betfair="Amadora" />
+  <Map livescore="Parma" betfair="Parma" />
+  <Map livescore="Triestina" betfair="Triestina" />
+  <Map livescore="VfB Stuttgart" betfair="Stuttgart" />
+  <Map livescore="AS Roma" betfair="Rom" />
+  <Map livescore="AS Roma" betfair="Roma" />
+  <Map livescore="Stoke City" betfair="Stoke" />
+  <Map livescore="Sunderland" betfair="Sunderland" />
+  <Map livescore="FC Gloria Bistrita" betfair="Gloria Bistrita" />
+  <Map livescore="FC Arges Pitesti" betfair="Arges Pitesti" />
+  <Map livescore="CFR Cluj" betfair="CFR Cluj" />
+  <Map livescore="Unirea Urziceni" betfair="Unirea Urziceni" />
+  <Map livescore="PAE Levadiakos" betfair="Levadiakos" />
+  <Map livescore="Panserraikos" betfair="Panserraikos" />
+  <Map livescore="Eskisehirspor" betfair="Eskisehirspor" />
+  <Map livescore="Red Bull Salzburg" betfair="Red Bull Salzburg" />
+  <Map livescore="Cardiff City" betfair="Cardiff" />
+  <Map livescore="Wolves" betfair="Wolves" />
+  <Map livescore="Associacao Naval" betfair="Naval" />
+  <Map livescore="Saturn-RenTV" betfair="Saturn Ramenskoe" />
+  <Map livescore="Rubin Kazan" betfair="Rubin Kazan" />
+  <Map livescore="FC Ingolstadt 04" betfair="Ingolstadt" />
+  <Map livescore="Kayserispor" betfair="Kayserispor" />
+  <Map livescore="Derby County" betfair="Derby" />
+  <Map livescore="Nottingham Forest" betfair="Nottm Forest" />
+  <Map livescore="Lecce" betfair="Lecce" />
+  <Map livescore="Lazio" betfair="Lazio" />
+  <Map livescore="Catania" betfair="Catania" />
+  <Map livescore="Goteborg" betfair="IFK Goteborg" />
+  <Map livescore="Djurgardens" betfair="Djurgardens" />
+  <Map livescore="Hammarby" betfair="Hammarby" />
+  <Map livescore="Malmo FF" betfair="Malmö FF" />
+  <Map livescore="Malmo FF" betfair="Malmo FF" />
+  <Map livescore="Elfsborg" betfair="Elfsborg" />
+  <Map livescore="Halmstads" betfair="Halmstads" />
+  <Map livescore="Esbjerg FB" betfair="Esbjerg" />
+  <Map livescore="Odense BK" betfair="OB" />
+  <Map livescore="Odense BK" betfair="OB Odense" />
+  <Map livescore="Panionios" betfair="Panionios" />
+  <Map livescore="Southampton" betfair="Southampton" />
+  <Map livescore="Bristol City" betfair="Bristol City" />
+  <Map livescore="Getafe" betfair="Getafe" />
+  <Map livescore="Valencia" betfair="Valencia" />
+  <Map livescore="Valladolid" betfair="Valladolid" />
+  <Map livescore="Real Madrid" betfair="Real Madrid" />
+  <Map livescore="LR Ahlen" betfair="Rot-Weiss Ahlen" />
+  <Map livescore="SV Ried" betfair="SV Ried" />
+  <Map livescore="De Graafschap" betfair="De Graafschap" />
+  <Map livescore="Sparta Rotterdam" betfair="Sparta Rotterdam" />
+  <Map livescore="OFI Crete" betfair="OFI" />
+  <Map livescore="AEK Athens" betfair="AEK" />
+  <Map livescore="AEK Athens(N)" betfair="AEK" />
+  <Map livescore="Randers FC" betfair="Randers" />
+  <Map livescore="Midtjylland" betfair="FC Midtjylland" />
+  <Map livescore="Zenit St.Petersburg" betfair="Zenit St Petersburg" />
+  <Map livescore="Juventus" betfair="Juventus" />
+  <Map livescore="Aalborg BK" betfair="AaB" />
+  <Map livescore="Celtic" betfair="Celtic" />
+  <Map livescore="Saint-Etienne" betfair="St Etienne" />
+  <Map livescore="Austria Karnten" betfair="Austria Kärnten" />
+  <Map livescore="Hearts" betfair="Hearts" />
+  <Map livescore="Glasgow Rangers" betfair="Rangers" />
+  <Map livescore="Sevilla" betfair="Sevilla" />
+  <Map livescore="Greuther Furth" betfair="G Fürth" />
+  <Map livescore="Greuther Furth" betfair="G. Fürth" />
+  <Map livescore="NAC Breda" betfair="Breda" />
+  <Map livescore="CD Nacional" betfair="Nacional" />
+  <Map livescore="Racing de Santander" betfair="Santander" />
+  <Map livescore="Jablonec" betfair="FK Jablonec" />
+  <Map livescore="Aarhus AGF" betfair="AGF" />
+  <Map livescore="FSV Frankfurt" betfair="FSV Frankfurt" />
+  <Map livescore="Sedan" betfair="Sedan" />
+  <Map livescore="Burnley" betfair="Burnley" />
+  <Map livescore="Spartak Moscow" betfair="Spartak Moscow" />
+  <Map livescore="FC Twente Enschede" betfair="Twente" />
+  <Map livescore="Schalke 04" betfair="Schalke" />
+  <Map livescore="Slavia Praha" betfair="Slavia Prague" />
+  <Map livescore="Cercle Brugge" betfair="Cercle Brügge" />
+  <Map livescore="Cercle Brugge" betfair="Cercle B" />
+  <Map livescore="Gent" betfair="Gent" />
+  <Map livescore="Blackburn Rovers" betfair="Blackburn" />
+  <Map livescore="Mallorca" betfair="Mallorca" />
+  <Map livescore="Recreativo Huelva" betfair="Rec de Huelva" />
+  <Map livescore="Numancia" betfair="Numancia" />
+  <Map livescore="Ankaragucu" betfair="Ankaragucu" />
+  <Map livescore="Espanyol" betfair="Espanyol" />
+  <Map livescore="Nordsjaelland" betfair="FC Nordsj" />
+  <Map livescore="Aarhus AGF" betfair="AGF" />
+  <Map livescore="Basel" betfair="FC Basel" />
+  <Map livescore="Anorthosis Famagusta FC" betfair="Anorthosis" />
+  <Map livescore="Inter Milan" betfair="Inter" />
+  <Map livescore="Steaua Bucuresti" betfair="Steaua Bucharest" />
+  <Map livescore="AZ Alkmaar" betfair="AZ Alkmaar" />
+  <Map livescore="Stade Rennais FC" betfair="Rennes" />
+  <Map livescore="Standard Liege" betfair="Standard" />
+  <Map livescore="Munchen 1860" betfair="1860 München" />
+  <Map livescore="FC Groningen" betfair="Groningen" />
+  <Map livescore="Veria FC" betfair="Veroia" />
+  <Map livescore="Kallithea" betfair="Kallithea" />
+  <Map livescore="Charlton Athletic" betfair="Charlton" />
+  <Map livescore="Motherwell FC" betfair="Motherwell" />
+  <Map livescore="Kilmarnock" betfair="Kilmarnock" />
+  <Map livescore="Blyth Spartans" betfair="Blyth Spartans" />
+  <Map livescore="Bournemouth" betfair="Bournemouth" />
+  <Map livescore="Konyaspor" betfair="Konyaspor" />
+  <Map livescore="Gaziantepspor" betfair="Gaziantepspor" />
+  <Map livescore="Genoa" betfair="Genua" />
+  <Map livescore="Genoa" betfair="Genoa" />
+  <Map livescore="Torino" betfair="Turin" />
+  <Map livescore="Torino" betfair="Torino" />
+  <Map livescore="Rapid Wien(N)" betfair="Rapid Wien" />
+  <Map livescore="Rapid Wien" betfair="Rapid Vienna" />
+  <Map livescore="Swansea City" betfair="Swansea" />
+  <Map livescore="Vitoria Guimaraes" betfair="Guimaraes" />
+  <Map livescore="Cagliari" betfair="Cagliari" />
+  <Map livescore="Auxerre" betfair="Auxerre" />
+  <Map livescore="Nice" betfair="Nice" />
+  <Map livescore="UD Oliveirense" betfair="Oliveirense" />
+  <Map livescore="Santa Clara" betfair="Santa Clara" />
+  <Map livescore="Tokatspor" betfair="Tokatspor" />
+  <Map livescore="Hibernian FC" betfair="Hibernian" />
+  <Map livescore="Wigan Athletic" betfair="Wigan" />
+  <Map livescore="Chievo" betfair="Chievo" />
+  <Map livescore="Siena" betfair="Siena" />
+  <Map livescore="Napoli" betfair="Napoli" />
+  <Map livescore="Palermo" betfair="Palermo" />
+  <Map livescore="Reggina" betfair="Reggina" />
+  <Map livescore="AEL Larisa" betfair="Larissa" />
+  <Map livescore="Asteras Tripolis" betfair="Asteras Tripolis" />
+  <Map livescore="Asteras Tripolis" betfair="Ast Tripolis" />
+  <Map livescore="Iraklis Saloniki" betfair="Iraklis" />
+  <Map livescore="FC Aris Thessaloniki" betfair="Aris Thes." />
+  <Map livescore="Clube Desportivo Trofense" betfair="Trofense" />
+  <Map livescore="Chelsea FC Reserve" betfair="Chelsea Reserve" />
+  <Map livescore="Fulham Reserve" betfair=" Fulham Reserve" />
+  <Map livescore="Colchester United" betfair="Colchester" />
+  <Map livescore="Rimini" betfair="Rimini" />
+  <Map livescore="Crewe Alexandra" betfair="Crewe" />
+  <Map livescore="Millwall" betfair="Millwall" />
+  <Map livescore="KV Mechelen" betfair="KV Mechelen" />
+  <Map livescore="Anderlecht" betfair="Anderlecht" />
+  <Map livescore="Leyton Orient" betfair="L Orient" />
+  <Map livescore="Sheffield United" betfair="Sheff Utd" />
+  <Map livescore="Le Havre" betfair="Le Havre" />
+  <Map livescore="Norwich City" betfair="Norwich" />
+  <Map livescore="Peterborough United" betfair="Peterborough" />
+  <Map livescore="St. Johnstone" betfair="St Johnstone" />
+  <Map livescore="Chateauroux" betfair="Chateauroux" />
+  <Map livescore="Real Union" betfair="Real Union" />
+  <Map livescore="Ejido" betfair="Ejido" />
+  <Map livescore="Hull City" betfair="Hull" />
+  <Map livescore="Crystal Palace" betfair="C Palace" />
+  <Map livescore="Southend United" betfair="Southend" />
+  <Map livescore="Antalyaspor" betfair="Antalyaspor" />
+  <Map livescore="Preston" betfair="Preston" />
+  <Map livescore="Ionikos" betfair="Ionikos" />
+  <Map livescore="Ethnikos Piraeus" betfair="Ethnikos Piraeus" />
+  <Map livescore="US Sassuolo Calcio" betfair="Sassuolo" />
+  <Map livescore="Falkirk" betfair="Falkirk" />
+  <Map livescore="Malatyaspor" betfair="Malatyaspor" />
+  <Map livescore="FC Dender" betfair="FCV Dender" />
+  <Map livescore="FC Utrecht" betfair="Utrecht" />
+  <Map livescore="Academica Coimbra" betfair="Academica" />
+  <Map livescore="Gimnastic Tarragona" betfair="Gimnastic" />
+  <Map livescore="Vestel Manisaspor" betfair="Manisaspor" />
+  <Map livescore="Roda JC Kerkrade" betfair="Roda JC" />
+  <Map livescore="Al-Wasl" betfair="Al Wasl" />
+  <Map livescore="Al Shaab" betfair="Al Shaab" />
+  <Map livescore="Aberdeen" betfair="Aberdeen" />
+  <Map livescore="Sochaux" betfair="Sochaux" />
+  <Map livescore="Royal Charleroi" betfair="Charleroi" />
+  <Map livescore="Westerlo" betfair="Westerlo" />
+  <Map livescore="Panthrakikos" betfair="Panthrakikos" />
+  <Map livescore="Germinal Beerschot" betfair="GBA" />
+  <Map livescore="Genk" betfair="Genk" />
+  <Map livescore="Lille" betfair="Lille" />
+  <Map livescore="ASK Olympiakos Volou" betfair="Olympiakos V" />
+  <Map livescore="Pierikos" betfair="Pierikos" />
+  <Map livescore="Bayern Munich" betfair="B Munich" />
+  <Map livescore="Frosinone" betfair="Frosinone" />
+  <Map livescore="Grosseto" betfair="Grosseto" />
+  <Map livescore="Yeovil Town" betfair="Yeovil" />
+  <Map livescore="Everton" betfair="Everton" />
+  <Map livescore="Al-Sharjah" betfair="Al Sharjah" />
+  <Map livescore="Al-Dhafra" betfair="Al Dhafra" />
+  <Map livescore="Las Palmas" betfair="Las Palmas" />
+  <Map livescore="Guingamp" betfair="Guingamp" />
+  <Map livescore="Stade Brestois" betfair="Brest" />
+  <Map livescore="Ayr Utd." betfair="Ayr" />
+  <Map livescore="Wrexham" betfair="Wrexham" />
+  <Map livescore="Cambridge United" betfair="Cambridge Utd" />
+  <Map livescore="Ankaraspor" betfair="Ankaraspor" />
+  <Map livescore="Bari" betfair="Bari" />
+  <Map livescore="Dunkerque(N)" betfair="Dunkerque" />
+  <Map livescore="Dunkerque" betfair="Dunkerque" />
+  <Map livescore="Belenenses" betfair="Belenenses" />
+  <Map livescore="Hartlepool United FC" betfair="Hartlepool" />
+  <Map livescore="Ajman" betfair="Ajman" />
+  <Map livescore="Al Nasr(UAE)" betfair="Al Nasr Dubai" />
+  <Map livescore="Concarneau(N)" betfair="Concarneau" />
+  <Map livescore="Ipswich" betfair="Ipswich" />
+  <Map livescore="Doncaster Rovers" betfair="Doncaster" />
+  <Map livescore="Kettering Town" betfair="Kettering" />
+  <Map livescore="US Boulogne" betfair="Boulogne" />
+  <Map livescore="Caen" betfair="Caen" />
+  <Map livescore="Salamanca" betfair="Salamanca" />
+  <Map livescore="Gil Vicente" betfair="Gil Vicente" />
+  <Map livescore="Olhanense SC" betfair="Olhanense" />
+  <Map livescore="Le Mans" betfair="Le Mans" />
+  <Map livescore="Ajaccio GFCO" betfair="Ajaccio GFCO" />
+  <Map livescore="Trabzonspor" betfair="Trabzonspor" />
+  <Map livescore="Ancona" betfair="Ancona" />
+  <Map livescore="Treviso" betfair="Treviso" />
+  <Map livescore="Burton Albion FC" betfair="Burton" />
+  <Map livescore="Barrow" betfair="Barrow" />
+  <Map livescore="Carl Zeiss Jena" betfair="Carl Zeiss Jena" />
+  <Map livescore="Carl Zeiss Jena" betfair="Carl Zeiss J" />
+  <Map livescore="Munchen 1860" betfair="1860 Munich" />
+  <Map livescore="Oxford United" betfair="Oxford Utd" />
+  <Map livescore="St. Pauli" betfair="St Pauli" />
+  <Map livescore="Modena" betfair="Modena" />
+  <Map livescore="St. Mirren" betfair="St Mirren" />
+  <Map livescore="Montpellier" betfair="Montpellier" />
+  <Map livescore="ASK Olympiakos Volou" betfair="Olympiakos V." />
+  <Map livescore="PAE Atromitos" betfair="Atromitos" />
+  <Map livescore="Bradford" betfair="Bradford" />
+  <Map livescore="Darlington" betfair="Darlington" />
+  <Map livescore="Mantova" betfair="Mantova" />
+  <Map livescore="Livorno" betfair="Livorno" />
+  <Map livescore="Metz" betfair="Metz" />
+  <Map livescore="Brondby" betfair="Brondby" />
+  <Map livescore="Kalmar FF" betfair="Kalmar FF" />
+  <Map livescore="EL Ahly(N)" betfair="Al Ahly" />
+  <Map livescore="Wydad Casablanca" betfair="Wydad Casablanca" />
+  <Map livescore="New England Revolution" betfair="New England" />
+  <Map livescore="Kansas City Wizards" betfair="Kansas City" />
+  <Map livescore="Seattle Sounders" betfair="Seattle" />
+  <Map livescore="Houston Dynamo" betfair="Houston Dynamo" />
+  <Map livescore="Palmeiras" betfair="Palmeiras" />
+  <Map livescore="Nautico (PE)" betfair="Nautico" />
+  <Map livescore="Brommapojkarna" betfair="Brommapojkarna" />
+  <Map livescore="Fredrikstad" betfair="Fredrikstad" />
+  <Map livescore="Sandefjord" betfair="Sandefjord" />
+  <Map livescore="Odd Grenland" betfair="Odd Grenland" />
+  <Map livescore="Start Kristiansand" betfair="Start" />
+  <Map livescore="Molde" betfair="Molde" />
+  <Map livescore="KR Reykjavik" betfair="KR Reykjavik" />
+  <Map livescore="Austria Lustenau" betfair="Austria Lustenau" />
+  <Map livescore="Rheindorf Altach" betfair="SCR Altach" />
+  <Map livescore="Budapest Honved" betfair="Honved" />
+  <Map livescore="Debreceni VSC" betfair="Debrecen" />
+  <Map livescore="Toronto FC" betfair="Toronto FC" />
+  <Map livescore="Guarani (SP)" betfair="Guarani (Bra)" />
+  <Map livescore="Parana PR" betfair="Parana" />
+  <Map livescore="Canada(N)" betfair="Kanada" />
+  <Map livescore="Honduras" betfair="Honduras" />
+  <Map livescore="EC Santo Andre" betfair="Santo Andre" />
+  <Map livescore="Kashiwa Reysol" betfair="Kashiwa" />
+  <Map livescore="Gamba Osaka" betfair="G-Osaka" />
+  <Map livescore="Krylya Sovetov Samara" betfair="Kryliya Sovetov" />
+  <Map livescore="Herfolge Boldklub Koge" betfair="Koge" />
+  <Map livescore="Silkeborg IF" betfair="Silkeborg" />
+  <Map livescore="Gefle" betfair="Gefle" />
+  <Map livescore="Trelleborgs FF" betfair="Trelleborgs" />
+  <Map livescore="Bohemians" betfair="Bohemians" />
+  <Map livescore="Derry" betfair="Derry" />
+  <Map livescore="Cruzeiro (MG)" betfair="Cruzeiro" />
+  <Map livescore="Corinthians Paulista (SP)" betfair="Corinthians" />
+  <Map livescore="Sao Paulo" betfair="Sao Paulo" />
+  <Map livescore="Santos" betfair="Santos" />
+  <Map livescore="Orgryte" betfair="Orgryte" />
+  <Map livescore="GAIS" betfair="GAIS" />
+  <Map livescore="AIK Solna" betfair="AIK" />
+  <Map livescore="UE Sant Julia" betfair="UE Sant Julia" />
+  <Map livescore="Levski Sofia" betfair="Levski Sofia" />
+  <Map livescore="APOEL Nicosia" betfair="APOEL" />
+  <Map livescore="EB Streymur" betfair="EB-Streymur" />
+  <Map livescore="IFK Norrkoping" betfair="Norrkoping" />
+  <Map livescore="Mjallby AIF" betfair="Mjallby" />
+  <Map livescore="Turkey(U19)(N)" betfair="Turkey U19" />
+  <Map livescore="Spain(U19)" betfair="Spain U19" />
+  <Map livescore="FC Pyunik" betfair="FC Pyunik" />
+  <Map livescore="KF Tirana" betfair="KF Tirana" />
+  <Map livescore="NK Slaven Belupo" betfair="Slaven Belupo" />
+  <Map livescore="Milano" betfair="FK Milano" />
+  <Map livescore="Tromso IL" betfair="Tromso" />
+  <Map livescore="Dinamo Minsk" betfair="Dinamo Minsk" />
+  <Map livescore="Vllaznia Shkoder" betfair="Vllaznia" />
+  <Map livescore="FC Zestafoni" betfair="Zestafoni" />
+  <Map livescore="Red Boys Differdange" betfair="Differdange" />
+  <Map livescore="FK Slavija(N)" betfair="Slavija Sarajevo" />
+  <Map livescore="Eintr. Braunschweig" betfair="Braunschweig" />
+  <Map livescore="FC Kobenhavn" betfair="FC Kobenhavn" />
+  <Map livescore="Kaizer Chiefs FC" betfair="Kaiser Chiefs" />
+  <Map livescore="FC Trenkwalder Admira" betfair="Admira Wacker" />
+  <Map livescore="First Vienna FC" betfair="First Vienna" />
+  <Map livescore="Sonderjyske" betfair="SonderjyskE" />
+  <Map livescore="Sweden Women's(U19)" betfair="Sweden U19 (W)" />
+  <Map livescore="England Women's(U19)" betfair="England U19 (W)" />
+  <Map livescore="Wisla Krakow(N)" betfair="Wisla Krakow" />
+  <Map livescore="Mlada Boleslav" betfair="Mlada Boleslav" />
+  <Map livescore="ZNK Osijek" betfair="Osijek" />
+  <Map livescore="Hajduk Split" betfair="Hajduk Split" />
+  <Map livescore="Singapore" betfair="Singapore" />
+  <Map livescore="Hangzhou Greentown" betfair="Hangzhou Greentown" />
+  <Map livescore="Mattersburg" betfair="Mattersburg" />
+  <Map livescore="Bodo Glimt" betfair="Bodo/Glimt" />
+  <Map livescore="Toluca" betfair="Toluca" />
+  <Map livescore="Chivas Guadalajara" betfair="Guadalajara" />
+  <Map betfair="Unirea Urzicena" livescore="Unirea Urziceni(N)" />
+  <Map livescore="Seongnam Ilhwa Chunma" betfair="Seongnam Ilhwa" />
+  <Map livescore="Corinthians Paulista (SP)(N)" betfair="Corinthians" />
+  <Map livescore="USA" betfair="USA" />
+  <Map livescore="Mexico" betfair="Mexico" />
+  <Map livescore="Slovan Bratislava" betfair="Slovan Bratislava" />
+  <Map livescore="Zurich" betfair="FC Zurich" />
+  <Map livescore="NK Maribor" betfair="NK Maribor" />
+  <Map livescore="Aston Villa(N)" betfair="Aston Villa" />
+  <Map livescore="CF Atlante" betfair="Atlante" />
+  <Map livescore="Besiktas JK(N)" betfair="Besiktas" />
+  <Map livescore="Vasas Budapest" betfair="Vasas" />
+  <Map livescore="Gyori ETO FC" betfair="Gyori" />
+  <Map livescore="Arka Gdynia" betfair="Arka Gdynia" />
+  <Map livescore="SC Magna Wr. Neustadt" betfair="FC Wiener Neustadt" />
+  <Map livescore="VfB Lubeck" betfair="Lubeck" />
+  <Map livescore="SV Babelsberg 03" betfair="SV Babelsberg 03" />
+  <Map livescore="SV Wehen Wiesbaden" betfair="Wehen" />
+  <Map livescore="Glasgow Rangers(N)" betfair="Rangers" />
+  <Map livescore="Dynamo Dresden" betfair="Dynamo Dresden" />
+  <Map livescore="SV Elversberg" betfair="Elversberg" />
+  <Map livescore="SG Sonnenhof Grobaspach(N)" betfair="SG Sonnenhof" />
+  <Map livescore="SpVgg Weiden" betfair="Weiden" />
+  <Map livescore="Ruch Chorzow" betfair="Ruch Chorzow" />
+  <Map livescore="Reading" betfair="Reading" />
+  <Map livescore="Jagiellonia Bialystok" betfair="Jagiellonia" />
+  <Map livescore="Odra Wodzislaw" betfair="Odra Wodzislaw" />
+  <Map livescore="Lombard Papa FC" betfair="Lombard Papa" />
+  <Map livescore="FC Viktoria Plzen" betfair="Plzen" />
+  <Map livescore="Teplice" betfair="Teplice" />
+  <Map livescore="Slask Wroclaw" betfair="Slask Wroclaw" />
+  <Map livescore="Cracovia Krakow" betfair="Cracovia Krakow" />
+  <Map livescore="TSV Germania Windeck(N)" betfair="Germania Windeck" />
+  <Map livescore="Preuben Munster" betfair="Preussen Munster" />
+  <Map livescore="LASK Linz " betfair="LASK Linz" />
+  <Map livescore="RKC Waalwijk" betfair="Waalwijk" />
+  <Map livescore="Juventude (RS)" betfair="Juventude" />
+  <Map livescore="Vasco da Gama(RJ)" betfair="Vasco da Gama" />
+  <Map livescore="Elfsborg&#x9;" betfair="Elfsborg" />
+  <Map livescore="SK Sigma Olomouc" betfair="Sigma Olomouc" />
+  <Map livescore="Fulham&#x9;" betfair="Fulham" />
+  <Map livescore="Vetra Vilnius&#x9;" betfair="Vetra" />
+  <Map livescore="Kapfenberg Superfund" betfair="SV Kapfenberg" />
+  <Map livescore="Strasbourg" betfair="Strasbourg" />
+  <Map livescore="Fortuna Dusseldorf" betfair="Fortuna Dusseldorf" />
+  <Map livescore="SC Paderborn 07" betfair="Paderborn" />
+  <Map livescore="FC Nordsjaelland" betfair="FC Nordsj" />
+  <Map livescore="Botev Plovdiv" betfair="Botev Plovdiv" />
+  <Map livescore="Grenoble" betfair="Grenoble" />
+  <Map livescore="Coventry" betfair="Coventry" />
+  <Map livescore="Lorient" betfair="Lorient" />
+  <Map livescore="Leeds United" betfair="Leeds" />
+  <Map livescore="Ireland" betfair="Rep of Ireland" />
+  <Map livescore="Australia" betfair="Australia" />
+  <Map livescore="Switzerland" betfair="Switzerland" />
+  <Map livescore="Italy" betfair="Italy" />
+  <Map livescore="Sweden" betfair="Sweden" />
+  <Map livescore="Finland" betfair="Finland" />
+  <Map livescore="Iceland" betfair="Iceland" />
+  <Map livescore="Slovakia" betfair="Slovakia" />
+  <Map livescore="Nagoya Grampus Eight" betfair="Nagoya" />
+  <Map livescore="Kawasaki Frontale" betfair="Kawasaki" />
+  <Map livescore="Borussia Dortmund" betfair="Hannover" />
+  <Map livescore="Leicester City" betfair="Leicester" />
+  <Map livescore="Maccabi Haifa" betfair="Maccabi Haifa" />
+  <Map livescore="Brentford" betfair="Brentford" />
+  <Map livescore="Korea Republic" betfair="South Korea" />
+  <Map livescore="Netherlands" betfair="Netherlands" />
+  <Map livescore="Japan" betfair="Japan" />
+  <Map livescore="Stockport County" betfair="Stockport" />
+  <Map livescore="Huddersfield Town" betfair="Huddersfield" />
+  <Map livescore="Ljungskile SK" betfair="Ljungskile" />
+  <Map livescore="Scotland" betfair="Scotland" />
+  <Map livescore="FYR Macedonia" betfair="FYR Macedonia" />
+  <Map livescore="Andorra" betfair="Andorra" />
+  <Map livescore="Serbia(U21)" betfair="Serbia U21" />
+  <Map livescore="Slovakia(U21)" betfair="Slovakia U21" />
+  <Map livescore="Armenia" betfair="Armenia" />
+  <Map livescore="Bosnia and Herzegovina" betfair="Bosnia" />
+  <Map livescore="Azerbaijan" betfair="Azerbaijan" />
+  <Map livescore="Russia" betfair="Russia" />
+  <Map livescore="Liechtenstein" betfair="Liechtenstein" />
+  <Map livescore="Latvia(U21)" betfair="Latvia U21" />
+  <Map livescore="Russia(U21)" betfair="Russia U21" />
+  <Map livescore="Austria(U21)" betfair="Austria U21" />
+  <Map livescore="Scotland(U21)" betfair="Scotland U21" />
+  <Map livescore="Moldova" betfair="Moldova" />
+  <Map livescore="Luxembourg" betfair="Luxembourg" />
+  <Map livescore="England" betfair="England" />
+  <Map livescore="Slovenia" betfair="Slovenia" />
+  <Map livescore="Norway(U21)" betfair="Norway U21" />
+  <Map livescore="Croatia(U21)" betfair="Croatia U21" />
+  <Map livescore="Bulgaria" betfair="Bulgaria" />
+  <Map livescore="Montenegro" betfair="Montenegro" />
+  <Map livescore="Denmark" betfair="Denmark" />
+  <Map livescore="Portugal" betfair="Portugal" />
+  <Map livescore="Georgia" betfair="Georgia" />
+  <Map livescore="Hungary" betfair="Hungary" />
+  <Map livescore="Israel" betfair="Israel" />
+  <Map livescore="Latvia" betfair="Latvia" />
+  <Map livescore="Levante" betfair="Levante" />
+  <Map livescore="Cadiz" betfair="Cadiz" />
+  <Map livescore="Turkey" betfair="Turkey" />
+  <Map livescore="Estonia" betfair="Estonia" />
+  <Map livescore="Austria" betfair="Austria" />
+  <Map livescore="Faroe Islands" betfair="Faroe Islands" />
+  <Map livescore="Croatia" betfair="Croatia" />
+  <Map livescore="Belarus" betfair="Belarus" />
+  <Map livescore="Cyprus" betfair="Cyprus" />
+  <Map livescore="Poland" betfair="Poland" />
+  <Map livescore="Northern Ireland" betfair="Northern Ireland" />
+  <Map livescore="Czech Republic" betfair="Czech Republic" />
+  <Map livescore="Greece" betfair="Greece" />
+  <Map livescore="Germany" betfair="Germany" />
+  <Map livescore="South Africa" betfair="South Africa" />
+  <Map livescore="Norway" betfair="Norway" />
+  <Map livescore="Bahrain" betfair="Bahrain" />
+  <Map livescore="Saudi Arabia" betfair="Saudi Arabia" />
+  <Map livescore="France" betfair="France" />
+  <Map livescore="Romania" betfair="Romania" />
+  <Map livescore="Atletico GO" betfair="Atletico-GO" />
+  <Map livescore="Spain" betfair="Spain" />
+  <Map livescore="Belgium" betfair="Belgium" />
+  <Map livescore="Colombia" betfair="Colombia" />
+  <Map livescore="Ecuador" betfair="Ecuador" />
+  <Map livescore="Peru" betfair="Peru" />
+  <Map livescore="Uruguay" betfair="Uruguay" />
+  <Map livescore="Gremio Barueri" betfair="Barueri" />
+  <Map livescore="Paraguay" betfair="Paraguay" />
+  <Map livescore="Bolivia" betfair="Bolivia" />
+  <Map livescore="Kansas City Wizards" betfair="Kansas" />
+  <Map livescore="El Salvador" betfair="El Salvador" />
+  <Map livescore="Argentina" betfair="Argentina" />
+  <Map livescore="Brazil" betfair="Brazil" />
+  <Map livescore="Trinidad &amp; Tobago" betfair="Trinidad &amp; Tobago" />
+  <Map livescore="Chile" betfair="Chile" />
+  <Map livescore="Venezuela" betfair="Venezuela" />
+  <Map livescore="Costa Rica" betfair="Costa Rica" />
+  <Map livescore="Greuther Furth" betfair="G Furth" />
+  <Map livescore="Dynamo Moscow" betfair="Dinamo Moscow" />
+  <Map livescore="Dinamo Moscow" betfair="Dinamo Moscow" />
+</root>

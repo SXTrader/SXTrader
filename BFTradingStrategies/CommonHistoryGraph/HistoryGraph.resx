@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strAddLivescore" xml:space="preserve">
+    <value>Add Livescore</value>
+  </data>
+  <data name="strAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="strDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="strDelLSCaption" xml:space="preserve">
+    <value>Delete Livescore Mapping</value>
+  </data>
+  <data name="strDelLSConfirm" xml:space="preserve">
+    <value>Are you sure that you want to delete the mapping {0}?</value>
+  </data>
+  <data name="strDelLSMapping" xml:space="preserve">
+    <value>Delete this Livescore-Mapping</value>
+  </data>
+  <data name="strDescription" xml:space="preserve">
+    <value>Show historical data</value>
+  </data>
+  <data name="strDescriptionMapping" xml:space="preserve">
+    <value>Mappings between Livescore names and sport exchange names</value>
+  </data>
+  <data name="strDescriptionSA" xml:space="preserve">
+    <value>Statistics and Analyses of todays inplay matches.</value>
+  </data>
+  <data name="strFormatAway" xml:space="preserve">
+    <value>{0} Away</value>
+  </data>
+  <data name="strFormatHome" xml:space="preserve">
+    <value>{0} Home</value>
+  </data>
+  <data name="strFQHistogramm" xml:space="preserve">
+    <value>Common/Histogram</value>
+  </data>
+  <data name="strFQMapper" xml:space="preserve">
+    <value>Common/Livescore Mapping</value>
+  </data>
+  <data name="strFQStatisticAnalyses" xml:space="preserve">
+    <value>Common/Statistics &amp; Analyses</value>
+  </data>
+  <data name="strGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="strHistogramm" xml:space="preserve">
+    <value>Histogram</value>
+  </data>
+  <data name="strHomeAway" xml:space="preserve">
+    <value>Home/Away</value>
+  </data>
+  <data name="strMapper" xml:space="preserve">
+    <value>Livescore Mapping</value>
+  </data>
+  <data name="strMoney" xml:space="preserve">
+    <value>Money</value>
+  </data>
+  <data name="strNewRange" xml:space="preserve">
+    <value>&amp;New Range</value>
+  </data>
+  <data name="strNoOfData" xml:space="preserve">
+    <value>no_of_data</value>
+  </data>
+  <data name="strScoreColorPercent" xml:space="preserve">
+    <value>scorecolorpercent</value>
+  </data>
+  <data name="strScoreMatrix" xml:space="preserve">
+    <value>Score Matrix</value>
+  </data>
+  <data name="strStatisticAnalyses" xml:space="preserve">
+    <value>Statistics &amp; Analyses</value>
+  </data>
+  <data name="strStatisticServerNA" xml:space="preserve">
+    <value>Statistic Server not availible. Please try again later.</value>
+  </data>
+  <data name="strColorWLDTrendDraw" xml:space="preserve">
+    <value>colorWLDTrendDraw</value>
+  </data>
+  <data name="strColorWLDTrendLoss" xml:space="preserve">
+    <value>colorWLDTrendLoss</value>
+  </data>
+  <data name="strColorWLDTrendWin" xml:space="preserve">
+    <value>colorWLDTrendWin</value>
+  </data>
+  <data name="strColorWLDTrendZero" xml:space="preserve">
+    <value>colorWLDTrendZero</value>
+  </data>
+  <data name="strWLDDrawPercentColor" xml:space="preserve">
+    <value>wldDrawPercentColor</value>
+  </data>
+  <data name="strWLDLossPercentColor" xml:space="preserve">
+    <value>wldLossPercentColor</value>
+  </data>
+  <data name="strWLDWinPercentColor" xml:space="preserve">
+    <value>wldWinPercentColor</value>
+  </data>
+  <data name="strAvg1stGoalTime" xml:space="preserve">
+    <value>Avg 1st Goal Time</value>
+  </data>
+  <data name="strAvgGoals" xml:space="preserve">
+    <value>Average Goals</value>
+  </data>
+  <data name="strEarliest1stGoalTime" xml:space="preserve">
+    <value>Earliest 1st Goal time</value>
+  </data>
+  <data name="strLatest1stGoalTime" xml:space="preserve">
+    <value>Latest 1st Goal time</value>
+  </data>
+  <data name="strColorOUTrendOver" xml:space="preserve">
+    <value>colorOverUnderTrendOver</value>
+  </data>
+  <data name="strColorOUTrendUnder" xml:space="preserve">
+    <value>colorOverUnderTrendUnder</value>
+  </data>
+  <data name="strOUOverPercentColor" xml:space="preserve">
+    <value>ouOverPercentColor</value>
+  </data>
+  <data name="strOUUnderPercentColor" xml:space="preserve">
+    <value>ouUnderPercentColor</value>
+  </data>
+  <data name="strStatColor" xml:space="preserve">
+    <value>statcolor</value>
+  </data>
+  <data name="strStatColors" xml:space="preserve">
+    <value>statcolors</value>
+  </data>
+  <data name="strGameColor" xml:space="preserve">
+    <value>Game Coloring</value>
+  </data>
+  <data name="strCfgKeyAgeOfData" xml:space="preserve">
+    <value>age_of_data</value>
+  </data>
+  <data name="strDraw" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="strLoss" xml:space="preserve">
+    <value>Loss</value>
+  </data>
+  <data name="strOpponents" xml:space="preserve">
+    <value>Opponents</value>
+  </data>
+  <data name="strOver" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="strTrendLabelFormat" xml:space="preserve">
+    <value>Trend of last {0} matches:</value>
+  </data>
+  <data name="strUnder" xml:space="preserve">
+    <value>Under</value>
+  </data>
+  <data name="strWin" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="strDirectConfrontations" xml:space="preserve">
+    <value>Direct Confrontations</value>
+  </data>
+  <data name="strTeamHistDataFormat" xml:space="preserve">
+    <value>{0} Historic Data</value>
+  </data>
+</root>

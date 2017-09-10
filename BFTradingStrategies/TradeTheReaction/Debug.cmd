@@ -1,0 +1,1 @@
+xcopy .\bin\Release\*.* .\..\BFTSGUI\bin\Release\Plugins\TradeTheReaction /E /Y

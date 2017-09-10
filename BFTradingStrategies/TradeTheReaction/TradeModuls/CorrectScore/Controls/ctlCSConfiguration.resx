@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;spnGreenPlaytime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkCheckLayOdds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="lblGreenDelta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 82</value>
+  </data>
+  <data name="gbxWaitTimes.Text" xml:space="preserve">
+    <value>Wait Times</value>
+  </data>
+  <data name="&gt;&gt;gbxSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblGreenWaitTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spnGreenWaitTime.Name" xml:space="preserve">
+    <value>spnGreenWaitTime</value>
+  </data>
+  <data name="chkNoTrade.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkNoTrade.Name" xml:space="preserve">
+    <value>chkNoTrade</value>
+  </data>
+  <data name="&gt;&gt;chkCheckLayOdds.Name" xml:space="preserve">
+    <value>chkCheckLayOdds</value>
+  </data>
+  <data name="&gt;&gt;gbxPlaytime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHedgeDelta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 82</value>
+  </data>
+  <data name="chkNoTrade.Text" xml:space="preserve">
+    <value>No Trade</value>
+  </data>
+  <data name="&gt;&gt;lblGreenPercentage.Parent" xml:space="preserve">
+    <value>gbxOddsPercentage</value>
+  </data>
+  <data name="chkWaitTimes.Text" xml:space="preserve">
+    <value>Use Wait Times</value>
+  </data>
+  <data name="&gt;&gt;spnHedgePercentage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="spnHedgePlaytime.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbnGreenDynamic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblHedgeWaitTime.Parent" xml:space="preserve">
+    <value>gbxWaitTimes</value>
+  </data>
+  <data name="&gt;&gt;cbxSpecialHedgePT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHedgePercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="&gt;&gt;spnGreenPercentage.Name" xml:space="preserve">
+    <value>spnGreenPercentage</value>
+  </data>
+  <data name="&gt;&gt;chkUseGreenWaittime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spnGreenPlaytime.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cbxSpecialGreenPT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;rbnGreenDynamic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOnlyHedge.Text" xml:space="preserve">
+    <value>Only Hedge</value>
+  </data>
+  <data name="spnGreenDelta.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rbnFixedGreenPT.Text" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="lblGreenPercentage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="spnGreenPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 35</value>
+  </data>
+  <data name="&gt;&gt;chkUseHedgeWaittime.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="&gt;&gt;lblGreenPercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spnGreenWaitTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkOddsPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 91</value>
+  </data>
+  <data name="cbxSpecialHedgePT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 78</value>
+  </data>
+  <data name="&gt;&gt;spnGreenPlaytime.Name" xml:space="preserve">
+    <value>spnGreenPlaytime</value>
+  </data>
+  <data name="&gt;&gt;lblGreenDelta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxGreen.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;spnGreenDelta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblGreenPercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="spnHedgePercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbnHedgeDynamic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spnGreenPlaytime.Parent" xml:space="preserve">
+    <value>gbxGreen</value>
+  </data>
+  <data name="chkWaitTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;gbxOddsPercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGreenDelta.Parent" xml:space="preserve">
+    <value>gbxGreen</value>
+  </data>
+  <data name="chkUseGreenWaittime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 43</value>
+  </data>
+  <data name="&gt;&gt;spnHedgeDelta.Parent" xml:space="preserve">
+    <value>gbxHedge</value>
+  </data>
+  <data name="chkUseGreenWaittime.Text" xml:space="preserve">
+    <value>Use Waittime for Greening</value>
+  </data>
+  <data name="&gt;&gt;gbxSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkOnlyHedge.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnHedgeDynamic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 61</value>
+  </data>
+  <data name="chkOnlyHedge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="&gt;&gt;spnGreenPercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGreenDelta.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkOddsPercentage.Text" xml:space="preserve">
+    <value>Calculate Target Lay Odds</value>
+  </data>
+  <data name="chkOddsPercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cbxSpecialHedgePT.Parent" xml:space="preserve">
+    <value>gbxHedge</value>
+  </data>
+  <data name="&gt;&gt;lblHedgeWaitTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHedgeWaitTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ctlCSConfiguration</value>
+  </data>
+  <data name="&gt;&gt;chkUseGreenWaittime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbnHedgeDynamic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkOddsPercentage.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="chkUseHedgeWaittime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 17</value>
+  </data>
+  <data name="gbxHedge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 103</value>
+  </data>
+  <data name="&gt;&gt;spnGreenDelta.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxPlaytime.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;chkCheckLayOdds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxSpecialHedgePT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblGreenWaitTime.Text" xml:space="preserve">
+    <value>Wait Time before Greening in Seconds:</value>
+  </data>
+  <data name="&gt;&gt;chkUseGreenWaittime.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="chkNoTrade.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="rbnFixedGreenPT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="&gt;&gt;rbnHedgeDynamic.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblGreenDelta.Text" xml:space="preserve">
+    <value>Delta</value>
+  </data>
+  <data name="&gt;&gt;gbxHedge.Name" xml:space="preserve">
+    <value>gbxHedge</value>
+  </data>
+  <data name="&gt;&gt;rbnHedgeDynamic.Parent" xml:space="preserve">
+    <value>gbxHedge</value>
+  </data>
+  <data name="&gt;&gt;gbxHedge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNoTrade.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyHedge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOddsPercentage.Name" xml:space="preserve">
+    <value>chkOddsPercentage</value>
+  </data>
+  <data name="&gt;&gt;spnGreenPercentage.Parent" xml:space="preserve">
+    <value>gbxOddsPercentage</value>
+  </data>
+  <data name="&gt;&gt;cbxSpecialGreenPT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxWaitTimes.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="spnHedgePercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 12</value>
+  </data>
+  <data name="&gt;&gt;lblGreenWaitTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spnHedgePlaytime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="&gt;&gt;spnHedgeDelta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxOddsPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 72</value>
+  </data>
+  <data name="lblHedgeWaitTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 13</value>
+  </data>
+  <data name="&gt;&gt;spnHedgePlaytime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGreenWaitTime.Name" xml:space="preserve">
+    <value>lblGreenWaitTime</value>
+  </data>
+  <data name="&gt;&gt;chkOddsPercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnHedgePlaytime.Name" xml:space="preserve">
+    <value>spnHedgePlaytime</value>
+  </data>
+  <data name="&gt;&gt;cbxSpecialGreenPT.Parent" xml:space="preserve">
+    <value>gbxGreen</value>
+  </data>
+  <data name="rbnFixedGreenPT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkUseHedgeWaittime.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="gbxGreen.Text" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="&gt;&gt;gbxPlaytime.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="spnHedgeWaitTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="&gt;&gt;gbxOddsPercentage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gbxPlaytime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>562, 134</value>
+  </data>
+  <data name="gbxHedge.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gbxOddsPercentage.Text" xml:space="preserve">
+    <value>Odds Percentage</value>
+  </data>
+  <data name="&gt;&gt;spnHedgeWaitTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxHedge.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblHedgePercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkNoTrade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblHedgeDelta.Name" xml:space="preserve">
+    <value>lblHedgeDelta</value>
+  </data>
+  <data name="gbxOddsPercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;spnHedgePlaytime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="spnHedgePercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="spnGreenWaitTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="&gt;&gt;rbnGreenDynamic.Name" xml:space="preserve">
+    <value>rbnGreenDynamic</value>
+  </data>
+  <data name="&gt;&gt;lblHedgeDelta.Parent" xml:space="preserve">
+    <value>gbxHedge</value>
+  </data>
+  <data name="&gt;&gt;chkCheckLayOdds.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedGreenPT.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gbxWaitTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 72</value>
+  </data>
+  <data name="chkNoTrade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 66</value>
+  </data>
+  <data name="&gt;&gt;spnGreenDelta.Name" xml:space="preserve">
+    <value>spnGreenDelta</value>
+  </data>
+  <data name="cbxSpecialGreenPT.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="spnGreenPlaytime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 37</value>
+  </data>
+  <data name="lblHedgeWaitTime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblHedgePercentage.Text" xml:space="preserve">
+    <value>Percentage of Back Odds Lay Odds must have before Hedging:</value>
+  </data>
+  <data name="lblHedgeDelta.Text" xml:space="preserve">
+    <value>Delta</value>
+  </data>
+  <data name="&gt;&gt;rbnHedgeDynamic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spnHedgeDelta.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="spnHedgeWaitTime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbnHedgeDynamic.Name" xml:space="preserve">
+    <value>rbnHedgeDynamic</value>
+  </data>
+  <data name="chkCheckLayOdds.Text" xml:space="preserve">
+    <value>Check Lay Odds</value>
+  </data>
+  <data name="chkOddsPercentage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbxGreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 19</value>
+  </data>
+  <data name="&gt;&gt;gbxWaitTimes.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="&gt;&gt;lblGreenDelta.Name" xml:space="preserve">
+    <value>lblGreenDelta</value>
+  </data>
+  <data name="gbxSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblHedgeDelta.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbxWaitTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gbxHedge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="chkWaitTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="rbnFixedHedgePT.Text" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedGreenPT.Name" xml:space="preserve">
+    <value>rbnFixedGreenPT</value>
+  </data>
+  <data name="rbnFixedHedgePT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbxPlaytime.Text" xml:space="preserve">
+    <value>Play Time</value>
+  </data>
+  <data name="&gt;&gt;chkNoTrade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblGreenPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 13</value>
+  </data>
+  <data name="&gt;&gt;rbnGreenDynamic.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbnFixedGreenPT.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbxSpecialHedgePT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="gbxOddsPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 333</value>
+  </data>
+  <data name="&gt;&gt;lblGreenPercentage.Name" xml:space="preserve">
+    <value>lblGreenPercentage</value>
+  </data>
+  <data name="gbxSettings.Text" xml:space="preserve">
+    <value>Trade Out Settings</value>
+  </data>
+  <data name="&gt;&gt;chkWaitTimes.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;gbxSettings.Name" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="rbnGreenDynamic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkOnlyHedge.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblHedgeWaitTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkUseHedgeWaittime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spnHedgeWaitTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 16</value>
+  </data>
+  <data name="&gt;&gt;gbxGreen.Name" xml:space="preserve">
+    <value>gbxGreen</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 425</value>
+  </data>
+  <data name="lblGreenDelta.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gbxHedge.Parent" xml:space="preserve">
+    <value>gbxPlaytime</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedHedgePT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnGreenWaitTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblGreenWaitTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnHedgeDynamic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="chkCheckLayOdds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHedgeWaitTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="cbxSpecialHedgePT.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblHedgeWaitTime.Name" xml:space="preserve">
+    <value>lblHedgeWaitTime</value>
+  </data>
+  <data name="spnHedgeDelta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="lblHedgePercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbnFixedGreenPT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="&gt;&gt;chkWaitTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWaitTimes.Name" xml:space="preserve">
+    <value>chkWaitTimes</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbxSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;spnHedgePercentage.Name" xml:space="preserve">
+    <value>spnHedgePercentage</value>
+  </data>
+  <data name="&gt;&gt;cbxSpecialHedgePT.Name" xml:space="preserve">
+    <value>cbxSpecialHedgePT</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedHedgePT.Parent" xml:space="preserve">
+    <value>gbxHedge</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedHedgePT.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;spnHedgeWaitTime.Name" xml:space="preserve">
+    <value>spnHedgeWaitTime</value>
+  </data>
+  <data name="&gt;&gt;chkUseHedgeWaittime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblHedgePercentage.Name" xml:space="preserve">
+    <value>lblHedgePercentage</value>
+  </data>
+  <data name="spnHedgeDelta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 78</value>
+  </data>
+  <data name="&gt;&gt;cbxSpecialGreenPT.Name" xml:space="preserve">
+    <value>cbxSpecialGreenPT</value>
+  </data>
+  <data name="cbxSpecialGreenPT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 78</value>
+  </data>
+  <data name="&gt;&gt;gbxOddsPercentage.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="spnGreenDelta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 78</value>
+  </data>
+  <data name="&gt;&gt;spnGreenDelta.Parent" xml:space="preserve">
+    <value>gbxGreen</value>
+  </data>
+  <data name="lblGreenWaitTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 43</value>
+  </data>
+  <data name="spnHedgePlaytime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 37</value>
+  </data>
+  <data name="&gt;&gt;lblGreenPercentage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblHedgePercentage.Parent" xml:space="preserve">
+    <value>gbxOddsPercentage</value>
+  </data>
+  <data name="&gt;&gt;chkNoTrade.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="chkOddsPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 17</value>
+  </data>
+  <data name="chkOnlyHedge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="&gt;&gt;gbxOddsPercentage.Name" xml:space="preserve">
+    <value>gbxOddsPercentage</value>
+  </data>
+  <data name="lblHedgeWaitTime.Text" xml:space="preserve">
+    <value>Wait Time before Hedging in Seconds:</value>
+  </data>
+  <data name="&gt;&gt;spnGreenPercentage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;spnHedgeWaitTime.Parent" xml:space="preserve">
+    <value>gbxWaitTimes</value>
+  </data>
+  <data name="rbnFixedHedgePT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblGreenDelta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="gbxSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 425</value>
+  </data>
+  <data name="&gt;&gt;spnHedgePercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnGreenWaitTime.Parent" xml:space="preserve">
+    <value>gbxWaitTimes</value>
+  </data>
+  <data name="lblHedgeDelta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="chkNoTrade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="rbnGreenDynamic.Text" xml:space="preserve">
+    <value>Statistical</value>
+  </data>
+  <data name="lblGreenPercentage.Text" xml:space="preserve">
+    <value>Percentage of Back Odds Lay Odds must have before Greening:</value>
+  </data>
+  <data name="chkUseHedgeWaittime.Text" xml:space="preserve">
+    <value>Use Waittime for Hedging</value>
+  </data>
+  <data name="&gt;&gt;chkUseHedgeWaittime.Name" xml:space="preserve">
+    <value>chkUseHedgeWaittime</value>
+  </data>
+  <data name="chkUseGreenWaittime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;spnHedgeDelta.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;spnGreenWaitTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWaitTimes.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="&gt;&gt;spnHedgeDelta.Name" xml:space="preserve">
+    <value>spnHedgeDelta</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedHedgePT.Name" xml:space="preserve">
+    <value>rbnFixedHedgePT</value>
+  </data>
+  <data name="&gt;&gt;gbxWaitTimes.Name" xml:space="preserve">
+    <value>gbxWaitTimes</value>
+  </data>
+  <data name="lblHedgeDelta.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;spnGreenPlaytime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkCheckLayOdds.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gbxPlaytime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 193</value>
+  </data>
+  <data name="&gt;&gt;lblGreenWaitTime.Parent" xml:space="preserve">
+    <value>gbxWaitTimes</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedGreenPT.Parent" xml:space="preserve">
+    <value>gbxGreen</value>
+  </data>
+  <data name="&gt;&gt;gbxWaitTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblGreenDelta.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbxGreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkUseHedgeWaittime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkUseHedgeWaittime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 19</value>
+  </data>
+  <data name="&gt;&gt;lblHedgeDelta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spnGreenWaitTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 39</value>
+  </data>
+  <data name="gbxGreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 103</value>
+  </data>
+  <data name="gbxSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblHedgePercentage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyHedge.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="chkWaitTimes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbxHedge.Text" xml:space="preserve">
+    <value>Hedge</value>
+  </data>
+  <data name="chkWaitTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 67</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyHedge.Name" xml:space="preserve">
+    <value>chkOnlyHedge</value>
+  </data>
+  <data name="chkCheckLayOdds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 43</value>
+  </data>
+  <data name="&gt;&gt;spnHedgePercentage.Parent" xml:space="preserve">
+    <value>gbxOddsPercentage</value>
+  </data>
+  <data name="rbnFixedHedgePT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="lblGreenWaitTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 13</value>
+  </data>
+  <data name="spnGreenPercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rbnGreenDynamic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="lblGreenPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 39</value>
+  </data>
+  <data name="&gt;&gt;lblHedgePercentage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblHedgePercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 13</value>
+  </data>
+  <data name="&gt;&gt;rbnGreenDynamic.Parent" xml:space="preserve">
+    <value>gbxGreen</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyHedge.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="rbnFixedHedgePT.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxWaitTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 115</value>
+  </data>
+  <data name="spnGreenPlaytime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="&gt;&gt;chkOddsPercentage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkUseGreenWaittime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 17</value>
+  </data>
+  <data name="spnGreenDelta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedGreenPT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxSpecialGreenPT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;spnHedgeWaitTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbxGreen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spnGreenPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="&gt;&gt;gbxPlaytime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblHedgeDelta.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbxPlaytime.Name" xml:space="preserve">
+    <value>gbxPlaytime</value>
+  </data>
+  <data name="&gt;&gt;spnHedgePlaytime.Parent" xml:space="preserve">
+    <value>gbxHedge</value>
+  </data>
+  <data name="&gt;&gt;chkCheckLayOdds.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="rbnGreenDynamic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 61</value>
+  </data>
+  <data name="chkUseGreenWaittime.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;gbxGreen.Parent" xml:space="preserve">
+    <value>gbxPlaytime</value>
+  </data>
+  <data name="lblGreenWaitTime.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbnHedgeDynamic.Text" xml:space="preserve">
+    <value>Statistical</value>
+  </data>
+  <data name="&gt;&gt;chkUseGreenWaittime.Name" xml:space="preserve">
+    <value>chkUseGreenWaittime</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

@@ -1,0 +1,882 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbpTLL.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;lblTheLowLay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblRaceName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblRaceDateValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblCurrentRiskValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 25</value>
+  </data>
+  <data name="&gt;&gt;pnlFill.Name" xml:space="preserve">
+    <value>pnlFill</value>
+  </data>
+  <data name="&gt;&gt;lblRace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMatchedSize.Name" xml:space="preserve">
+    <value>lblMatchedSize</value>
+  </data>
+  <data name="lblHorseName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 60</value>
+  </data>
+  <data name="tbcTLL.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblRaceDateValue.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tlpValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlFill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 699</value>
+  </data>
+  <data name="&gt;&gt;tbpTLL.Parent" xml:space="preserve">
+    <value>tbcTLL</value>
+  </data>
+  <data name="&gt;&gt;lblPotentialRisk.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblUnmatchedSizeValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblHorse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblMatchedSizeValue.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="&gt;&gt;lblHorse.Name" xml:space="preserve">
+    <value>lblHorse</value>
+  </data>
+  <data name="&gt;&gt;lblUnmatchedSizeValue.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="&gt;&gt;lblTradingState.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblAvgOdds.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblPotentialRiskValue.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblTradingStateValue.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="&gt;&gt;lblRaceName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblTradingState.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRaceDate.Text" xml:space="preserve">
+    <value>Race Date:</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRiskValue.Name" xml:space="preserve">
+    <value>lblCurrentRiskValue</value>
+  </data>
+  <data name="lblTradingState.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tbcTLL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 800</value>
+  </data>
+  <data name="&gt;&gt;lblRace.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblRaceDateValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblRaceDate.Name" xml:space="preserve">
+    <value>lblRaceDate</value>
+  </data>
+  <data name="lblUnmatchedSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTradingState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 25</value>
+  </data>
+  <data name="lblRaceDateValue.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblUnmatchedSizeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 25</value>
+  </data>
+  <data name="&gt;&gt;lblUnmatchedSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblRace.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pnlTop.Parent" xml:space="preserve">
+    <value>tbpTLL</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRiskValue.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblTheLowLay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCurrentRiskValue.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblMatchedSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 105</value>
+  </data>
+  <data name="&gt;&gt;lblUnmatchedSizeValue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPotentialRiskValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblPotentialRiskValue.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblAvgOdds.Name" xml:space="preserve">
+    <value>lblAvgOdds</value>
+  </data>
+  <data name="&gt;&gt;lblAvgOdds.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="lblRace.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lblTheLowLay.Text" xml:space="preserve">
+    <value>The Low Lay</value>
+  </data>
+  <data name="&gt;&gt;tbpTLL.Name" xml:space="preserve">
+    <value>tbpTLL</value>
+  </data>
+  <data name="lblMatchedSize.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblUnmatchedSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPotentialRiskValue.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="&gt;&gt;lblHorse.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblRaceDateValue.Text" xml:space="preserve">
+    <value>RaceDateValue</value>
+  </data>
+  <data name="&gt;&gt;pnlTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMatchedSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblPotentialRiskValue.Name" xml:space="preserve">
+    <value>lblPotentialRiskValue</value>
+  </data>
+  <data name="&gt;&gt;lblTradingStateValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAverageOddsValue.Name" xml:space="preserve">
+    <value>lblAverageOddsValue</value>
+  </data>
+  <data name="lblMatchedSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblRaceDate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblAvgOdds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 130</value>
+  </data>
+  <data name="lblUnmatchedSize.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblHorse.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="&gt;&gt;lblTheLowLay.Parent" xml:space="preserve">
+    <value>pnlTop</value>
+  </data>
+  <data name="lblPotentialRiskValue.Text" xml:space="preserve">
+    <value>Potential Risk Value</value>
+  </data>
+  <data name="&gt;&gt;lblRaceDate.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="tlpValues.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbpTLL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHorse.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlTop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tlpValues.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAverageOddsValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 25</value>
+  </data>
+  <data name="lblUnmatchedSizeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 200</value>
+  </data>
+  <data name="tlpValues.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblUnmatchedSizeValue" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblUnmatchedSize" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRace" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRaceDate" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblHorse" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRaceName" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblRaceDateValue" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblHorseName" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblMatchedSize" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblMatchedSizeValue" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCurrentRisk" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblCurrentRiskValue" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblAvgOdds" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblAverageOddsValue" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblPotentialRisk" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPotentialRiskValue" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblTradingState" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblTradingStateValue" Row="11" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,Absolute,20,AutoSize,0,AutoSize,0,AutoSize,0,Absolute,20,AutoSize,0,AutoSize,0,Absolute,20,AutoSize,0,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblHorseName.Name" xml:space="preserve">
+    <value>lblHorseName</value>
+  </data>
+  <data name="&gt;&gt;lblRaceDateValue.Name" xml:space="preserve">
+    <value>lblRaceDateValue</value>
+  </data>
+  <data name="lblAvgOdds.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblUnmatchedSizeValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblTheLowLay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt, style=Bold</value>
+  </data>
+  <data name="lblPotentialRiskValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 225</value>
+  </data>
+  <data name="pnlTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tlpValues.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;tbcTLL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 10</value>
+  </data>
+  <data name="&gt;&gt;lblMatchedSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMatchedSizeValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblHorse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 25</value>
+  </data>
+  <data name="&gt;&gt;tbpTLL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRaceDateValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 25</value>
+  </data>
+  <data name="tbcTLL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblMatchedSizeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblHorseName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 25</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRiskValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPotentialRisk.Name" xml:space="preserve">
+    <value>lblPotentialRisk</value>
+  </data>
+  <data name="lblPotentialRisk.Text" xml:space="preserve">
+    <value>Potential Risk:</value>
+  </data>
+  <data name="&gt;&gt;pnlFill.Parent" xml:space="preserve">
+    <value>tbpTLL</value>
+  </data>
+  <data name="&gt;&gt;lblPotentialRiskValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTop.Name" xml:space="preserve">
+    <value>pnlTop</value>
+  </data>
+  <data name="lblAverageOddsValue.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblTradingState.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblTradingStateValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 270</value>
+  </data>
+  <data name="lblAvgOdds.Text" xml:space="preserve">
+    <value>Average Odds:</value>
+  </data>
+  <data name="lblAverageOddsValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblTradingStateValue.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblAvgOdds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPotentialRisk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblHorseName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHorseName.Text" xml:space="preserve">
+    <value>Horse Name</value>
+  </data>
+  <data name="lblCurrentRiskValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 155</value>
+  </data>
+  <data name="lblAverageOddsValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbcTLL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPotentialRisk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTheLowLay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="pnlFill.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblCurrentRisk.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblRaceDateValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRisk.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblPotentialRisk.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblCurrentRisk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblCurrentRiskValue.Text" xml:space="preserve">
+    <value>Current Risk Value</value>
+  </data>
+  <data name="tlpValues.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblUnmatchedSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 25</value>
+  </data>
+  <data name="&gt;&gt;pnlFill.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblRace.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="&gt;&gt;lblMatchedSizeValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPotentialRisk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblCurrentRisk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tlpValues.RowCount" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblAvgOdds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRaceName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblTradingStateValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 25</value>
+  </data>
+  <data name="lblTradingStateValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="tbpTLL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 774</value>
+  </data>
+  <data name="lblHorseName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHorseName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblTradingStateValue.Text" xml:space="preserve">
+    <value>Trading State Value</value>
+  </data>
+  <data name="lblRaceName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 25</value>
+  </data>
+  <data name="tbpTLL.Text" xml:space="preserve">
+    <value>The Low Lay</value>
+  </data>
+  <data name="lblRaceDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlFill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 72</value>
+  </data>
+  <data name="lblRaceName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 10</value>
+  </data>
+  <data name="&gt;&gt;lblRace.Name" xml:space="preserve">
+    <value>lblRace</value>
+  </data>
+  <data name="lblRace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 25</value>
+  </data>
+  <data name="tbpTLL.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tlpValues.Name" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="&gt;&gt;lblHorseName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblTradingState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 270</value>
+  </data>
+  <data name="&gt;&gt;lblTradingState.Name" xml:space="preserve">
+    <value>lblTradingState</value>
+  </data>
+  <data name="lblHorse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 60</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 800</value>
+  </data>
+  <data name="&gt;&gt;lblUnmatchedSize.Name" xml:space="preserve">
+    <value>lblUnmatchedSize</value>
+  </data>
+  <data name="&gt;&gt;lblHorseName.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ctlTTL</value>
+  </data>
+  <data name="lblTradingState.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblUnmatchedSizeValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRaceDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="lblUnmatchedSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblAverageOddsValue.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblHorse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblHorseName.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblCurrentRiskValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTheLowLay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 37</value>
+  </data>
+  <data name="&gt;&gt;lblTheLowLay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTheLowLay.Name" xml:space="preserve">
+    <value>lblTheLowLay</value>
+  </data>
+  <data name="lblRaceName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblHorse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMatchedSize.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblTradingStateValue.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;tlpValues.Parent" xml:space="preserve">
+    <value>pnlFill</value>
+  </data>
+  <data name="lblAvgOdds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 25</value>
+  </data>
+  <data name="&gt;&gt;lblTradingStateValue.Name" xml:space="preserve">
+    <value>lblTradingStateValue</value>
+  </data>
+  <data name="lblTheLowLay.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblTradingStateValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="tlpValues.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTradingState.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="pnlTop.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblMatchedSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblRaceName.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="&gt;&gt;tbcTLL.Name" xml:space="preserve">
+    <value>tbcTLL</value>
+  </data>
+  <data name="tlpValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 699</value>
+  </data>
+  <data name="&gt;&gt;lblMatchedSizeValue.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblCurrentRisk.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPotentialRisk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 225</value>
+  </data>
+  <data name="lblUnmatchedSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblUnmatchedSize.Text" xml:space="preserve">
+    <value>Unmatched Size:</value>
+  </data>
+  <data name="lblUnmatchedSizeValue.Text" xml:space="preserve">
+    <value>Unmatched Size Value</value>
+  </data>
+  <data name="lblMatchedSizeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 105</value>
+  </data>
+  <data name="lblRaceDate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblMatchedSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 25</value>
+  </data>
+  <data name="lblPotentialRiskValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblRaceDateValue.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="tbcTLL.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblCurrentRiskValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAverageOddsValue.Text" xml:space="preserve">
+    <value>Average Odds Value</value>
+  </data>
+  <data name="pnlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;tbcTLL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMatchedSizeValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbpTLL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;lblMatchedSize.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="lblCurrentRisk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 155</value>
+  </data>
+  <data name="lblMatchedSizeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 25</value>
+  </data>
+  <data name="lblMatchedSizeValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblPotentialRisk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 25</value>
+  </data>
+  <data name="&gt;&gt;lblMatchedSizeValue.Name" xml:space="preserve">
+    <value>lblMatchedSizeValue</value>
+  </data>
+  <data name="&gt;&gt;lblUnmatchedSizeValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRaceName.Text" xml:space="preserve">
+    <value>RaceName</value>
+  </data>
+  <data name="lblMatchedSizeValue.Text" xml:space="preserve">
+    <value>Matched Size Value</value>
+  </data>
+  <data name="lblRace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblUnmatchedSizeValue.Name" xml:space="preserve">
+    <value>lblUnmatchedSizeValue</value>
+  </data>
+  <data name="lblPotentialRiskValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPotentialRisk.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRace.Text" xml:space="preserve">
+    <value>Race: </value>
+  </data>
+  <data name="&gt;&gt;lblRaceDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMatchedSize.Text" xml:space="preserve">
+    <value>Matched Size:</value>
+  </data>
+  <data name="&gt;&gt;lblRaceName.Name" xml:space="preserve">
+    <value>lblRaceName</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRiskValue.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="lblHorse.Text" xml:space="preserve">
+    <value>Horse:</value>
+  </data>
+  <data name="lblRaceDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 25</value>
+  </data>
+  <data name="&gt;&gt;pnlFill.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRisk.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="lblAverageOddsValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 130</value>
+  </data>
+  <data name="lblCurrentRisk.Text" xml:space="preserve">
+    <value>Current Risk:</value>
+  </data>
+  <data name="tlpValues.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;lblAverageOddsValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlFill.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblAvgOdds.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblRaceDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblUnmatchedSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 200</value>
+  </data>
+  <data name="lblRaceDateValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 35</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRisk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCurrentRisk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 25</value>
+  </data>
+  <data name="&gt;&gt;lblTradingState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAverageOddsValue.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="lblPotentialRiskValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 25</value>
+  </data>
+  <data name="lblAverageOddsValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblPotentialRisk.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentRisk.Name" xml:space="preserve">
+    <value>lblCurrentRisk</value>
+  </data>
+  <data name="pnlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 69</value>
+  </data>
+  <data name="&gt;&gt;lblUnmatchedSize.Parent" xml:space="preserve">
+    <value>tlpValues</value>
+  </data>
+  <data name="lblTradingStateValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUnmatchedSizeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblRaceName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAvgOdds.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblTradingState.Text" xml:space="preserve">
+    <value>Trading State:</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>de</value>
+  </metadata>
+</root>

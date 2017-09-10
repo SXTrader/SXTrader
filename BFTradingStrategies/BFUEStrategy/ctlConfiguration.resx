@@ -1,0 +1,2074 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbxActivated.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbxActivated.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="cbxActivated.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 17</value>
+  </data>
+  <data name="cbxActivated.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbxActivated.Text" xml:space="preserve">
+    <value>Strategy activated by default?</value>
+  </data>
+  <data name="&gt;&gt;cbxActivated.Name" xml:space="preserve">
+    <value>cbxActivated</value>
+  </data>
+  <data name="&gt;&gt;cbxActivated.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxActivated.Parent" xml:space="preserve">
+    <value>gbxGeneral</value>
+  </data>
+  <data name="&gt;&gt;cbxActivated.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbxGeneral.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 412</value>
+  </data>
+  <data name="gbxGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 50</value>
+  </data>
+  <data name="gbxGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbxGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;gbxGeneral.Name" xml:space="preserve">
+    <value>gbxGeneral</value>
+  </data>
+  <data name="&gt;&gt;gbxGeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxGeneral.Parent" xml:space="preserve">
+    <value>gbxConfigMain</value>
+  </data>
+  <data name="&gt;&gt;gbxGeneral.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spnDontCloseDrawOdds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 141</value>
+  </data>
+  <data name="spnDontCloseDrawOdds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="spnDontCloseDrawOdds.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;spnDontCloseDrawOdds.Name" xml:space="preserve">
+    <value>spnDontCloseDrawOdds</value>
+  </data>
+  <data name="&gt;&gt;spnDontCloseDrawOdds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnDontCloseDrawOdds.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;spnDontCloseDrawOdds.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblDonCloseOddsDraw.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDonCloseOddsDraw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 145</value>
+  </data>
+  <data name="lblDonCloseOddsDraw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 13</value>
+  </data>
+  <data name="lblDonCloseOddsDraw.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblDonCloseOddsDraw.Text" xml:space="preserve">
+    <value>Don't Close Trade when score is draw and odds lower than</value>
+  </data>
+  <data name="&gt;&gt;lblDonCloseOddsDraw.Name" xml:space="preserve">
+    <value>lblDonCloseOddsDraw</value>
+  </data>
+  <data name="&gt;&gt;lblDonCloseOddsDraw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDonCloseOddsDraw.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;lblDonCloseOddsDraw.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spnDontCloseDraw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 116</value>
+  </data>
+  <data name="spnDontCloseDraw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="spnDontCloseDraw.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;spnDontCloseDraw.Name" xml:space="preserve">
+    <value>spnDontCloseDraw</value>
+  </data>
+  <data name="&gt;&gt;spnDontCloseDraw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnDontCloseDraw.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;spnDontCloseDraw.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblDontCloseDrawPlaytime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDontCloseDrawPlaytime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 120</value>
+  </data>
+  <data name="lblDontCloseDrawPlaytime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 13</value>
+  </data>
+  <data name="lblDontCloseDrawPlaytime.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblDontCloseDrawPlaytime.Text" xml:space="preserve">
+    <value>Don't Close Trade when score is draw and playtime is lower than</value>
+  </data>
+  <data name="&gt;&gt;lblDontCloseDrawPlaytime.Name" xml:space="preserve">
+    <value>lblDontCloseDrawPlaytime</value>
+  </data>
+  <data name="&gt;&gt;lblDontCloseDrawPlaytime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDontCloseDrawPlaytime.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;lblDontCloseDrawPlaytime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSecondesTradeClose.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSecondesTradeClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 95</value>
+  </data>
+  <data name="lblSecondesTradeClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 13</value>
+  </data>
+  <data name="lblSecondesTradeClose.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblSecondesTradeClose.Text" xml:space="preserve">
+    <value>seconds until canceling and rebeting</value>
+  </data>
+  <data name="&gt;&gt;lblSecondesTradeClose.Name" xml:space="preserve">
+    <value>lblSecondesTradeClose</value>
+  </data>
+  <data name="&gt;&gt;lblSecondesTradeClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSecondesTradeClose.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;lblSecondesTradeClose.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="spnTradeCancelSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 91</value>
+  </data>
+  <data name="spnTradeCancelSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="spnTradeCancelSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;spnTradeCancelSeconds.Name" xml:space="preserve">
+    <value>spnTradeCancelSeconds</value>
+  </data>
+  <data name="&gt;&gt;spnTradeCancelSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnTradeCancelSeconds.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;spnTradeCancelSeconds.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblTradeCloseUnmatched.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTradeCloseUnmatched.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 95</value>
+  </data>
+  <data name="lblTradeCloseUnmatched.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 13</value>
+  </data>
+  <data name="lblTradeCloseUnmatched.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblTradeCloseUnmatched.Text" xml:space="preserve">
+    <value>If Trade-Close-Bet  is unmatched wait</value>
+  </data>
+  <data name="&gt;&gt;lblTradeCloseUnmatched.Name" xml:space="preserve">
+    <value>lblTradeCloseUnmatched</value>
+  </data>
+  <data name="&gt;&gt;lblTradeCloseUnmatched.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTradeCloseUnmatched.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;lblTradeCloseUnmatched.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblSecondsRetry.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSecondsRetry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 70</value>
+  </data>
+  <data name="lblSecondsRetry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="lblSecondsRetry.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblSecondsRetry.Text" xml:space="preserve">
+    <value>seconds for retry</value>
+  </data>
+  <data name="&gt;&gt;lblSecondsRetry.Name" xml:space="preserve">
+    <value>lblSecondsRetry</value>
+  </data>
+  <data name="&gt;&gt;lblSecondsRetry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSecondsRetry.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;lblSecondsRetry.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="spnTradeCloseRetry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 66</value>
+  </data>
+  <data name="spnTradeCloseRetry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="spnTradeCloseRetry.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;spnTradeCloseRetry.Name" xml:space="preserve">
+    <value>spnTradeCloseRetry</value>
+  </data>
+  <data name="&gt;&gt;spnTradeCloseRetry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnTradeCloseRetry.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;spnTradeCloseRetry.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblTradeCloseWait.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTradeCloseWait.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 70</value>
+  </data>
+  <data name="lblTradeCloseWait.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 13</value>
+  </data>
+  <data name="lblTradeCloseWait.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblTradeCloseWait.Text" xml:space="preserve">
+    <value>If Trade wasn't  close wait </value>
+  </data>
+  <data name="&gt;&gt;lblTradeCloseWait.Name" xml:space="preserve">
+    <value>lblTradeCloseWait</value>
+  </data>
+  <data name="&gt;&gt;lblTradeCloseWait.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTradeCloseWait.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;lblTradeCloseWait.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblTicks.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTicks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 45</value>
+  </data>
+  <data name="lblTicks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="lblTicks.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblTicks.Text" xml:space="preserve">
+    <value>Ticks form initial Bet</value>
+  </data>
+  <data name="&gt;&gt;lblTicks.Name" xml:space="preserve">
+    <value>lblTicks</value>
+  </data>
+  <data name="&gt;&gt;lblTicks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTicks.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;lblTicks.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="spnTicks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 41</value>
+  </data>
+  <data name="spnTicks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="spnTicks.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;spnTicks.Name" xml:space="preserve">
+    <value>spnTicks</value>
+  </data>
+  <data name="&gt;&gt;spnTicks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnTicks.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;spnTicks.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblDontCloseTrade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDontCloseTrade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 45</value>
+  </data>
+  <data name="lblDontCloseTrade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 13</value>
+  </data>
+  <data name="lblDontCloseTrade.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblDontCloseTrade.Text" xml:space="preserve">
+    <value>Don't close trade if Odds differ minus </value>
+  </data>
+  <data name="&gt;&gt;lblDontCloseTrade.Name" xml:space="preserve">
+    <value>lblDontCloseTrade</value>
+  </data>
+  <data name="&gt;&gt;lblDontCloseTrade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDontCloseTrade.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;lblDontCloseTrade.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblSeconds2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSeconds2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 20</value>
+  </data>
+  <data name="lblSeconds2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="lblSeconds2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblSeconds2.Text" xml:space="preserve">
+    <value>seconds to close trade</value>
+  </data>
+  <data name="&gt;&gt;lblSeconds2.Name" xml:space="preserve">
+    <value>lblSeconds2</value>
+  </data>
+  <data name="&gt;&gt;lblSeconds2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSeconds2.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;lblSeconds2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="spnGoalWaitSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 16</value>
+  </data>
+  <data name="spnGoalWaitSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="spnGoalWaitSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spnGoalWaitSeconds.Name" xml:space="preserve">
+    <value>spnGoalWaitSeconds</value>
+  </data>
+  <data name="&gt;&gt;spnGoalWaitSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnGoalWaitSeconds.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;spnGoalWaitSeconds.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblAfterGoal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAfterGoal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="lblAfterGoal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 13</value>
+  </data>
+  <data name="lblAfterGoal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblAfterGoal.Text" xml:space="preserve">
+    <value>After a goal was scored wait </value>
+  </data>
+  <data name="&gt;&gt;lblAfterGoal.Name" xml:space="preserve">
+    <value>lblAfterGoal</value>
+  </data>
+  <data name="&gt;&gt;lblAfterGoal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAfterGoal.Parent" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;lblAfterGoal.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="gbxGoalScored.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxGoalScored.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 239</value>
+  </data>
+  <data name="gbxGoalScored.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 173</value>
+  </data>
+  <data name="gbxGoalScored.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbxGoalScored.Text" xml:space="preserve">
+    <value>Goal Scored</value>
+  </data>
+  <data name="&gt;&gt;gbxGoalScored.Name" xml:space="preserve">
+    <value>gbxGoalScored</value>
+  </data>
+  <data name="&gt;&gt;gbxGoalScored.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxGoalScored.Parent" xml:space="preserve">
+    <value>gbxConfigMain</value>
+  </data>
+  <data name="&gt;&gt;gbxGoalScored.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spnNoStoppLossOdds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 88</value>
+  </data>
+  <data name="spnNoStoppLossOdds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="spnNoStoppLossOdds.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;spnNoStoppLossOdds.Name" xml:space="preserve">
+    <value>spnNoStoppLossOdds</value>
+  </data>
+  <data name="&gt;&gt;spnNoStoppLossOdds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnNoStoppLossOdds.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;spnNoStoppLossOdds.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblNoStopLossOdds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoStopLossOdds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 92</value>
+  </data>
+  <data name="lblNoStopLossOdds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 13</value>
+  </data>
+  <data name="lblNoStopLossOdds.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblNoStopLossOdds.Text" xml:space="preserve">
+    <value>No Stopp/Loss if odds are below </value>
+  </data>
+  <data name="&gt;&gt;lblNoStopLossOdds.Name" xml:space="preserve">
+    <value>lblNoStopLossOdds</value>
+  </data>
+  <data name="&gt;&gt;lblNoStopLossOdds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoStopLossOdds.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;lblNoStopLossOdds.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 15</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gbxSL00SLDecission</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spnSL00SLBetPercent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 11</value>
+  </data>
+  <data name="spnSL00SLBetPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="spnSL00SLBetPercent.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;spnSL00SLBetPercent.Name" xml:space="preserve">
+    <value>spnSL00SLBetPercent</value>
+  </data>
+  <data name="&gt;&gt;spnSL00SLBetPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnSL00SLBetPercent.Parent" xml:space="preserve">
+    <value>gbxSL00SLDecission</value>
+  </data>
+  <data name="&gt;&gt;spnSL00SLBetPercent.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbnSL00StopLoss.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnSL00StopLoss.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="rbnSL00StopLoss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 17</value>
+  </data>
+  <data name="rbnSL00StopLoss.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbnSL00StopLoss.Text" xml:space="preserve">
+    <value>Place Stop/Loss for </value>
+  </data>
+  <data name="&gt;&gt;rbnSL00StopLoss.Name" xml:space="preserve">
+    <value>rbnSL00StopLoss</value>
+  </data>
+  <data name="&gt;&gt;rbnSL00StopLoss.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnSL00StopLoss.Parent" xml:space="preserve">
+    <value>gbxSL00SLDecission</value>
+  </data>
+  <data name="&gt;&gt;rbnSL00StopLoss.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbnSL00NoStopLoss.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnSL00NoStopLoss.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 13</value>
+  </data>
+  <data name="rbnSL00NoStopLoss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 17</value>
+  </data>
+  <data name="rbnSL00NoStopLoss.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbnSL00NoStopLoss.Text" xml:space="preserve">
+    <value>No Stop/Loss</value>
+  </data>
+  <data name="&gt;&gt;rbnSL00NoStopLoss.Name" xml:space="preserve">
+    <value>rbnSL00NoStopLoss</value>
+  </data>
+  <data name="&gt;&gt;rbnSL00NoStopLoss.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnSL00NoStopLoss.Parent" xml:space="preserve">
+    <value>gbxSL00SLDecission</value>
+  </data>
+  <data name="&gt;&gt;rbnSL00NoStopLoss.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbxSL00SLDecission.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 57</value>
+  </data>
+  <data name="gbxSL00SLDecission.Size" type="System.Drawing.Size, System.Drawing">
+    <value>499, 43</value>
+  </data>
+  <data name="gbxSL00SLDecission.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gbxSL00SLDecission.Name" xml:space="preserve">
+    <value>gbxSL00SLDecission</value>
+  </data>
+  <data name="&gt;&gt;gbxSL00SLDecission.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxSL00SLDecission.Parent" xml:space="preserve">
+    <value>gbxScoreline00</value>
+  </data>
+  <data name="&gt;&gt;gbxSL00SLDecission.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPercent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPercent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 36</value>
+  </data>
+  <data name="lblPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="lblPercent.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblPercent.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;lblPercent.Name" xml:space="preserve">
+    <value>lblPercent</value>
+  </data>
+  <data name="&gt;&gt;lblPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPercent.Parent" xml:space="preserve">
+    <value>gbxScoreline00</value>
+  </data>
+  <data name="&gt;&gt;lblPercent.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spnSL00SLPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 35</value>
+  </data>
+  <data name="spnSL00SLPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="spnSL00SLPercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spnSL00SLPercentage.Name" xml:space="preserve">
+    <value>spnSL00SLPercentage</value>
+  </data>
+  <data name="&gt;&gt;spnSL00SLPercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnSL00SLPercentage.Parent" xml:space="preserve">
+    <value>gbxScoreline00</value>
+  </data>
+  <data name="&gt;&gt;spnSL00SLPercentage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkScoreline00.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkScoreline00.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="chkScoreline00.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 30</value>
+  </data>
+  <data name="chkScoreline00.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkScoreline00.Text" xml:space="preserve">
+    <value>If Score is 0 - 0 and there's a Scoreline Trade and the Win on the 0 - 0 Market compared to
+ the Loss on Draw Market is</value>
+  </data>
+  <data name="&gt;&gt;chkScoreline00.Name" xml:space="preserve">
+    <value>chkScoreline00</value>
+  </data>
+  <data name="&gt;&gt;chkScoreline00.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkScoreline00.Parent" xml:space="preserve">
+    <value>gbxScoreline00</value>
+  </data>
+  <data name="&gt;&gt;chkScoreline00.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbxScoreline00.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 112</value>
+  </data>
+  <data name="gbxScoreline00.Size" type="System.Drawing.Size, System.Drawing">
+    <value>512, 105</value>
+  </data>
+  <data name="gbxScoreline00.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gbxScoreline00.Text" xml:space="preserve">
+    <value>Scoreline 0 - 0</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreline00.Name" xml:space="preserve">
+    <value>gbxScoreline00</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreline00.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreline00.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreline00.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblPercentStopLoss.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPercentStopLoss.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 44</value>
+  </data>
+  <data name="lblPercentStopLoss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="lblPercentStopLoss.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblPercentStopLoss.Text" xml:space="preserve">
+    <value>% of initial Bet</value>
+  </data>
+  <data name="&gt;&gt;lblPercentStopLoss.Name" xml:space="preserve">
+    <value>lblPercentStopLoss</value>
+  </data>
+  <data name="&gt;&gt;lblPercentStopLoss.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPercentStopLoss.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;lblPercentStopLoss.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSeconds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 68</value>
+  </data>
+  <data name="lblSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="lblSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblSeconds.Text" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="&gt;&gt;lblSeconds.Name" xml:space="preserve">
+    <value>lblSeconds</value>
+  </data>
+  <data name="&gt;&gt;lblSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSeconds.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;lblSeconds.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="spnSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 64</value>
+  </data>
+  <data name="spnSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="spnSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;spnSeconds.Name" xml:space="preserve">
+    <value>spnSeconds</value>
+  </data>
+  <data name="&gt;&gt;spnSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnSeconds.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;spnSeconds.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblCheckExitOdds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCheckExitOdds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 68</value>
+  </data>
+  <data name="lblCheckExitOdds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="lblCheckExitOdds.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblCheckExitOdds.Text" xml:space="preserve">
+    <value>Check Exitodds every </value>
+  </data>
+  <data name="&gt;&gt;lblCheckExitOdds.Name" xml:space="preserve">
+    <value>lblCheckExitOdds</value>
+  </data>
+  <data name="&gt;&gt;lblCheckExitOdds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCheckExitOdds.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;lblCheckExitOdds.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="spnOdds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="spnOdds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 40</value>
+  </data>
+  <data name="spnOdds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="spnOdds.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;spnOdds.Name" xml:space="preserve">
+    <value>spnOdds</value>
+  </data>
+  <data name="&gt;&gt;spnOdds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnOdds.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;spnOdds.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblCloseTrade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCloseTrade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 44</value>
+  </data>
+  <data name="lblCloseTrade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 13</value>
+  </data>
+  <data name="lblCloseTrade.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblCloseTrade.Text" xml:space="preserve">
+    <value>Stopp/Loss when Odds are lower than</value>
+  </data>
+  <data name="&gt;&gt;lblCloseTrade.Name" xml:space="preserve">
+    <value>lblCloseTrade</value>
+  </data>
+  <data name="&gt;&gt;lblCloseTrade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCloseTrade.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;lblCloseTrade.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblPlaytimeMinute.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlaytimeMinute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 20</value>
+  </data>
+  <data name="lblPlaytimeMinute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <data name="lblPlaytimeMinute.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblPlaytimeMinute.Text" xml:space="preserve">
+    <value>Minute of Playtime</value>
+  </data>
+  <data name="&gt;&gt;lblPlaytimeMinute.Name" xml:space="preserve">
+    <value>lblPlaytimeMinute</value>
+  </data>
+  <data name="&gt;&gt;lblPlaytimeMinute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlaytimeMinute.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;lblPlaytimeMinute.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="spnPlaytime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="spnPlaytime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 16</value>
+  </data>
+  <data name="spnPlaytime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="spnPlaytime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytime.Name" xml:space="preserve">
+    <value>spnPlaytime</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytime.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytime.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblExit1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblExit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="lblExit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="lblExit1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblExit1.Text" xml:space="preserve">
+    <value>Activate Stopp/Loss after</value>
+  </data>
+  <data name="&gt;&gt;lblExit1.Name" xml:space="preserve">
+    <value>lblExit1</value>
+  </data>
+  <data name="&gt;&gt;lblExit1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExit1.Parent" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;lblExit1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="gbxExitConfig.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxExitConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="gbxExitConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 223</value>
+  </data>
+  <data name="gbxExitConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxExitConfig.Text" xml:space="preserve">
+    <value>Stopp/Loss</value>
+  </data>
+  <data name="&gt;&gt;gbxExitConfig.Name" xml:space="preserve">
+    <value>gbxExitConfig</value>
+  </data>
+  <data name="&gt;&gt;gbxExitConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxExitConfig.Parent" xml:space="preserve">
+    <value>gbxConfigMain</value>
+  </data>
+  <data name="&gt;&gt;gbxExitConfig.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbxConfigMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxConfigMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="gbxConfigMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 468</value>
+  </data>
+  <data name="gbxConfigMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbxConfigMain.Text" xml:space="preserve">
+    <value>Configuration Lay The Draw</value>
+  </data>
+  <data name="&gt;&gt;gbxConfigMain.Name" xml:space="preserve">
+    <value>gbxConfigMain</value>
+  </data>
+  <data name="&gt;&gt;gbxConfigMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxConfigMain.Parent" xml:space="preserve">
+    <value>tbpConfig</value>
+  </data>
+  <data name="&gt;&gt;gbxConfigMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbpConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tbpConfig.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tbpConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 474</value>
+  </data>
+  <data name="tbpConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbpConfig.Text" xml:space="preserve">
+    <value>Game Behavior</value>
+  </data>
+  <data name="&gt;&gt;tbpConfig.Name" xml:space="preserve">
+    <value>tbpConfig</value>
+  </data>
+  <data name="&gt;&gt;tbpConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbpConfig.Parent" xml:space="preserve">
+    <value>tbcConfiguration</value>
+  </data>
+  <data name="&gt;&gt;tbpConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbnFastBetCancelUnmatched.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnFastBetCancelUnmatched.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 44</value>
+  </data>
+  <data name="rbnFastBetCancelUnmatched.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="rbnFastBetCancelUnmatched.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rbnFastBetCancelUnmatched.Text" xml:space="preserve">
+    <value>Cancel Bet</value>
+  </data>
+  <data name="&gt;&gt;rbnFastBetCancelUnmatched.Name" xml:space="preserve">
+    <value>rbnFastBetCancelUnmatched</value>
+  </data>
+  <data name="&gt;&gt;rbnFastBetCancelUnmatched.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnFastBetCancelUnmatched.Parent" xml:space="preserve">
+    <value>gbxFastBetUnmatchBehaviour</value>
+  </data>
+  <data name="&gt;&gt;rbnFastBetCancelUnmatched.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblFastBetWaitSeconds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFastBetWaitSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="lblFastBetWaitSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblFastBetWaitSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblFastBetWaitSeconds.Text" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="&gt;&gt;lblFastBetWaitSeconds.Name" xml:space="preserve">
+    <value>lblFastBetWaitSeconds</value>
+  </data>
+  <data name="&gt;&gt;lblFastBetWaitSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFastBetWaitSeconds.Parent" xml:space="preserve">
+    <value>gbxFastBetUnmatchBehaviour</value>
+  </data>
+  <data name="&gt;&gt;lblFastBetWaitSeconds.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spnFastBetUnmatchedWaitSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 18</value>
+  </data>
+  <data name="spnFastBetUnmatchedWaitSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="spnFastBetUnmatchedWaitSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetUnmatchedWaitSeconds.Name" xml:space="preserve">
+    <value>spnFastBetUnmatchedWaitSeconds</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetUnmatchedWaitSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetUnmatchedWaitSeconds.Parent" xml:space="preserve">
+    <value>gbxFastBetUnmatchBehaviour</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetUnmatchedWaitSeconds.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbnFastBetUnmatchedWait.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnFastBetUnmatchedWait.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="rbnFastBetUnmatchedWait.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="rbnFastBetUnmatchedWait.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbnFastBetUnmatchedWait.Text" xml:space="preserve">
+    <value>Wait</value>
+  </data>
+  <data name="&gt;&gt;rbnFastBetUnmatchedWait.Name" xml:space="preserve">
+    <value>rbnFastBetUnmatchedWait</value>
+  </data>
+  <data name="&gt;&gt;rbnFastBetUnmatchedWait.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnFastBetUnmatchedWait.Parent" xml:space="preserve">
+    <value>gbxFastBetUnmatchBehaviour</value>
+  </data>
+  <data name="&gt;&gt;rbnFastBetUnmatchedWait.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbxFastBetUnmatchBehaviour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 161</value>
+  </data>
+  <data name="gbxFastBetUnmatchBehaviour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 100</value>
+  </data>
+  <data name="gbxFastBetUnmatchBehaviour.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbxFastBetUnmatchBehaviour.Text" xml:space="preserve">
+    <value>Unmatched/Partly matched behaviour</value>
+  </data>
+  <data name="&gt;&gt;gbxFastBetUnmatchBehaviour.Name" xml:space="preserve">
+    <value>gbxFastBetUnmatchBehaviour</value>
+  </data>
+  <data name="&gt;&gt;gbxFastBetUnmatchBehaviour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxFastBetUnmatchBehaviour.Parent" xml:space="preserve">
+    <value>tbpFastLay</value>
+  </data>
+  <data name="&gt;&gt;gbxFastBetUnmatchBehaviour.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbnPercentageAvailibleAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnPercentageAvailibleAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 44</value>
+  </data>
+  <data name="rbnPercentageAvailibleAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="rbnPercentageAvailibleAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbnPercentageAvailibleAmount.Text" xml:space="preserve">
+    <value>Available Amount</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentageAvailibleAmount.Name" xml:space="preserve">
+    <value>rbnPercentageAvailibleAmount</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentageAvailibleAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentageAvailibleAmount.Parent" xml:space="preserve">
+    <value>gbxPercentageRef</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentageAvailibleAmount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbnPercentageTotalAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnPercentageTotalAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="rbnPercentageTotalAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="rbnPercentageTotalAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbnPercentageTotalAmount.Text" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentageTotalAmount.Name" xml:space="preserve">
+    <value>rbnPercentageTotalAmount</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentageTotalAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentageTotalAmount.Parent" xml:space="preserve">
+    <value>gbxPercentageRef</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentageTotalAmount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbxPercentageRef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 68</value>
+  </data>
+  <data name="gbxPercentageRef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>505, 72</value>
+  </data>
+  <data name="gbxPercentageRef.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;gbxPercentageRef.Name" xml:space="preserve">
+    <value>gbxPercentageRef</value>
+  </data>
+  <data name="&gt;&gt;gbxPercentageRef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxPercentageRef.Parent" xml:space="preserve">
+    <value>gbxBetAmount</value>
+  </data>
+  <data name="&gt;&gt;gbxPercentageRef.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPercentOf.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPercentOf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 46</value>
+  </data>
+  <data name="lblPercentOf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lblPercentOf.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblPercentOf.Text" xml:space="preserve">
+    <value>% of</value>
+  </data>
+  <data name="&gt;&gt;lblPercentOf.Name" xml:space="preserve">
+    <value>lblPercentOf</value>
+  </data>
+  <data name="&gt;&gt;lblPercentOf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPercentOf.Parent" xml:space="preserve">
+    <value>gbxBetAmount</value>
+  </data>
+  <data name="&gt;&gt;lblPercentOf.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spnFastBetPercentValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 42</value>
+  </data>
+  <data name="spnFastBetPercentValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="spnFastBetPercentValue.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetPercentValue.Name" xml:space="preserve">
+    <value>spnFastBetPercentValue</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetPercentValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetPercentValue.Parent" xml:space="preserve">
+    <value>gbxBetAmount</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetPercentValue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbnPercentBetAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnPercentBetAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 44</value>
+  </data>
+  <data name="rbnPercentBetAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="rbnPercentBetAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rbnPercentBetAmount.Text" xml:space="preserve">
+    <value>Always bet</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentBetAmount.Name" xml:space="preserve">
+    <value>rbnPercentBetAmount</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentBetAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentBetAmount.Parent" xml:space="preserve">
+    <value>gbxBetAmount</value>
+  </data>
+  <data name="&gt;&gt;rbnPercentBetAmount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFastBetCurrency.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFastBetCurrency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="lblFastBetCurrency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lblFastBetCurrency.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblFastBetCurrency.Text" xml:space="preserve">
+    <value>&lt;Currency&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblFastBetCurrency.Name" xml:space="preserve">
+    <value>lblFastBetCurrency</value>
+  </data>
+  <data name="&gt;&gt;lblFastBetCurrency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFastBetCurrency.Parent" xml:space="preserve">
+    <value>gbxBetAmount</value>
+  </data>
+  <data name="&gt;&gt;lblFastBetCurrency.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="spnFastBetFixedValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 18</value>
+  </data>
+  <data name="spnFastBetFixedValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="spnFastBetFixedValue.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetFixedValue.Name" xml:space="preserve">
+    <value>spnFastBetFixedValue</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetFixedValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetFixedValue.Parent" xml:space="preserve">
+    <value>gbxBetAmount</value>
+  </data>
+  <data name="&gt;&gt;spnFastBetFixedValue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rbnFixedBetAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnFixedBetAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="rbnFixedBetAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="rbnFixedBetAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbnFixedBetAmount.Text" xml:space="preserve">
+    <value>Always bet </value>
+  </data>
+  <data name="&gt;&gt;rbnFixedBetAmount.Name" xml:space="preserve">
+    <value>rbnFixedBetAmount</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedBetAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedBetAmount.Parent" xml:space="preserve">
+    <value>gbxBetAmount</value>
+  </data>
+  <data name="&gt;&gt;rbnFixedBetAmount.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gbxBetAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="gbxBetAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 150</value>
+  </data>
+  <data name="gbxBetAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxBetAmount.Text" xml:space="preserve">
+    <value>Bet Amount</value>
+  </data>
+  <data name="&gt;&gt;gbxBetAmount.Name" xml:space="preserve">
+    <value>gbxBetAmount</value>
+  </data>
+  <data name="&gt;&gt;gbxBetAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxBetAmount.Parent" xml:space="preserve">
+    <value>tbpFastLay</value>
+  </data>
+  <data name="&gt;&gt;gbxBetAmount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbpFastLay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tbpFastLay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 474</value>
+  </data>
+  <data name="tbpFastLay.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tbpFastLay.Text" xml:space="preserve">
+    <value>Fast Lay</value>
+  </data>
+  <data name="&gt;&gt;tbpFastLay.Name" xml:space="preserve">
+    <value>tbpFastLay</value>
+  </data>
+  <data name="&gt;&gt;tbpFastLay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbpFastLay.Parent" xml:space="preserve">
+    <value>tbcConfiguration</value>
+  </data>
+  <data name="&gt;&gt;tbpFastLay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnTradingChanged.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 40</value>
+  </data>
+  <data name="btnTradingChanged.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnTradingChanged.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnTradingChanged.Text" xml:space="preserve">
+    <value>&amp;Browse...</value>
+  </data>
+  <data name="&gt;&gt;btnTradingChanged.Name" xml:space="preserve">
+    <value>btnTradingChanged</value>
+  </data>
+  <data name="&gt;&gt;btnTradingChanged.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTradingChanged.Parent" xml:space="preserve">
+    <value>gbxTradingChanged</value>
+  </data>
+  <data name="&gt;&gt;btnTradingChanged.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTradingChanged.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="txtTradingChanged.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 20</value>
+  </data>
+  <data name="txtTradingChanged.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtTradingChanged.Name" xml:space="preserve">
+    <value>txtTradingChanged</value>
+  </data>
+  <data name="&gt;&gt;txtTradingChanged.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTradingChanged.Parent" xml:space="preserve">
+    <value>gbxTradingChanged</value>
+  </data>
+  <data name="&gt;&gt;txtTradingChanged.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbxPlayTradingChanged.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxPlayTradingChanged.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="cbxPlayTradingChanged.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="cbxPlayTradingChanged.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cbxPlayTradingChanged.Text" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayTradingChanged.Name" xml:space="preserve">
+    <value>cbxPlayTradingChanged</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayTradingChanged.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayTradingChanged.Parent" xml:space="preserve">
+    <value>gbxTradingChanged</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayTradingChanged.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbxTradingChanged.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxTradingChanged.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 227</value>
+  </data>
+  <data name="gbxTradingChanged.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 69</value>
+  </data>
+  <data name="gbxTradingChanged.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gbxTradingChanged.Text" xml:space="preserve">
+    <value>Trading Changed</value>
+  </data>
+  <data name="&gt;&gt;gbxTradingChanged.Name" xml:space="preserve">
+    <value>gbxTradingChanged</value>
+  </data>
+  <data name="&gt;&gt;gbxTradingChanged.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxTradingChanged.Parent" xml:space="preserve">
+    <value>tbpSound</value>
+  </data>
+  <data name="&gt;&gt;gbxTradingChanged.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnScoreChanged.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 40</value>
+  </data>
+  <data name="btnScoreChanged.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnScoreChanged.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnScoreChanged.Text" xml:space="preserve">
+    <value>&amp;Browse...</value>
+  </data>
+  <data name="&gt;&gt;btnScoreChanged.Name" xml:space="preserve">
+    <value>btnScoreChanged</value>
+  </data>
+  <data name="&gt;&gt;btnScoreChanged.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScoreChanged.Parent" xml:space="preserve">
+    <value>gbxScoreChanged</value>
+  </data>
+  <data name="&gt;&gt;btnScoreChanged.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtScoreChanged.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="txtScoreChanged.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 20</value>
+  </data>
+  <data name="txtScoreChanged.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtScoreChanged.Name" xml:space="preserve">
+    <value>txtScoreChanged</value>
+  </data>
+  <data name="&gt;&gt;txtScoreChanged.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScoreChanged.Parent" xml:space="preserve">
+    <value>gbxScoreChanged</value>
+  </data>
+  <data name="&gt;&gt;txtScoreChanged.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbxPlayScoreChanged.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxPlayScoreChanged.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="cbxPlayScoreChanged.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="cbxPlayScoreChanged.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cbxPlayScoreChanged.Text" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayScoreChanged.Name" xml:space="preserve">
+    <value>cbxPlayScoreChanged</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayScoreChanged.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayScoreChanged.Parent" xml:space="preserve">
+    <value>gbxScoreChanged</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayScoreChanged.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbxScoreChanged.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxScoreChanged.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 158</value>
+  </data>
+  <data name="gbxScoreChanged.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 69</value>
+  </data>
+  <data name="gbxScoreChanged.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gbxScoreChanged.Text" xml:space="preserve">
+    <value>Score Changed</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreChanged.Name" xml:space="preserve">
+    <value>gbxScoreChanged</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreChanged.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreChanged.Parent" xml:space="preserve">
+    <value>tbpSound</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreChanged.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGameEnded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 40</value>
+  </data>
+  <data name="btnGameEnded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnGameEnded.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnGameEnded.Text" xml:space="preserve">
+    <value>&amp;Browse...</value>
+  </data>
+  <data name="&gt;&gt;btnGameEnded.Name" xml:space="preserve">
+    <value>btnGameEnded</value>
+  </data>
+  <data name="&gt;&gt;btnGameEnded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGameEnded.Parent" xml:space="preserve">
+    <value>gbxGameEnded</value>
+  </data>
+  <data name="&gt;&gt;btnGameEnded.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtGameEnded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="txtGameEnded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 20</value>
+  </data>
+  <data name="txtGameEnded.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtGameEnded.Name" xml:space="preserve">
+    <value>txtGameEnded</value>
+  </data>
+  <data name="&gt;&gt;txtGameEnded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGameEnded.Parent" xml:space="preserve">
+    <value>gbxGameEnded</value>
+  </data>
+  <data name="&gt;&gt;txtGameEnded.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbxPlayGameEnded.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxPlayGameEnded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="cbxPlayGameEnded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="cbxPlayGameEnded.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cbxPlayGameEnded.Text" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayGameEnded.Name" xml:space="preserve">
+    <value>cbxPlayGameEnded</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayGameEnded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayGameEnded.Parent" xml:space="preserve">
+    <value>gbxGameEnded</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayGameEnded.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbxGameEnded.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxGameEnded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 89</value>
+  </data>
+  <data name="gbxGameEnded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 69</value>
+  </data>
+  <data name="gbxGameEnded.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gbxGameEnded.Text" xml:space="preserve">
+    <value>Game Ended</value>
+  </data>
+  <data name="&gt;&gt;gbxGameEnded.Name" xml:space="preserve">
+    <value>gbxGameEnded</value>
+  </data>
+  <data name="&gt;&gt;gbxGameEnded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxGameEnded.Parent" xml:space="preserve">
+    <value>tbpSound</value>
+  </data>
+  <data name="&gt;&gt;gbxGameEnded.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnMatchAdded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 40</value>
+  </data>
+  <data name="btnMatchAdded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnMatchAdded.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnMatchAdded.Text" xml:space="preserve">
+    <value>&amp;Browse...</value>
+  </data>
+  <data name="&gt;&gt;btnMatchAdded.Name" xml:space="preserve">
+    <value>btnMatchAdded</value>
+  </data>
+  <data name="&gt;&gt;btnMatchAdded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMatchAdded.Parent" xml:space="preserve">
+    <value>gbxMatchAdded</value>
+  </data>
+  <data name="&gt;&gt;btnMatchAdded.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtMatchAdded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="txtMatchAdded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 20</value>
+  </data>
+  <data name="txtMatchAdded.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtMatchAdded.Name" xml:space="preserve">
+    <value>txtMatchAdded</value>
+  </data>
+  <data name="&gt;&gt;txtMatchAdded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMatchAdded.Parent" xml:space="preserve">
+    <value>gbxMatchAdded</value>
+  </data>
+  <data name="&gt;&gt;txtMatchAdded.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbxPlayMatchAdded.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxPlayMatchAdded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="cbxPlayMatchAdded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="cbxPlayMatchAdded.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbxPlayMatchAdded.Text" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayMatchAdded.Name" xml:space="preserve">
+    <value>cbxPlayMatchAdded</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayMatchAdded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayMatchAdded.Parent" xml:space="preserve">
+    <value>gbxMatchAdded</value>
+  </data>
+  <data name="&gt;&gt;cbxPlayMatchAdded.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbxMatchAdded.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxMatchAdded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="gbxMatchAdded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 69</value>
+  </data>
+  <data name="gbxMatchAdded.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbxMatchAdded.Text" xml:space="preserve">
+    <value>MatchAdded</value>
+  </data>
+  <data name="&gt;&gt;gbxMatchAdded.Name" xml:space="preserve">
+    <value>gbxMatchAdded</value>
+  </data>
+  <data name="&gt;&gt;gbxMatchAdded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxMatchAdded.Parent" xml:space="preserve">
+    <value>tbpSound</value>
+  </data>
+  <data name="&gt;&gt;gbxMatchAdded.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbxPlaySounds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxPlaySounds.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="cbxPlaySounds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="cbxPlaySounds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 17</value>
+  </data>
+  <data name="cbxPlaySounds.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbxPlaySounds.Text" xml:space="preserve">
+    <value>Play Sounds</value>
+  </data>
+  <data name="&gt;&gt;cbxPlaySounds.Name" xml:space="preserve">
+    <value>cbxPlaySounds</value>
+  </data>
+  <data name="&gt;&gt;cbxPlaySounds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxPlaySounds.Parent" xml:space="preserve">
+    <value>tbpSound</value>
+  </data>
+  <data name="&gt;&gt;cbxPlaySounds.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbpSound.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tbpSound.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tbpSound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 474</value>
+  </data>
+  <data name="tbpSound.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbpSound.Text" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="&gt;&gt;tbpSound.Name" xml:space="preserve">
+    <value>tbpSound</value>
+  </data>
+  <data name="&gt;&gt;tbpSound.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbpSound.Parent" xml:space="preserve">
+    <value>tbcConfiguration</value>
+  </data>
+  <data name="&gt;&gt;tbpSound.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbcConfiguration.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tbcConfiguration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tbcConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 500</value>
+  </data>
+  <data name="tbcConfiguration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbcConfiguration.Name" xml:space="preserve">
+    <value>tbcConfiguration</value>
+  </data>
+  <data name="&gt;&gt;tbcConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbcConfiguration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbcConfiguration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 500</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ctlConfiguration</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

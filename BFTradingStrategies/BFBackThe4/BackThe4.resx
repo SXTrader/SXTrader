@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strAddLivescore" xml:space="preserve">
+    <value>Add Livescore</value>
+  </data>
+  <data name="strBackThe4" xml:space="preserve">
+    <value>Back The 4</value>
+  </data>
+  <data name="strBackThe4Descr" xml:space="preserve">
+    <value>Back the Total Goals of 4  and Lay it after a goal was scored</value>
+  </data>
+  <data name="strBrowse" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="strCancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="strCloseTradeBehavior" xml:space="preserve">
+    <value>Close Trade Behavior</value>
+  </data>
+  <data name="strConfigBT4" xml:space="preserve">
+    <value>Configuration Back The 4</value>
+  </data>
+  <data name="strDefaultActivation" xml:space="preserve">
+    <value>Strategy activated by default?</value>
+  </data>
+  <data name="strDontClose" xml:space="preserve">
+    <value>% don't close trade</value>
+  </data>
+  <data name="strEndBackOdds" xml:space="preserve">
+    <value>times of average Back-Odds</value>
+  </data>
+  <data name="strFileGameEndedSound" xml:space="preserve">
+    <value>FileGameEndedSound</value>
+  </data>
+  <data name="strFileMatchAddedSound" xml:space="preserve">
+    <value>FileMatchAddedSound</value>
+  </data>
+  <data name="strFileScoreChangedSound" xml:space="preserve">
+    <value>FileScoreChangedSound</value>
+  </data>
+  <data name="strFileTradingChangedSound" xml:space="preserve">
+    <value>FileTradingChangedSound</value>
+  </data>
+  <data name="strFQBackThe4" xml:space="preserve">
+    <value>Soccer/Back The 4</value>
+  </data>
+  <data name="strGameEnded" xml:space="preserve">
+    <value>Game Ended</value>
+  </data>
+  <data name="strGoals" xml:space="preserve">
+    <value>Goals</value>
+  </data>
+  <data name="strIsntCompleted" xml:space="preserve">
+    <value>minutes if trade isn't completed</value>
+  </data>
+  <data name="strLocalConfig" xml:space="preserve">
+    <value>Local Configuration for Single Match</value>
+  </data>
+  <data name="strLowerThan" xml:space="preserve">
+    <value>but lower than</value>
+  </data>
+  <data name="strMatchAdded" xml:space="preserve">
+    <value>Match Added</value>
+  </data>
+  <data name="strMinutesOfPlaytime" xml:space="preserve">
+    <value>minutes of playtime</value>
+  </data>
+  <data name="strModule" xml:space="preserve">
+    <value>Back The 4</value>
+  </data>
+  <data name="strNoParameter" xml:space="preserve">
+    <value>No Parameter was provided in Module {0}</value>
+  </data>
+  <data name="strNoProfit" xml:space="preserve">
+    <value>Close trade even if there's no profit</value>
+  </data>
+  <data name="strOK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="strPlaceBet" xml:space="preserve">
+    <value>Place Lay-Bet for Market {0} with Odds {1} for {2} €</value>
+  </data>
+  <data name="strPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="strPlayGameEndedSound" xml:space="preserve">
+    <value>PlayMatchEndedSound</value>
+  </data>
+  <data name="strPlayMatchAddedSound" xml:space="preserve">
+    <value>PlayMatchAddedSound</value>
+  </data>
+  <data name="strPlayScoreChangedSound" xml:space="preserve">
+    <value>PlayScoreChangedSound</value>
+  </data>
+  <data name="strPlaySounds" xml:space="preserve">
+    <value>Play Sounds</value>
+  </data>
+  <data name="strPlaySoundsText" xml:space="preserve">
+    <value>Play Sounds</value>
+  </data>
+  <data name="strPlaytimeMinute" xml:space="preserve">
+    <value>Minutes of Playtime</value>
+  </data>
+  <data name="strPlayTradingChangedSound" xml:space="preserve">
+    <value>PlayTradingChangedSound</value>
+  </data>
+  <data name="strPluginActivated" xml:space="preserve">
+    <value>Plugin {0} was activated</value>
+  </data>
+  <data name="strPluginDeactivated" xml:space="preserve">
+    <value>Plugin {0} was deactivated</value>
+  </data>
+  <data name="strPluginLoaded" xml:space="preserve">
+    <value>Plugin {0} loaded</value>
+  </data>
+  <data name="strProfitLower" xml:space="preserve">
+    <value>If profit is lower than</value>
+  </data>
+  <data name="strRestartTrade" xml:space="preserve">
+    <value>Restart trade after</value>
+  </data>
+  <data name="strScoreChanged" xml:space="preserve">
+    <value>Score Changed</value>
+  </data>
+  <data name="strSecondsBefore" xml:space="preserve">
+    <value>seconds before starting trade</value>
+  </data>
+  <data name="strSound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="strStartClose" xml:space="preserve">
+    <value>Start Close-Trade after</value>
+  </data>
+  <data name="strStartStopLoss" xml:space="preserve">
+    <value>Start Stop/Loss after</value>
+  </data>
+  <data name="strStopLossBehavior" xml:space="preserve">
+    <value>Stop/Loss Behavior</value>
+  </data>
+  <data name="strStopLossOdds" xml:space="preserve">
+    <value>Start Stop/Loss-Trade when Lay-Odds are</value>
+  </data>
+  <data name="strStrategyControl" xml:space="preserve">
+    <value>Strategy Controlling</value>
+  </data>
+  <data name="strTimes" xml:space="preserve">
+    <value>times of average Back-Odds</value>
+  </data>
+  <data name="strTradingChanged" xml:space="preserve">
+    <value>Trading Changed</value>
+  </data>
+  <data name="strWait" xml:space="preserve">
+    <value>Wait</value>
+  </data>
+  <data name="strWrongParameterCount" xml:space="preserve">
+    <value>Too many or too less parameters provided in Module {0}</value>
+  </data>
+  <data name="strWrongParameterType" xml:space="preserve">
+    <value>Parameter {0}: Wrong Parametertype. Expected Parametertype {1}</value>
+  </data>
+  <data name="strLivescore1" xml:space="preserve">
+    <value>Livescore 1</value>
+  </data>
+  <data name="strLivescore2" xml:space="preserve">
+    <value>Livescore 2</value>
+  </data>
+  <data name="strNoLivescore" xml:space="preserve">
+    <value>No Livescore</value>
+  </data>
+</root>

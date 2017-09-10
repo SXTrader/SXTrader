@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A169EE87-6AC4-4D24-9DFC-4EC7A0C18EBD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>net.sxtrader.bftradingstrategies.BFLTDScratch</RootNamespace>
+    <AssemblyName>BFLTDScratch</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Relase 64Bit|AnyCPU' ">
+    <OutputPath>..\Relase64Bit\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BFLTDScratchAutoSelector.cs" />
+    <Compile Include="BFLTDScratchStrategy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BetFairIF\BetFairIF.csproj">
+      <Project>{B08014C4-2E3A-4879-A44E-70F5A3309D83}</Project>
+      <Name>BetFairIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LiveScoreParser\LiveScoreParser.csproj">
+      <Project>{B23844E2-09DF-4CF3-866B-4DC7E1A76A84}</Project>
+      <Name>LiveScoreParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSParserInterfaces\LSParserInterfaces.csproj">
+      <Project>{4E60BC29-BA92-4D93-B880-145F9D84BCE4}</Project>
+      <Name>LSParserInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlugInIF\PlugInIF.csproj">
+      <Project>{62850BCF-339F-47F2-934A-D3592EA87B76}</Project>
+      <Name>PlugInIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXFastBet\SXFastBet.csproj">
+      <Project>{4B277CA4-28BC-40DE-84CC-60E747E7A27C}</Project>
+      <Name>SXFastBet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXHelper\SXHelper.csproj">
+      <Project>{C30454F3-F2E6-422F-9A6D-68A285E3CB93}</Project>
+      <Name>SXHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

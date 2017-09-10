@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="spnCheckOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 62</value>
+  </data>
+  <data name="spnCheckOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="spnCheckOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;spnCheckOrder.Name" xml:space="preserve">
+    <value>spnCheckOrder</value>
+  </data>
+  <data name="&gt;&gt;spnCheckOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnCheckOrder.Parent" xml:space="preserve">
+    <value>gbxTrigger</value>
+  </data>
+  <data name="&gt;&gt;spnCheckOrder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCheckOder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCheckOder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 66</value>
+  </data>
+  <data name="lblCheckOder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblCheckOder.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblCheckOder.Text" xml:space="preserve">
+    <value>Check Order</value>
+  </data>
+  <data name="&gt;&gt;lblCheckOder.Name" xml:space="preserve">
+    <value>lblCheckOder</value>
+  </data>
+  <data name="&gt;&gt;lblCheckOder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCheckOder.Parent" xml:space="preserve">
+    <value>gbxTrigger</value>
+  </data>
+  <data name="&gt;&gt;lblCheckOder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbxTrigger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 33</value>
+  </data>
+  <data name="cbxTrigger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="cbxTrigger.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cbxTrigger.Name" xml:space="preserve">
+    <value>cbxTrigger</value>
+  </data>
+  <data name="&gt;&gt;cbxTrigger.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxTrigger.Parent" xml:space="preserve">
+    <value>gbxTrigger</value>
+  </data>
+  <data name="&gt;&gt;cbxTrigger.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTrigger.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTrigger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="lblTrigger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblTrigger.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblTrigger.Text" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="&gt;&gt;lblTrigger.Name" xml:space="preserve">
+    <value>lblTrigger</value>
+  </data>
+  <data name="&gt;&gt;lblTrigger.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTrigger.Parent" xml:space="preserve">
+    <value>gbxTrigger</value>
+  </data>
+  <data name="&gt;&gt;lblTrigger.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbxTrigger.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxTrigger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gbxTrigger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 100</value>
+  </data>
+  <data name="gbxTrigger.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gbxTrigger.Text" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="&gt;&gt;gbxTrigger.Name" xml:space="preserve">
+    <value>gbxTrigger</value>
+  </data>
+  <data name="&gt;&gt;gbxTrigger.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxTrigger.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbxTrigger.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnScores.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnScores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 90</value>
+  </data>
+  <data name="btnScores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnScores.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnScores.Text" xml:space="preserve">
+    <value>Scores: </value>
+  </data>
+  <data name="&gt;&gt;btnScores.Name" xml:space="preserve">
+    <value>btnScores</value>
+  </data>
+  <data name="&gt;&gt;btnScores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScores.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;btnScores.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkScore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 66</value>
+  </data>
+  <data name="chkScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="chkScore.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="chkScore.Text" xml:space="preserve">
+    <value>Check Score</value>
+  </data>
+  <data name="&gt;&gt;chkScore.Name" xml:space="preserve">
+    <value>chkScore</value>
+  </data>
+  <data name="&gt;&gt;chkScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkScore.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;chkScore.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbnRCEqual.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnRCEqual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 154</value>
+  </data>
+  <data name="rbnRCEqual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="rbnRCEqual.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="rbnRCEqual.Text" xml:space="preserve">
+    <value>Both Team Equal Red Cards</value>
+  </data>
+  <data name="&gt;&gt;rbnRCEqual.Name" xml:space="preserve">
+    <value>rbnRCEqual</value>
+  </data>
+  <data name="&gt;&gt;rbnRCEqual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnRCEqual.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;rbnRCEqual.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbnRCTeamB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnRCTeamB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 154</value>
+  </data>
+  <data name="rbnRCTeamB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="rbnRCTeamB.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="rbnRCTeamB.Text" xml:space="preserve">
+    <value>Away Team more Red Cards</value>
+  </data>
+  <data name="&gt;&gt;rbnRCTeamB.Name" xml:space="preserve">
+    <value>rbnRCTeamB</value>
+  </data>
+  <data name="&gt;&gt;rbnRCTeamB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnRCTeamB.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;rbnRCTeamB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbnRCTeamA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnRCTeamA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 131</value>
+  </data>
+  <data name="rbnRCTeamA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 17</value>
+  </data>
+  <data name="rbnRCTeamA.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rbnRCTeamA.Text" xml:space="preserve">
+    <value>Home Team more Red Cards</value>
+  </data>
+  <data name="&gt;&gt;rbnRCTeamA.Name" xml:space="preserve">
+    <value>rbnRCTeamA</value>
+  </data>
+  <data name="&gt;&gt;rbnRCTeamA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnRCTeamA.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;rbnRCTeamA.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbnNoRedCard.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnNoRedCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 131</value>
+  </data>
+  <data name="rbnNoRedCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
+  </data>
+  <data name="rbnNoRedCard.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rbnNoRedCard.Text" xml:space="preserve">
+    <value>No Red Card Check</value>
+  </data>
+  <data name="&gt;&gt;rbnNoRedCard.Name" xml:space="preserve">
+    <value>rbnNoRedCard</value>
+  </data>
+  <data name="&gt;&gt;rbnNoRedCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnNoRedCard.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;rbnNoRedCard.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="spnPlaytimeHi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 40</value>
+  </data>
+  <data name="spnPlaytimeHi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="spnPlaytimeHi.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeHi.Name" xml:space="preserve">
+    <value>spnPlaytimeHi</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeHi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeHi.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeHi.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblAnd1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAnd1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 44</value>
+  </data>
+  <data name="lblAnd1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lblAnd1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblAnd1.Text" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="&gt;&gt;lblAnd1.Name" xml:space="preserve">
+    <value>lblAnd1</value>
+  </data>
+  <data name="&gt;&gt;lblAnd1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAnd1.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;lblAnd1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="spnPlaytimeLo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 40</value>
+  </data>
+  <data name="spnPlaytimeLo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="spnPlaytimeLo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeLo.Name" xml:space="preserve">
+    <value>spnPlaytimeLo</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeLo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeLo.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;spnPlaytimeLo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblBetween1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBetween1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 44</value>
+  </data>
+  <data name="lblBetween1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblBetween1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblBetween1.Text" xml:space="preserve">
+    <value>Between</value>
+  </data>
+  <data name="&gt;&gt;lblBetween1.Name" xml:space="preserve">
+    <value>lblBetween1</value>
+  </data>
+  <data name="&gt;&gt;lblBetween1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBetween1.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;lblBetween1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chkCheckPlaytime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCheckPlaytime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="chkCheckPlaytime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="chkCheckPlaytime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkCheckPlaytime.Text" xml:space="preserve">
+    <value>Check Play Time</value>
+  </data>
+  <data name="&gt;&gt;chkCheckPlaytime.Name" xml:space="preserve">
+    <value>chkCheckPlaytime</value>
+  </data>
+  <data name="&gt;&gt;chkCheckPlaytime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCheckPlaytime.Parent" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;chkCheckPlaytime.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gbxCheckRules.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxCheckRules.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 100</value>
+  </data>
+  <data name="gbxCheckRules.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 215</value>
+  </data>
+  <data name="gbxCheckRules.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gbxCheckRules.Text" xml:space="preserve">
+    <value>Check Rules</value>
+  </data>
+  <data name="&gt;&gt;gbxCheckRules.Name" xml:space="preserve">
+    <value>gbxCheckRules</value>
+  </data>
+  <data name="&gt;&gt;gbxCheckRules.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxCheckRules.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbxCheckRules.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 9</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 9</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 9</value>
+  </data>
+  <data name="btnNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnNew.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnNew.Text" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Name" xml:space="preserve">
+    <value>btnNew</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Parent" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="&gt;&gt;btnNew.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pnlButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 542</value>
+  </data>
+  <data name="pnlButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>484, 40</value>
+  </data>
+  <data name="pnlButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Name" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkNoTrade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkNoTrade.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="chkNoTrade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 19</value>
+  </data>
+  <data name="chkNoTrade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="chkNoTrade.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chkNoTrade.Text" xml:space="preserve">
+    <value>No Trade</value>
+  </data>
+  <data name="&gt;&gt;chkNoTrade.Name" xml:space="preserve">
+    <value>chkNoTrade</value>
+  </data>
+  <data name="&gt;&gt;chkNoTrade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNoTrade.Parent" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="&gt;&gt;chkNoTrade.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbxSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 315</value>
+  </data>
+  <data name="gbxSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 585</value>
+  </data>
+  <data name="gbxSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="gbxSettings.Text" xml:space="preserve">
+    <value>Trade Out Settings</value>
+  </data>
+  <data name="&gt;&gt;gbxSettings.Name" xml:space="preserve">
+    <value>gbxSettings</value>
+  </data>
+  <data name="&gt;&gt;gbxSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbxSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 900</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ctlTradeOutRuleEditCSLay</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.ttr.GUI.Configuration.ctlTradeOutRuleEditAbstract, TradeTheReaction, Version=2.0.3.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+</root>

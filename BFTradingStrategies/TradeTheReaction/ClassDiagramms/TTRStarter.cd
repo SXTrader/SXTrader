@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.TradeStarter.BetPlacer" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAApAAAAAAgAAgAEAEAACAAAAAAAAAQAAAAAAAAAIAQ=</HashCode>
+      <FileName>TradeStarter\BetPlacer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_config" />
+      <Field Name="_watcher" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRConfigurationRW" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>tIxB0U6AmYbiAwE4lDCQzkgsKI2MoLxQID2mYogJHXk=</HashCode>
+      <FileName>Configuration\TTRConfigRWCS.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_tradeOutCheckList" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutCheckSortedList" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.TradeModuls.OverUnder.OverUnderBetPlacer" Collapsed="true">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>TradeModuls\OverUnder\OverUnderBetPlacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.TradeModuls.Scoreline00.Scoreline00BetPlacer" Collapsed="true">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>TradeModuls\Scoreline00\Scoreline00BetPlacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.TradeModuls.CorrectScore.CorrectScoreBetPlacer" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>TradeModuls\CorrectScore\CorrectScoreBetPlacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.TTRWatcher" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEDAAAgFQEABAgEQAEwgAICAAEAAyAAOgQGGCgDAA=</HashCode>
+      <FileName>TTRWatcher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

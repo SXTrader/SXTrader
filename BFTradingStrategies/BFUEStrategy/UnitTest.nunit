@@ -1,0 +1,21 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="bin\Debug\BFUEStrategy.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto">
+    <assembly path="..\Release\Plugins\LayTheDraw\BFUEStrategy.dll" />
+  </Config>
+  <Config name="Relase 64Bit" binpathtype="Auto">
+    <assembly path="..\Release64\Plugins\LayTheDraw\BFUEStrategy.dll" />
+  </Config>
+  <Config name="Debug|x64" binpathtype="Auto">
+    <assembly path="bin\x64\Debug\BFUEStrategy.dll" />
+  </Config>
+  <Config name="Release|x64" binpathtype="Auto">
+    <assembly path="bin\x64\Release\BFUEStrategy.dll" />
+  </Config>
+  <Config name="Relase 64Bit|x64" binpathtype="Auto">
+    <assembly path="..\Release64\Plugins\LayTheDraw\BFUEStrategy.dll" />
+  </Config>
+</NUnitProject>

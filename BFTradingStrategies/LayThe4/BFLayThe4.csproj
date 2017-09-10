@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CE0D3118-8EA5-45FF-929F-E51D25BA2946}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>net.sxtrader.bftradingstrategies.LayThe4</RootNamespace>
+    <AssemblyName>LayThe4</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Relase 64Bit|AnyCPU' ">
+    <OutputPath>..\Release64\Plugins\LayThe4\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BFLT4Preparer.cs" />
+    <Compile Include="BFLT4Strategy.cs" />
+    <Compile Include="BFLT4Watcher.cs" />
+    <Compile Include="cltLayThe4_v2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cltLayThe4_v2.Designer.cs">
+      <DependentUpon>cltLayThe4_v2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlConfigLT4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlConfigLT4.designer.cs">
+      <DependentUpon>ctlConfigLT4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLocalConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLocalConfig.Designer.cs">
+      <DependentUpon>frmLocalConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LT4ConfigurationRW.cs" />
+    <Compile Include="PluginLay4.cs" />
+    <Compile Include="LayThe4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LayThe4.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cltLayThe4_v2.resx">
+      <DependentUpon>cltLayThe4_v2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlConfigLT4.resx">
+      <DependentUpon>ctlConfigLT4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLocalConfig.resx">
+      <DependentUpon>frmLocalConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayThe4.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LayThe4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BetFairIF\BetFairIF.csproj">
+      <Project>{B08014C4-2E3A-4879-A44E-70F5A3309D83}</Project>
+      <Name>BetFairIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LiveScoreParser\LiveScoreParser.csproj">
+      <Project>{B23844E2-09DF-4CF3-866B-4DC7E1A76A84}</Project>
+      <Name>LiveScoreParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSParserInterfaces\LSParserInterfaces.csproj">
+      <Project>{4E60BC29-BA92-4D93-B880-145F9D84BCE4}</Project>
+      <Name>LSParserInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlugInIF\PlugInIF.csproj">
+      <Project>{62850BCF-339F-47F2-934A-D3592EA87B76}</Project>
+      <Name>PlugInIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXHelper\SXHelper.csproj">
+      <Project>{C30454F3-F2E6-422F-9A6D-68A285E3CB93}</Project>
+      <Name>SXHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

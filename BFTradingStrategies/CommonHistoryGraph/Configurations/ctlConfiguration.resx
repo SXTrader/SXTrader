@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tbpWLDTrend.Text" xml:space="preserve">
+    <value>Win/Loss/Draw</value>
+  </data>
+  <data name="&gt;&gt;spnHistoricData.Parent" xml:space="preserve">
+    <value>pnlTop</value>
+  </data>
+  <data name="&gt;&gt;tbpOverUnder.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnWLDDrawRangeNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlOUUnderRanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbcConfig.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Strings.NoColor" xml:space="preserve">
+    <value>&amp;No Color</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pnlOUUnderRangeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 24</value>
+  </data>
+  <data name="gbxWLDWinRangeColors.Text" xml:space="preserve">
+    <value>Colors Win Percentage</value>
+  </data>
+  <data name="gbxWLDTrendColors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 73</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlTop.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cbtOUTrendOver.Strings.NoColor" xml:space="preserve">
+    <value>&amp;No Color</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendDraw.Name" xml:space="preserve">
+    <value>lblWLDTrendDraw</value>
+  </data>
+  <data name="&gt;&gt;tbpOverUnder.Name" xml:space="preserve">
+    <value>tbpOverUnder</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDWinRangeColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbtWLDTrendWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="cbtWLDTrendZero.Strings.NoColor" xml:space="preserve">
+    <value>&amp;No Color</value>
+  </data>
+  <data name="tbpWLDTrend.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbtOUTrendUnder.Name" xml:space="preserve">
+    <value>cbtOUTrendUnder</value>
+  </data>
+  <data name="cbtWLDTrendWin.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnWLDDrawRangeNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDLossRangeColors.Parent" xml:space="preserve">
+    <value>tbpWLDTrend</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDWinRanges.Parent" xml:space="preserve">
+    <value>gbxWLDWinRangeColors</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Strings.MoreColors" xml:space="preserve">
+    <value>&amp;More Colors...</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendLoss.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendDraw.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbtWLDTrendWin.Strings.StandardColors" xml:space="preserve">
+    <value>Standard Colors</value>
+  </data>
+  <data name="tbpScoreMatrix.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;tbpGeneral.Parent" xml:space="preserve">
+    <value>tbcConfig</value>
+  </data>
+  <data name="&gt;&gt;lblAgeOfData.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDLossRangeColors.Name" xml:space="preserve">
+    <value>gbxWLDLossRangeColors</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendWin.Name" xml:space="preserve">
+    <value>lblWLDTrendWin</value>
+  </data>
+  <data name="&gt;&gt;tbpGameColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnWLDLossRangeNew.Parent" xml:space="preserve">
+    <value>pnlWLDLossRangeButton</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendZero.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnOUOverRangeNew.Text" xml:space="preserve">
+    <value>&amp;New Range</value>
+  </data>
+  <data name="gbxOUUnderColorRanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 196</value>
+  </data>
+  <data name="&gt;&gt;gbxOUOverColorRanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbtOUTrendOver.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonColorButton, ComponentFactory.Krypton.Toolkit, Version=4.0.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendDraw.Parent" xml:space="preserve">
+    <value>gbxWLDTrendColors</value>
+  </data>
+  <data name="pnlWLDWinRanges.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlOUOverRangeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlOUUnderRangeButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlColorRanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Strings.RecentColors" xml:space="preserve">
+    <value>Recent Colors</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDWinRangeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbtWLDTrendWin.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;spnHistoricData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnNewColorStat.Text" xml:space="preserve">
+    <value>New Statistic Color</value>
+  </data>
+  <data name="&gt;&gt;lblAgeOfData.Parent" xml:space="preserve">
+    <value>pnlTop</value>
+  </data>
+  <data name="cbtOUTrendUnder.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbpOverUnder.Text" xml:space="preserve">
+    <value>Over/Under</value>
+  </data>
+  <data name="&gt;&gt;pnlTop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbpWLDTrend.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbtWLDTrendZero.Strings.StandardColors" xml:space="preserve">
+    <value>Standard Colors</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ctlConfiguration</value>
+  </data>
+  <data name="lblWLDTrendZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 20</value>
+  </data>
+  <data name="lblOver.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDTrendColors.Parent" xml:space="preserve">
+    <value>tbpWLDTrend</value>
+  </data>
+  <data name="pnlWLDLossRangeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbpGameColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 447</value>
+  </data>
+  <data name="&gt;&gt;pnlStatColors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnWLDLossRangeNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Strings.StandardColors" xml:space="preserve">
+    <value>Standard Colors</value>
+  </data>
+  <data name="lblWLDTrendZero.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbpGeneral.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pnlWLDWinRanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="cbtOUTrendOver.Strings.RecentColors" xml:space="preserve">
+    <value>Recent Colors</value>
+  </data>
+  <data name="gbxWLDLossRangeColors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDLossRangeButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnNewRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendDraw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbtOUTrendOver.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cbtOUTrendUnder.Strings.NoColor" xml:space="preserve">
+    <value>&amp;No Color</value>
+  </data>
+  <data name="&gt;&gt;gbxOUOverColorRanges.Parent" xml:space="preserve">
+    <value>tbpOverUnder</value>
+  </data>
+  <data name="pnlWLDDrawRangeButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pnlNewColorRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 30</value>
+  </data>
+  <data name="lblWLDTrendZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendLoss.Parent" xml:space="preserve">
+    <value>gbxWLDTrendColors</value>
+  </data>
+  <data name="tbpGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="lblNoHistoricData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbtWLDTrendZero.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="lblOver.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendZero.Name" xml:space="preserve">
+    <value>lblWLDTrendZero</value>
+  </data>
+  <data name="gbxWLDLossRangeColors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 120</value>
+  </data>
+  <data name="&gt;&gt;cbtOUTrendUnder.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonColorButton, ComponentFactory.Krypton.Toolkit, Version=4.0.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;pnlTop.Name" xml:space="preserve">
+    <value>pnlTop</value>
+  </data>
+  <data name="&gt;&gt;gbxOUTrend.Name" xml:space="preserve">
+    <value>gbxOUTrend</value>
+  </data>
+  <data name="cbtOUTrendOver.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOUUnderRangeNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="cbtWLDTrendWin.Strings.ThemeColors" xml:space="preserve">
+    <value>Theme Colors</value>
+  </data>
+  <data name="&gt;&gt;btnOUUnderRangeNew.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnWLDDrawRangeNew.Parent" xml:space="preserve">
+    <value>pnlWLDDrawRangeButton</value>
+  </data>
+  <data name="&gt;&gt;tbpScoreMatrix.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 473</value>
+  </data>
+  <data name="pnlOUOverRangeButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="spnAgeOfData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="&gt;&gt;pnlOUOverRanges.Parent" xml:space="preserve">
+    <value>gbxOUOverColorRanges</value>
+  </data>
+  <data name="lblAgeOfData.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbtWLDTrendDraw.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnOUUnderRangeNew.Text" xml:space="preserve">
+    <value>&amp;New Range</value>
+  </data>
+  <data name="pnlStatColors.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDDrawRanges.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Strings.ThemeColors" xml:space="preserve">
+    <value>Theme Colors</value>
+  </data>
+  <data name="pnlWLDDrawRanges.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbxWLDTrendColors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxWLDLossRangeColors.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnNewRange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbtWLDTrendZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="lblWLDTrendZero.Text" xml:space="preserve">
+    <value>0 - 0:</value>
+  </data>
+  <data name="&gt;&gt;tbpGeneral.Name" xml:space="preserve">
+    <value>tbpGeneral</value>
+  </data>
+  <data name="&gt;&gt;lblUnder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbcConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbcConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pnlNewColorRange.Parent" xml:space="preserve">
+    <value>tbpScoreMatrix</value>
+  </data>
+  <data name="&gt;&gt;pnlNewColorRange.Name" xml:space="preserve">
+    <value>pnlNewColorRange</value>
+  </data>
+  <data name="tbpGameColor.Text" xml:space="preserve">
+    <value>Game Coloring</value>
+  </data>
+  <data name="&gt;&gt;btnWLDLossRangeNew.Name" xml:space="preserve">
+    <value>btnWLDLossRangeNew</value>
+  </data>
+  <data name="&gt;&gt;cbtOUTrendUnder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDWinRangeColors.Parent" xml:space="preserve">
+    <value>tbpWLDTrend</value>
+  </data>
+  <data name="tbpWLDTrend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;cbtOUTrendOver.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDDrawRangeColors.Parent" xml:space="preserve">
+    <value>tbpWLDTrend</value>
+  </data>
+  <data name="&gt;&gt;gbxOUOverColorRanges.Name" xml:space="preserve">
+    <value>gbxOUOverColorRanges</value>
+  </data>
+  <data name="&gt;&gt;tbpGameColor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDDrawRangeButton.Parent" xml:space="preserve">
+    <value>gbxWLDDrawRangeColors</value>
+  </data>
+  <data name="pnlWLDLossRanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="pnlOUOverRanges.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblOver.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbxWLDDrawRangeColors.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblAgeOfData.Name" xml:space="preserve">
+    <value>lblAgeOfData</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDDrawRanges.Parent" xml:space="preserve">
+    <value>gbxWLDDrawRangeColors</value>
+  </data>
+  <data name="pnlWLDDrawRanges.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlOUOverRanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="cbtWLDTrendZero.Values.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAPRJREFUOE/t0jELRVAUB/ArpXwEqzL5AiZfwGRSymQmk8lkMJmUUjarSZmUTfcz+Dbn
+        uafIc+99vbc/dQc55+d/OAqllMiufd8hTVMyTRPRdV0R1jFAdnzfh6MJsiwDWY20eV1XME0TAcMwYNs2
+        ISIF8jyHJEnAdV1Eqqr6DbBtG+Z5hqZpEGD3ojGECfq+B8dxrgbLshDpuo5DhIDneVCW5VVcFAUCbJxn
+        Cg5YlgU0TcOG51FVFcZxfEM4gP2yMAy5N0VRhGAQBHKgrms4FgbatuWAYRgQYCnu410JzjnP2HEcc9/g
+        PhKrxy3+tInfPPsDlLwABh4Wn1Qg1vgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbpOverUnder.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendWin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbpOverUnder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDLossRanges.Parent" xml:space="preserve">
+    <value>gbxWLDLossRangeColors</value>
+  </data>
+  <data name="gbxOUOverColorRanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 120</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="&gt;&gt;spnAgeOfData.Parent" xml:space="preserve">
+    <value>pnlTop</value>
+  </data>
+  <data name="pnlOUUnderRanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 77</value>
+  </data>
+  <data name="pnlWLDWinRanges.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cbtOUTrendOver.Parent" xml:space="preserve">
+    <value>gbxOUTrend</value>
+  </data>
+  <data name="tbpGameColor.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbtOUTrendOver.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="gbxOUOverColorRanges.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pnlColorRanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="pnlWLDWinRangeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 24</value>
+  </data>
+  <data name="cbtOUTrendUnder.Strings.MoreColors" xml:space="preserve">
+    <value>&amp;More Colors...</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendZero.Name" xml:space="preserve">
+    <value>cbtWLDTrendZero</value>
+  </data>
+  <data name="&gt;&gt;lblOver.Parent" xml:space="preserve">
+    <value>gbxOUTrend</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendLoss.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="gbxWLDLossRangeColors.Text" xml:space="preserve">
+    <value>Colors Loss Percentage</value>
+  </data>
+  <data name="cbtWLDTrendWin.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDDrawRangeButton.Name" xml:space="preserve">
+    <value>pnlWLDDrawRangeButton</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendDraw.Parent" xml:space="preserve">
+    <value>gbxWLDTrendColors</value>
+  </data>
+  <data name="gbxWLDDrawRangeColors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 120</value>
+  </data>
+  <data name="btnWLDLossRangeNew.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbxOUOverColorRanges.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendZero.Parent" xml:space="preserve">
+    <value>gbxWLDTrendColors</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendZero.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonColorButton, ComponentFactory.Krypton.Toolkit, Version=4.0.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="lblWLDTrendDraw.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbtWLDTrendZero.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gbxWLDTrendColors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="cbtWLDTrendZero.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbpWLDTrend.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDTrendColors.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlStatColors.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDDrawRangeColors.Name" xml:space="preserve">
+    <value>gbxWLDDrawRangeColors</value>
+  </data>
+  <data name="&gt;&gt;pnlOUUnderRanges.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pnlOUOverRanges.Name" xml:space="preserve">
+    <value>pnlOUOverRanges</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDLossRangeColors.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbxOUUnderColorRanges.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnOUUnderRangeNew.Name" xml:space="preserve">
+    <value>btnOUUnderRangeNew</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDLossRangeColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlWLDLossRangeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 93</value>
+  </data>
+  <data name="pnlOUUnderRangeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 93</value>
+  </data>
+  <data name="cbtWLDTrendWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 37</value>
+  </data>
+  <data name="gbxWLDDrawRangeColors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDLossRanges.Name" xml:space="preserve">
+    <value>pnlWLDLossRanges</value>
+  </data>
+  <data name="cbtWLDTrendWin.Strings.RecentColors" xml:space="preserve">
+    <value>Recent Colors</value>
+  </data>
+  <data name="tbpGameColor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblNoHistoricData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 13</value>
+  </data>
+  <data name="&gt;&gt;btnNewColorStat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNewRange.Name" xml:space="preserve">
+    <value>btnNewRange</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendWin.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbtWLDTrendWin.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pnlOUOverRanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlWLDWinRanges.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnOUOverRangeNew.Parent" xml:space="preserve">
+    <value>pnlOUOverRangeButton</value>
+  </data>
+  <data name="lblAgeOfData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 13</value>
+  </data>
+  <data name="cbtWLDTrendZero.Strings.MoreColors" xml:space="preserve">
+    <value>&amp;More Colors...</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="btnNewColorStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendWin.Parent" xml:space="preserve">
+    <value>gbxWLDTrendColors</value>
+  </data>
+  <data name="spnAgeOfData.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnNewColorStat.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnWLDWinRangeNew.Name" xml:space="preserve">
+    <value>btnWLDWinRangeNew</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDWinRangeButton.Parent" xml:space="preserve">
+    <value>gbxWLDWinRangeColors</value>
+  </data>
+  <data name="&gt;&gt;spnHistoricData.Name" xml:space="preserve">
+    <value>spnHistoricData</value>
+  </data>
+  <data name="cbtOUTrendUnder.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDLossRanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDLossRangeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxOUTrend.Parent" xml:space="preserve">
+    <value>tbpOverUnder</value>
+  </data>
+  <data name="pnlButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 418</value>
+  </data>
+  <data name="pnlButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;btnOUOverRangeNew.Name" xml:space="preserve">
+    <value>btnOUOverRangeNew</value>
+  </data>
+  <data name="&gt;&gt;pnlColorRanges.Name" xml:space="preserve">
+    <value>pnlColorRanges</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Name" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDTrendColors.Name" xml:space="preserve">
+    <value>gbxWLDTrendColors</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Values.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAPRJREFUOE/t0jELRVAUB/ArpXwEqzL5AiZfwGRSymQmk8lkMJmUUjarSZmUTfcz+Dbn
+        uafIc+99vbc/dQc55+d/OAqllMiufd8hTVMyTRPRdV0R1jFAdnzfh6MJsiwDWY20eV1XME0TAcMwYNs2
+        ISIF8jyHJEnAdV1Eqqr6DbBtG+Z5hqZpEGD3ojGECfq+B8dxrgbLshDpuo5DhIDneVCW5VVcFAUCbJxn
+        Cg5YlgU0TcOG51FVFcZxfEM4gP2yMAy5N0VRhGAQBHKgrms4FgbatuWAYRgQYCnu410JzjnP2HEcc9/g
+        PhKrxy3+tInfPPsDlLwABh4Wn1Qg1vgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendWin.Name" xml:space="preserve">
+    <value>cbtWLDTrendWin</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Strings.MoreColors" xml:space="preserve">
+    <value>&amp;More Colors...</value>
+  </data>
+  <data name="gbxWLDWinRangeColors.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnOUOverRangeNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnNewColorStat.Parent" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="cbtOUTrendOver.Strings.StandardColors" xml:space="preserve">
+    <value>Standard Colors</value>
+  </data>
+  <data name="tbpGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbpWLDTrend.Parent" xml:space="preserve">
+    <value>tbcConfig</value>
+  </data>
+  <data name="&gt;&gt;lblNoHistoricData.Parent" xml:space="preserve">
+    <value>pnlTop</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendZero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbtWLDTrendZero.Strings.RecentColors" xml:space="preserve">
+    <value>Recent Colors</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendLoss.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonColorButton, ComponentFactory.Krypton.Toolkit, Version=4.0.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="cbtOUTrendUnder.Strings.RecentColors" xml:space="preserve">
+    <value>Recent Colors</value>
+  </data>
+  <data name="tbpOverUnder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;pnlOUOverRangeButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlColorRanges.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Strings.RecentColors" xml:space="preserve">
+    <value>Recent Colors</value>
+  </data>
+  <data name="cbtOUTrendUnder.Values.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAPRJREFUOE/t0jELRVAUB/ArpXwEqzL5AiZfwGRSymQmk8lkMJmUUjarSZmUTfcz+Dbn
+        uafIc+99vbc/dQc55+d/OAqllMiufd8hTVMyTRPRdV0R1jFAdnzfh6MJsiwDWY20eV1XME0TAcMwYNs2
+        ISIF8jyHJEnAdV1Eqqr6DbBtG+Z5hqZpEGD3ojGECfq+B8dxrgbLshDpuo5DhIDneVCW5VVcFAUCbJxn
+        Cg5YlgU0TcOG51FVFcZxfEM4gP2yMAy5N0VRhGAQBHKgrms4FgbatuWAYRgQYCnu410JzjnP2HEcc9/g
+        PhKrxy3+tInfPPsDlLwABh4Wn1Qg1vgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Strings.ThemeColors" xml:space="preserve">
+    <value>Theme Colors</value>
+  </data>
+  <data name="&gt;&gt;tbpOverUnder.Parent" xml:space="preserve">
+    <value>tbcConfig</value>
+  </data>
+  <data name="&gt;&gt;pnlOUOverRanges.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbpGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 447</value>
+  </data>
+  <data name="&gt;&gt;tbpGameColor.Parent" xml:space="preserve">
+    <value>tbcConfig</value>
+  </data>
+  <data name="btnNewRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="btnOUOverRangeNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="lblAgeOfData.Text" xml:space="preserve">
+    <value>Maximum age of historic Data in Months</value>
+  </data>
+  <data name="&gt;&gt;pnlOUOverRangeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNewRange.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblOver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="btnWLDDrawRangeNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="tbpScoreMatrix.Text" xml:space="preserve">
+    <value>Score Matrix</value>
+  </data>
+  <data name="tbpScoreMatrix.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbxWLDWinRangeColors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblOver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="pnlOUUnderRanges.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pnlWLDWinRangeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 93</value>
+  </data>
+  <data name="&gt;&gt;btnNewRange.Parent" xml:space="preserve">
+    <value>pnlNewColorRange</value>
+  </data>
+  <data name="&gt;&gt;gbxOUUnderColorRanges.Name" xml:space="preserve">
+    <value>gbxOUUnderColorRanges</value>
+  </data>
+  <data name="lblAgeOfData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDWinRanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendDraw.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonColorButton, ComponentFactory.Krypton.Toolkit, Version=4.0.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendWin.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonColorButton, ComponentFactory.Krypton.Toolkit, Version=4.0.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Parent" xml:space="preserve">
+    <value>tbpGameColor</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 37</value>
+  </data>
+  <data name="pnlWLDWinRanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 77</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDDrawRanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlWLDDrawRangeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;spnAgeOfData.Name" xml:space="preserve">
+    <value>spnAgeOfData</value>
+  </data>
+  <data name="pnlColorRanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 411</value>
+  </data>
+  <data name="cbtOUTrendOver.Strings.ThemeColors" xml:space="preserve">
+    <value>Theme Colors</value>
+  </data>
+  <data name="pnlOUOverRanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 77</value>
+  </data>
+  <data name="&gt;&gt;tbpScoreMatrix.Name" xml:space="preserve">
+    <value>tbpScoreMatrix</value>
+  </data>
+  <data name="lblWLDTrendLoss.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 20</value>
+  </data>
+  <data name="&gt;&gt;btnWLDWinRangeNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlOUUnderRangeButton.Name" xml:space="preserve">
+    <value>pnlOUUnderRangeButton</value>
+  </data>
+  <data name="pnlOUUnderRangeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendDraw.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnWLDWinRangeNew.Text" xml:space="preserve">
+    <value>&amp;New Range</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendLoss.Name" xml:space="preserve">
+    <value>lblWLDTrendLoss</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDDrawRangeColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblUnder.Text" xml:space="preserve">
+    <value>Under:</value>
+  </data>
+  <data name="lblWLDTrendWin.Text" xml:space="preserve">
+    <value>Win:</value>
+  </data>
+  <data name="cbtOUTrendUnder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="btnWLDLossRangeNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="pnlOUOverRanges.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lblUnder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Values.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAPRJREFUOE/t0jELRVAUB/ArpXwEqzL5AiZfwGRSymQmk8lkMJmUUjarSZmUTfcz+Dbn
+        uafIc+99vbc/dQc55+d/OAqllMiufd8hTVMyTRPRdV0R1jFAdnzfh6MJsiwDWY20eV1XME0TAcMwYNs2
+        ISIF8jyHJEnAdV1Eqqr6DbBtG+Z5hqZpEGD3ojGECfq+B8dxrgbLshDpuo5DhIDneVCW5VVcFAUCbJxn
+        Cg5YlgU0TcOG51FVFcZxfEM4gP2yMAy5N0VRhGAQBHKgrms4FgbatuWAYRgQYCnu410JzjnP2HEcc9/g
+        PhKrxy3+tInfPPsDlLwABh4Wn1Qg1vgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pnlWLDLossRanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 77</value>
+  </data>
+  <data name="&gt;&gt;btnOUOverRangeNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbpGameColor.Name" xml:space="preserve">
+    <value>tbpGameColor</value>
+  </data>
+  <data name="tbcConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 473</value>
+  </data>
+  <data name="btnOUUnderRangeNew.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbxOUTrend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoHistoricData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblWLDTrendWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="pnlWLDDrawRangeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 24</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendLoss.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnWLDDrawRangeNew.Name" xml:space="preserve">
+    <value>btnWLDDrawRangeNew</value>
+  </data>
+  <data name="cbtOUTrendOver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="lblUnder.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pnlOUUnderRangeButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDWinRanges.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbpGeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlColorRanges.Parent" xml:space="preserve">
+    <value>tbpScoreMatrix</value>
+  </data>
+  <data name="tbpWLDTrend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 447</value>
+  </data>
+  <data name="&gt;&gt;lblNoHistoricData.Name" xml:space="preserve">
+    <value>lblNoHistoricData</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Strings.StandardColors" xml:space="preserve">
+    <value>Standard Colors</value>
+  </data>
+  <data name="&gt;&gt;btnOUOverRangeNew.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlNewColorRange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxOUUnderColorRanges.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbtWLDTrendZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 37</value>
+  </data>
+  <data name="cbtOUTrendOver.Strings.MoreColors" xml:space="preserve">
+    <value>&amp;More Colors...</value>
+  </data>
+  <data name="&gt;&gt;tbpGeneral.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="pnlWLDDrawRanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 77</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDTrendColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbtOUTrendUnder.Strings.ThemeColors" xml:space="preserve">
+    <value>Theme Colors</value>
+  </data>
+  <data name="cbtWLDTrendZero.Strings.ThemeColors" xml:space="preserve">
+    <value>Theme Colors</value>
+  </data>
+  <data name="pnlNewColorRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 414</value>
+  </data>
+  <data name="lblWLDTrendDraw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="cbtOUTrendOver.Values.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAPRJREFUOE/t0jELRVAUB/ArpXwEqzL5AiZfwGRSymQmk8lkMJmUUjarSZmUTfcz+Dbn
+        uafIc+99vbc/dQc55+d/OAqllMiufd8hTVMyTRPRdV0R1jFAdnzfh6MJsiwDWY20eV1XME0TAcMwYNs2
+        ISIF8jyHJEnAdV1Eqqr6DbBtG+Z5hqZpEGD3ojGECfq+B8dxrgbLshDpuo5DhIDneVCW5VVcFAUCbJxn
+        Cg5YlgU0TcOG51FVFcZxfEM4gP2yMAy5N0VRhGAQBHKgrms4FgbatuWAYRgQYCnu410JzjnP2HEcc9/g
+        PhKrxy3+tInfPPsDlLwABh4Wn1Qg1vgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="lblOver.Text" xml:space="preserve">
+    <value>Over:</value>
+  </data>
+  <data name="cbtWLDTrendWin.Strings.MoreColors" xml:space="preserve">
+    <value>&amp;More Colors...</value>
+  </data>
+  <data name="gbxOUUnderColorRanges.Text" xml:space="preserve">
+    <value>Colors Under Percentage</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendLoss.Name" xml:space="preserve">
+    <value>cbtWLDTrendLoss</value>
+  </data>
+  <data name="&gt;&gt;lblAgeOfData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDWinRangeButton.Name" xml:space="preserve">
+    <value>pnlWLDWinRangeButton</value>
+  </data>
+  <data name="pnlOUOverRangeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 93</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendWin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxOUUnderColorRanges.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlWLDWinRangeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbtWLDTrendZero.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnWLDDrawRangeNew.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbtOUTrendOver.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnWLDWinRangeNew.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pnlWLDDrawRanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDLossRangeButton.Parent" xml:space="preserve">
+    <value>gbxWLDLossRangeColors</value>
+  </data>
+  <data name="pnlWLDDrawRanges.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDLossRanges.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbpWLDTrend.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="gbxOUTrend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;pnlStatColors.Parent" xml:space="preserve">
+    <value>tbpGameColor</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 37</value>
+  </data>
+  <data name="pnlOUOverRangeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 24</value>
+  </data>
+  <data name="&gt;&gt;lblOver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDWinRanges.Name" xml:space="preserve">
+    <value>pnlWLDWinRanges</value>
+  </data>
+  <data name="btnNewRange.Text" xml:space="preserve">
+    <value>&amp;New Range</value>
+  </data>
+  <data name="pnlColorRanges.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOUOverRangeNew.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbpScoreMatrix.Parent" xml:space="preserve">
+    <value>tbcConfig</value>
+  </data>
+  <data name="btnNewColorStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 2</value>
+  </data>
+  <data name="gbxWLDWinRangeColors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 120</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Values.ExtraText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gbxOUOverColorRanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 76</value>
+  </data>
+  <data name="lblWLDTrendWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="pnlWLDLossRanges.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnWLDDrawRangeNew.Text" xml:space="preserve">
+    <value>&amp;New Range</value>
+  </data>
+  <data name="lblNoHistoricData.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnWLDWinRangeNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="&gt;&gt;gbxOUTrend.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;spnAgeOfData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoHistoricData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbtOUTrendUnder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 37</value>
+  </data>
+  <data name="&gt;&gt;tbpWLDTrend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDWinRangeColors.Name" xml:space="preserve">
+    <value>gbxWLDWinRangeColors</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblUnder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 20</value>
+  </data>
+  <data name="pnlStatColors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;pnlOUOverRangeButton.Parent" xml:space="preserve">
+    <value>gbxOUOverColorRanges</value>
+  </data>
+  <data name="lblNoHistoricData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendDraw.Name" xml:space="preserve">
+    <value>cbtWLDTrendDraw</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendZero.Parent" xml:space="preserve">
+    <value>gbxWLDTrendColors</value>
+  </data>
+  <data name="lblNoHistoricData.Text" xml:space="preserve">
+    <value>Number of historic Data to read:</value>
+  </data>
+  <data name="&gt;&gt;gbxOUUnderColorRanges.Parent" xml:space="preserve">
+    <value>tbpOverUnder</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDWinRangeButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlWLDLossRangeButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;pnlOUOverRangeButton.Name" xml:space="preserve">
+    <value>pnlOUOverRangeButton</value>
+  </data>
+  <data name="lblAgeOfData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDWinRangeColors.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnOUUnderRangeNew.Parent" xml:space="preserve">
+    <value>pnlOUUnderRangeButton</value>
+  </data>
+  <data name="&gt;&gt;gbxOUUnderColorRanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbtOUTrendOver.Name" xml:space="preserve">
+    <value>cbtOUTrendOver</value>
+  </data>
+  <data name="lblWLDTrendDraw.Text" xml:space="preserve">
+    <value>Draw:</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendWin.Parent" xml:space="preserve">
+    <value>gbxWLDTrendColors</value>
+  </data>
+  <data name="lblWLDTrendDraw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 20</value>
+  </data>
+  <data name="&gt;&gt;pnlOUUnderRanges.Name" xml:space="preserve">
+    <value>pnlOUUnderRanges</value>
+  </data>
+  <data name="spnHistoricData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="&gt;&gt;spnAgeOfData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDLossRangeButton.Name" xml:space="preserve">
+    <value>pnlWLDLossRangeButton</value>
+  </data>
+  <data name="gbxOUOverColorRanges.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlColorRanges.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnWLDLossRangeNew.Text" xml:space="preserve">
+    <value>&amp;New Range</value>
+  </data>
+  <data name="&gt;&gt;pnlOUUnderRanges.Parent" xml:space="preserve">
+    <value>gbxOUUnderColorRanges</value>
+  </data>
+  <data name="lblUnder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbtWLDTrendLoss.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gbxWLDDrawRangeColors.Text" xml:space="preserve">
+    <value>Colors Draw Percentage</value>
+  </data>
+  <data name="pnlWLDLossRanges.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lblUnder.Parent" xml:space="preserve">
+    <value>gbxOUTrend</value>
+  </data>
+  <data name="tbpGameColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="cbtOUTrendUnder.Values.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value />
+  </data>
+  <data name="&gt;&gt;pnlOUUnderRangeButton.Parent" xml:space="preserve">
+    <value>gbxOUUnderColorRanges</value>
+  </data>
+  <data name="pnlOUUnderRanges.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblWLDTrendLoss.Parent" xml:space="preserve">
+    <value>gbxWLDTrendColors</value>
+  </data>
+  <data name="&gt;&gt;pnlStatColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnWLDWinRangeNew.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbcConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDDrawRangeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWLDTrendLoss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="pnlOUUnderRanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="pnlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 86</value>
+  </data>
+  <data name="&gt;&gt;pnlNewColorRange.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbxWLDDrawRangeColors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxOUTrend.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnOUUnderRangeNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxWLDWinRangeColors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 76</value>
+  </data>
+  <data name="pnlNewColorRange.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlStatColors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 415</value>
+  </data>
+  <data name="tbpScoreMatrix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 447</value>
+  </data>
+  <data name="&gt;&gt;cbtWLDTrendZero.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbpOverUnder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxWLDLossRangeColors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 196</value>
+  </data>
+  <data name="lblWLDTrendWin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 26</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDDrawRangeButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbpOverUnder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 447</value>
+  </data>
+  <data name="pnlWLDDrawRangeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 93</value>
+  </data>
+  <data name="gbxOUTrend.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;tbcConfig.Name" xml:space="preserve">
+    <value>tbcConfig</value>
+  </data>
+  <data name="lblWLDTrendLoss.Text" xml:space="preserve">
+    <value>Loss:</value>
+  </data>
+  <data name="spnHistoricData.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblUnder.Name" xml:space="preserve">
+    <value>lblUnder</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="btnNewRange.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbtWLDTrendDraw.Strings.NoColor" xml:space="preserve">
+    <value>&amp;No Color</value>
+  </data>
+  <data name="gbxOUOverColorRanges.Text" xml:space="preserve">
+    <value>Colors Over Percentage</value>
+  </data>
+  <data name="btnWLDDrawRangeNew.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlWLDDrawRanges.Name" xml:space="preserve">
+    <value>pnlWLDDrawRanges</value>
+  </data>
+  <data name="btnOUUnderRangeNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlOUOverRanges.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlWLDLossRanges.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnNewColorStat.Name" xml:space="preserve">
+    <value>btnNewColorStat</value>
+  </data>
+  <data name="&gt;&gt;btnWLDLossRangeNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbtWLDTrendWin.Strings.NoColor" xml:space="preserve">
+    <value>&amp;No Color</value>
+  </data>
+  <data name="pnlWLDWinRangeButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="gbxWLDDrawRangeColors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 316</value>
+  </data>
+  <data name="&gt;&gt;pnlColorRanges.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spnHistoricData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 3</value>
+  </data>
+  <data name="tbpGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;btnWLDLossRangeNew.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblWLDTrendZero.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblOver.Name" xml:space="preserve">
+    <value>lblOver</value>
+  </data>
+  <data name="&gt;&gt;tbcConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbtOUTrendUnder.Parent" xml:space="preserve">
+    <value>gbxOUTrend</value>
+  </data>
+  <data name="&gt;&gt;spnHistoricData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWLDTrendLoss.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbcConfig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gbxOUTrend.Text" xml:space="preserve">
+    <value>Trend Colors</value>
+  </data>
+  <data name="&gt;&gt;btnNewColorStat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbtWLDTrendLoss.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlOUUnderRanges.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblWLDTrendDraw.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbtWLDTrendWin.Values.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAPRJREFUOE/t0jELRVAUB/ArpXwEqzL5AiZfwGRSymQmk8lkMJmUUjarSZmUTfcz+Dbn
+        uafIc+99vbc/dQc55+d/OAqllMiufd8hTVMyTRPRdV0R1jFAdnzfh6MJsiwDWY20eV1XME0TAcMwYNs2
+        ISIF8jyHJEnAdV1Eqqr6DbBtG+Z5hqZpEGD3ojGECfq+B8dxrgbLshDpuo5DhIDneVCW5VVcFAUCbJxn
+        Cg5YlgU0TcOG51FVFcZxfEM4gP2yMAy5N0VRhGAQBHKgrms4FgbatuWAYRgQYCnu410JzjnP2HEcc9/g
+        PhKrxy3+tInfPPsDlLwABh4Wn1Qg1vgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="spnAgeOfData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 25</value>
+  </data>
+  <data name="pnlNewColorRange.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tbpScoreMatrix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="pnlWLDLossRangeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 24</value>
+  </data>
+  <data name="pnlStatColors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="gbxWLDTrendColors.Text" xml:space="preserve">
+    <value>Trend Colors</value>
+  </data>
+  <data name="gbxWLDTrendColors.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnWLDWinRangeNew.Parent" xml:space="preserve">
+    <value>pnlWLDWinRangeButton</value>
+  </data>
+  <data name="btnWLDWinRangeNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tbpScoreMatrix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbtOUTrendOver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 37</value>
+  </data>
+  <data name="cbtOUTrendUnder.Strings.StandardColors" xml:space="preserve">
+    <value>Standard Colors</value>
+  </data>
+  <data name="cbtOUTrendUnder.Values.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lblWLDTrendLoss.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbpWLDTrend.Name" xml:space="preserve">
+    <value>tbpWLDTrend</value>
+  </data>
+  <data name="gbxOUUnderColorRanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 120</value>
+  </data>
+  <data name="gbxOUTrend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 73</value>
+  </data>
+  <data name="&gt;&gt;pnlStatColors.Name" xml:space="preserve">
+    <value>pnlStatColors</value>
+  </data>
+  <data name="lblWLDTrendWin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlOUUnderRangeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTop.Parent" xml:space="preserve">
+    <value>tbpGeneral</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

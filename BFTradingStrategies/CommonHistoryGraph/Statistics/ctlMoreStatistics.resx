@@ -1,0 +1,1788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbxOverUnder45B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25Direct.Name" xml:space="preserve">
+    <value>ctlOverUnder25Direct</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gbxDirectWLD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 174</value>
+  </data>
+  <data name="&gt;&gt;ctlA.Name" xml:space="preserve">
+    <value>ctlA</value>
+  </data>
+  <data name="&gt;&gt;gbxOver25Direct.Parent" xml:space="preserve">
+    <value>pnlDirekt</value>
+  </data>
+  <data name="ctlOverUnder25B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorA.Name" xml:space="preserve">
+    <value>cbxSelectorA</value>
+  </data>
+  <data name="gbxOver05A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 165</value>
+  </data>
+  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="ctlOverUnder25A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbxOver15Direct.Parent" xml:space="preserve">
+    <value>pnlDirekt</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbxOver05Direct.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ctlOverUnder25A.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlOverUnder45Direct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 146</value>
+  </data>
+  <data name="&gt;&gt;gbxTeamB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxAWLD.Text" xml:space="preserve">
+    <value>Win/Loss/Draw</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder35B.Parent" xml:space="preserve">
+    <value>pnlB</value>
+  </data>
+  <data name="gbxTeamA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 1290</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixTeamB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctlOverUnder05Direct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixDirect.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ctlOverUnder45A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 146</value>
+  </data>
+  <data name="ctlOverUnder15B.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlWLDA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlOverUnder45Direct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonDirect.Parent" xml:space="preserve">
+    <value>pnlDirekt</value>
+  </data>
+  <data name="pnlButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlWLDDirect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="ctlOverUnder25Direct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbxOver35A.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonA.Name" xml:space="preserve">
+    <value>gbxCommonA</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35B.Name" xml:space="preserve">
+    <value>ctlOverUnder35B</value>
+  </data>
+  <data name="ctlOverUnder25Direct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="pnlTeamB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 1330</value>
+  </data>
+  <data name="pnlA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="gbxOver35A.Text" xml:space="preserve">
+    <value>Over/Under 3.5</value>
+  </data>
+  <data name="gbxCommonDirect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 365</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45B.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorDirect.Name" xml:space="preserve">
+    <value>cbxSelectorDirect</value>
+  </data>
+  <data name="ctlOverUnder05B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 146</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder35B.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlDirect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 1330</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxOver25A.Name" xml:space="preserve">
+    <value>gbxOver25A</value>
+  </data>
+  <data name="ctlOverUnder35Direct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonA.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlCommonStats, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbxSelectorB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="gbxDirect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlSelectorDirect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlOverUnder35B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 146</value>
+  </data>
+  <data name="cbxSelectorDirect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlOverUnder05Direct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 146</value>
+  </data>
+  <data name="ctlWLDDirect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxOverUnder35B.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorDirect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxCommonB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 365</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ctlMoreStatistics</value>
+  </data>
+  <data name="gbxTeamB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorDirect.Parent" xml:space="preserve">
+    <value>pnlDirect</value>
+  </data>
+  <data name="pnlTeamA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 1330</value>
+  </data>
+  <data name="gbxOverUnder15B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ctlOverUnder45A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05B.Name" xml:space="preserve">
+    <value>ctlOverUnder05B</value>
+  </data>
+  <data name="gbxOver05Direct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 165</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder15B.Parent" xml:space="preserve">
+    <value>pnlB</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder25B.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbxOver05A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 445</value>
+  </data>
+  <data name="&gt;&gt;gbxOver15Direct.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbxScoreMatrixTeamB.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="pnlSelectorB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 40</value>
+  </data>
+  <data name="ctlCommonB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15B.Name" xml:space="preserve">
+    <value>ctlOverUnder15B</value>
+  </data>
+  <data name="gbxBWLD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 191</value>
+  </data>
+  <data name="ctlOverUnder25A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 146</value>
+  </data>
+  <data name="ctlA.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25B.Name" xml:space="preserve">
+    <value>ctlOverUnder25B</value>
+  </data>
+  <data name="ctlOverUnder15B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 146</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05Direct.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorB.Parent" xml:space="preserve">
+    <value>pnlTeamB</value>
+  </data>
+  <data name="&gt;&gt;pnlTeamB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45A.Name" xml:space="preserve">
+    <value>ctlOverUnder45A</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05A.Name" xml:space="preserve">
+    <value>ctlOverUnder05A</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45B.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="ctlOverUnder15B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder35B.Name" xml:space="preserve">
+    <value>gbxOverUnder35B</value>
+  </data>
+  <data name="ctlOverUnder15Direct.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15A.Name" xml:space="preserve">
+    <value>ctlOverUnder15A</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05Direct.Name" xml:space="preserve">
+    <value>gbxOver05Direct</value>
+  </data>
+  <data name="gbxOver35Direct.Text" xml:space="preserve">
+    <value>Over/Under 3.5</value>
+  </data>
+  <data name="ctlOverUnder35B.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25A.Name" xml:space="preserve">
+    <value>ctlOverUnder25A</value>
+  </data>
+  <data name="gbxOver15A.Text" xml:space="preserve">
+    <value>Over/Under 1.5</value>
+  </data>
+  <data name="gbxCommonA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ctlCommonB.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder15B.Name" xml:space="preserve">
+    <value>gbxOverUnder15B</value>
+  </data>
+  <data name="ctlCommonB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbxAWLD.Name" xml:space="preserve">
+    <value>gbxAWLD</value>
+  </data>
+  <data name="ctlCommonA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="ctlMatrixTeamA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 15</value>
+  </data>
+  <data name="ctlOverUnder45B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbxOver15A.Parent" xml:space="preserve">
+    <value>pnlA</value>
+  </data>
+  <data name="gbxScoreMatrixTeamB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gbxOverUnder15B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 610</value>
+  </data>
+  <data name="&gt;&gt;gbxOver45A.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlOverUnder05B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;gbxOver35Direct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 1360</value>
+  </data>
+  <data name="&gt;&gt;pnlA.Name" xml:space="preserve">
+    <value>pnlA</value>
+  </data>
+  <data name="pnlTeamA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 0</value>
+  </data>
+  <data name="pnlSelectorDirect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ctlCommonA.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbxBWLD.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25A.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 155</value>
+  </data>
+  <data name="ctlOverUnder05A.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlTeamA.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonB.Name" xml:space="preserve">
+    <value>gbxCommonB</value>
+  </data>
+  <data name="pnlB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="ctlOverUnder45Direct.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxOver15Direct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxOver35Direct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixTeamA.Name" xml:space="preserve">
+    <value>ctlMatrixTeamA</value>
+  </data>
+  <data name="gbxOver35A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 165</value>
+  </data>
+  <data name="&gt;&gt;gbxOver15A.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbxOver45Direct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 165</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctlA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctlOverUnder25B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 146</value>
+  </data>
+  <data name="ctlA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05B.Parent" xml:space="preserve">
+    <value>pnlB</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder25B.Parent" xml:space="preserve">
+    <value>pnlB</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorA.Parent" xml:space="preserve">
+    <value>pnlSelectorA</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorA.Name" xml:space="preserve">
+    <value>pnlSelectorA</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder35B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder45B.Name" xml:space="preserve">
+    <value>gbxOverUnder45B</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45Direct.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="pnlSelectorB.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorB.Name" xml:space="preserve">
+    <value>cbxSelectorB</value>
+  </data>
+  <data name="gbxOver25A.Text" xml:space="preserve">
+    <value>Over/Under 2.5</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixDirect.Parent" xml:space="preserve">
+    <value>pnlDirekt</value>
+  </data>
+  <data name="&gt;&gt;pnlA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxScoreMatrixDirect.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15Direct.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonB.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlCommonStats, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;gbxAWLD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxTeamA.Parent" xml:space="preserve">
+    <value>pnlTeamA</value>
+  </data>
+  <data name="gbxOver15Direct.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder45B.Parent" xml:space="preserve">
+    <value>pnlB</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixTeamA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxOver45Direct.Text" xml:space="preserve">
+    <value>Over/Under 4.5</value>
+  </data>
+  <data name="ctlMatrixTeamA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxAWLD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 174</value>
+  </data>
+  <data name="&gt;&gt;pnlDirekt.Name" xml:space="preserve">
+    <value>pnlDirekt</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlTeamB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 0</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixDirect.Name" xml:space="preserve">
+    <value>gbxScoreMatrixDirect</value>
+  </data>
+  <data name="gbxOver05Direct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlB.Name" xml:space="preserve">
+    <value>pnlB</value>
+  </data>
+  <data name="gbxOver25Direct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ctlOverUnder35B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="gbxOver45Direct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1105</value>
+  </data>
+  <data name="gbxDirect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 1290</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05A.Parent" xml:space="preserve">
+    <value>pnlA</value>
+  </data>
+  <data name="ctlOverUnder35A.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbxDirect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlWLDDirect.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlWLDwithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="gbxScoreMatrixDirect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlDirect.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixTeamB.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlScoreMatrix, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;gbxOver35A.Name" xml:space="preserve">
+    <value>gbxOver35A</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45B.Name" xml:space="preserve">
+    <value>ctlOverUnder45B</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxOver45Direct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05B.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ctlOverUnder35B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;pnlTeamA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlTeamB.Name" xml:space="preserve">
+    <value>pnlTeamB</value>
+  </data>
+  <data name="gbxBWLD.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ctlOverUnder05A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 146</value>
+  </data>
+  <data name="gbxBWLD.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="pnlA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05B.Name" xml:space="preserve">
+    <value>gbxOver05B</value>
+  </data>
+  <data name="ctlOverUnder45B.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlA.Parent" xml:space="preserve">
+    <value>gbxBWLD</value>
+  </data>
+  <data name="&gt;&gt;ctlWLDDirect.Name" xml:space="preserve">
+    <value>ctlWLDDirect</value>
+  </data>
+  <data name="&gt;&gt;gbxDirect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxOver25Direct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 165</value>
+  </data>
+  <data name="cbxSelectorB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25A.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixTeamB.Parent" xml:space="preserve">
+    <value>gbxScoreMatrixTeamB</value>
+  </data>
+  <data name="ctlOverUnder35A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 146</value>
+  </data>
+  <data name="gbxTeamA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="gbxDirect.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder25B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxOver45Direct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbxBWLD.Name" xml:space="preserve">
+    <value>gbxBWLD</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05B.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="gbxOver25Direct.Text" xml:space="preserve">
+    <value>Over/Under 2.5</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixTeamB.Name" xml:space="preserve">
+    <value>gbxScoreMatrixTeamB</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorB.Name" xml:space="preserve">
+    <value>pnlSelectorB</value>
+  </data>
+  <data name="gbxOver35Direct.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="pnlSelectorA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder15B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctlOverUnder15B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxOver35A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlWLDA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxOver45A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1105</value>
+  </data>
+  <data name="pnlA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxScoreMatrixTeamA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxOver45Direct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorA.Parent" xml:space="preserve">
+    <value>pnlTeamA</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixTeamA.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlScoreMatrix, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45A.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="gbxCommonB.Text" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonB.Name" xml:space="preserve">
+    <value>ctlCommonB</value>
+  </data>
+  <data name="ctlOverUnder25Direct.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlOverUnder15Direct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;gbxOver35Direct.Name" xml:space="preserve">
+    <value>gbxOver35Direct</value>
+  </data>
+  <data name="&gt;&gt;gbxTeamB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15A.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;gbxOver15Direct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxOver25Direct.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ctlWLDDirect.Parent" xml:space="preserve">
+    <value>gbxDirectWLD</value>
+  </data>
+  <data name="&gt;&gt;ctlWLDA.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlWLDwithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;gbxDirectWLD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45B.Parent" xml:space="preserve">
+    <value>gbxOverUnder45B</value>
+  </data>
+  <data name="gbxOver05B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ctlOverUnder15A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 146</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45Direct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxDirect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="gbxCommonB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="cbxSelectorDirect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 21</value>
+  </data>
+  <data name="ctlOverUnder05B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxCommonB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 80</value>
+  </data>
+  <data name="pnlButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1330</value>
+  </data>
+  <data name="pnlButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder45B.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbxDirect.Parent" xml:space="preserve">
+    <value>pnlDirect</value>
+  </data>
+  <data name="pnlSelectorDirect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 40</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45A.Parent" xml:space="preserve">
+    <value>gbxOver45A</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixTeamB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pnlDirect.Name" xml:space="preserve">
+    <value>pnlDirect</value>
+  </data>
+  <data name="gbxDirectWLD.Text" xml:space="preserve">
+    <value>Win/Loss/Draw</value>
+  </data>
+  <data name="gbxOver05A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonA.Parent" xml:space="preserve">
+    <value>pnlA</value>
+  </data>
+  <data name="gbxOver25A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 165</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixDirect.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlScoreMatrix, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="gbxOver45A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25Direct.Parent" xml:space="preserve">
+    <value>gbxOver25Direct</value>
+  </data>
+  <data name="gbxCommonDirect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 80</value>
+  </data>
+  <data name="ctlMatrixTeamA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 170</value>
+  </data>
+  <data name="ctlOverUnder45B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="gbxCommonA.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05Direct.Parent" xml:space="preserve">
+    <value>pnlDirekt</value>
+  </data>
+  <data name="ctlWLDDirect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 155</value>
+  </data>
+  <data name="&gt;&gt;gbxAWLD.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gbxOver05A.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35B.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlOverUnder45A.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxOver15A.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixDirect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonA.Parent" xml:space="preserve">
+    <value>gbxCommonA</value>
+  </data>
+  <data name="cbxSelectorB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 21</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05B.Parent" xml:space="preserve">
+    <value>gbxOver05B</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gbxOver15A.Name" xml:space="preserve">
+    <value>gbxOver15A</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45Direct.Name" xml:space="preserve">
+    <value>ctlOverUnder45Direct</value>
+  </data>
+  <data name="ctlOverUnder35Direct.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35Direct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonDirect.Parent" xml:space="preserve">
+    <value>gbxCommonDirect</value>
+  </data>
+  <data name="&gt;&gt;gbxOver45A.Name" xml:space="preserve">
+    <value>gbxOver45A</value>
+  </data>
+  <data name="gbxScoreMatrixTeamA.Text" xml:space="preserve">
+    <value>Score Matrix</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35A.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxOver05B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 445</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxOver15Direct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 610</value>
+  </data>
+  <data name="gbxOverUnder45B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1105</value>
+  </data>
+  <data name="gbxOver35Direct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 165</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05A.Parent" xml:space="preserve">
+    <value>gbxOver05A</value>
+  </data>
+  <data name="gbxScoreMatrixDirect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 191</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonDirect.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlCommonStats, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;gbxOver25Direct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pnlDirekt.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder15B.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixTeamB.Parent" xml:space="preserve">
+    <value>pnlB</value>
+  </data>
+  <data name="cbxSelectorDirect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="pnlSelectorB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gbxScoreMatrixTeamA.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cbxSelectorA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxOver35A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 940</value>
+  </data>
+  <data name="ctlWLDDirect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlDirekt.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlDirect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorDirect.Parent" xml:space="preserve">
+    <value>pnlSelectorDirect</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonA.Name" xml:space="preserve">
+    <value>ctlCommonA</value>
+  </data>
+  <data name="gbxScoreMatrixTeamB.Text" xml:space="preserve">
+    <value>Score Matrix</value>
+  </data>
+  <data name="gbxScoreMatrixTeamA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 191</value>
+  </data>
+  <data name="&gt;&gt;pnlDirekt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35Direct.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixTeamA.Name" xml:space="preserve">
+    <value>gbxScoreMatrixTeamA</value>
+  </data>
+  <data name="&gt;&gt;gbxOver25A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctlCommonDirect.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbxOver45Direct.Name" xml:space="preserve">
+    <value>gbxOver45Direct</value>
+  </data>
+  <data name="gbxBWLD.Text" xml:space="preserve">
+    <value>Win/Loss/Draw</value>
+  </data>
+  <data name="pnlA.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxSelectorA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 21</value>
+  </data>
+  <data name="pnlSelectorA.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25B.Parent" xml:space="preserve">
+    <value>gbxOverUnder25B</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35A.Name" xml:space="preserve">
+    <value>ctlOverUnder35A</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonDirect.Name" xml:space="preserve">
+    <value>gbxCommonDirect</value>
+  </data>
+  <data name="&gt;&gt;pnlB.Parent" xml:space="preserve">
+    <value>gbxTeamB</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorDirect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25B.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxOver15Direct.Text" xml:space="preserve">
+    <value>Over/Under 1.5</value>
+  </data>
+  <data name="gbxOver05B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 165</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35Direct.Parent" xml:space="preserve">
+    <value>gbxOver35Direct</value>
+  </data>
+  <data name="ctlOverUnder15A.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlWLDA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 155</value>
+  </data>
+  <data name="&gt;&gt;pnlTeamA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlMatrixTeamB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 170</value>
+  </data>
+  <data name="&gt;&gt;pnlTeamB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbxBWLD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctlCommonA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxTeamB.Text" xml:space="preserve">
+    <value>Team B</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05Direct.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15B.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25Direct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25A.Parent" xml:space="preserve">
+    <value>gbxOver25A</value>
+  </data>
+  <data name="gbxDirectWLD.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxOver45A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 165</value>
+  </data>
+  <data name="&gt;&gt;gbxOver25A.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder25B.Name" xml:space="preserve">
+    <value>gbxOverUnder25B</value>
+  </data>
+  <data name="ctlOverUnder05Direct.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxOver45A.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="gbxScoreMatrixTeamA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ctlCommonA.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pnlDirect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ctlA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixTeamA.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gbxCommonDirect.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gbxOverUnder25B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 775</value>
+  </data>
+  <data name="&gt;&gt;gbxTeamA.Name" xml:space="preserve">
+    <value>gbxTeamA</value>
+  </data>
+  <data name="ctlMatrixTeamB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15A.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlDirekt.Parent" xml:space="preserve">
+    <value>gbxDirect</value>
+  </data>
+  <data name="ctlMatrixTeamB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 15</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05Direct.Parent" xml:space="preserve">
+    <value>gbxOver05Direct</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixDirect.Name" xml:space="preserve">
+    <value>ctlMatrixDirect</value>
+  </data>
+  <data name="&gt;&gt;gbxOver45A.Parent" xml:space="preserve">
+    <value>pnlA</value>
+  </data>
+  <data name="&gt;&gt;pnlDirekt.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05A.Name" xml:space="preserve">
+    <value>gbxOver05A</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxOverUnder35B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 165</value>
+  </data>
+  <data name="&gt;&gt;gbxOver15Direct.Name" xml:space="preserve">
+    <value>gbxOver15Direct</value>
+  </data>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxOver05B.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlMatrixDirect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 170</value>
+  </data>
+  <data name="&gt;&gt;ctlA.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlWLDwithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="gbxOverUnder25B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 165</value>
+  </data>
+  <data name="gbxOver25Direct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 775</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorDirect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="gbxDirectWLD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 191</value>
+  </data>
+  <data name="&gt;&gt;gbxBWLD.Parent" xml:space="preserve">
+    <value>pnlB</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorDirect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxOver05Direct.Text" xml:space="preserve">
+    <value>Over/Under 0.5</value>
+  </data>
+  <data name="gbxOverUnder15B.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="pnlSelectorA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 40</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15Direct.Name" xml:space="preserve">
+    <value>ctlOverUnder15Direct</value>
+  </data>
+  <data name="ctlOverUnder05Direct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="ctlOverUnder45A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlTeamA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="gbxOverUnder35B.Text" xml:space="preserve">
+    <value>Over/Under 3.5</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonB.Parent" xml:space="preserve">
+    <value>gbxCommonB</value>
+  </data>
+  <data name="pnlDirekt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonB.Parent" xml:space="preserve">
+    <value>pnlB</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonDirect.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ctlOverUnder05B.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxScoreMatrixTeamB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlTeamA.Name" xml:space="preserve">
+    <value>pnlTeamA</value>
+  </data>
+  <data name="&gt;&gt;ctlWLDA.Name" xml:space="preserve">
+    <value>ctlWLDA</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Name" xml:space="preserve">
+    <value>pnlButtons</value>
+  </data>
+  <data name="pnlA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 1271</value>
+  </data>
+  <data name="gbxOver45Direct.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="gbxDirectWLD.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;gbxTeamB.Parent" xml:space="preserve">
+    <value>pnlTeamB</value>
+  </data>
+  <data name="gbxOverUnder45B.Text" xml:space="preserve">
+    <value>Over/Under 4.5</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxSelectorB.Parent" xml:space="preserve">
+    <value>pnlSelectorB</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorDirect.Name" xml:space="preserve">
+    <value>pnlSelectorDirect</value>
+  </data>
+  <data name="gbxOver15A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 165</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixTeamA.Parent" xml:space="preserve">
+    <value>pnlA</value>
+  </data>
+  <data name="&gt;&gt;gbxOver25Direct.Name" xml:space="preserve">
+    <value>gbxOver25Direct</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gbxOverUnder45B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 165</value>
+  </data>
+  <data name="&gt;&gt;pnlButtons.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbxTeamB.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gbxScoreMatrixDirect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ctlOverUnder15Direct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxOverUnder25B.Text" xml:space="preserve">
+    <value>Over/Under 2.5</value>
+  </data>
+  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="ctlCommonA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 61</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxOver45A.Text" xml:space="preserve">
+    <value>Over/Under 4.5</value>
+  </data>
+  <data name="pnlTeamB.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gbxOverUnder35B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 940</value>
+  </data>
+  <data name="pnlDirekt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 1271</value>
+  </data>
+  <data name="pnlSelectorDirect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ctlOverUnder25A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="gbxTeamA.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ctlOverUnder25B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbxOver35A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlDirect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonDirect.Name" xml:space="preserve">
+    <value>ctlCommonDirect</value>
+  </data>
+  <data name="gbxTeamA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbxTeamB.Name" xml:space="preserve">
+    <value>gbxTeamB</value>
+  </data>
+  <data name="&gt;&gt;gbxOver35Direct.Parent" xml:space="preserve">
+    <value>pnlDirekt</value>
+  </data>
+  <data name="gbxBWLD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 174</value>
+  </data>
+  <data name="&gt;&gt;gbxScoreMatrixDirect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixTeamA.Parent" xml:space="preserve">
+    <value>gbxScoreMatrixTeamA</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35B.Parent" xml:space="preserve">
+    <value>gbxOverUnder35B</value>
+  </data>
+  <data name="gbxCommonDirect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxOver05Direct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 445</value>
+  </data>
+  <data name="&gt;&gt;gbxDirectWLD.Parent" xml:space="preserve">
+    <value>pnlDirekt</value>
+  </data>
+  <data name="&gt;&gt;gbxTeamA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15B.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="pnlB.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixTeamA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxCommonA.Text" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="&gt;&gt;ctlWLDDirect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxOver15Direct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 165</value>
+  </data>
+  <data name="gbxDirect.Text" xml:space="preserve">
+    <value>Direct</value>
+  </data>
+  <data name="gbxOver25A.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="ctlCommonDirect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15Direct.Parent" xml:space="preserve">
+    <value>gbxOver15Direct</value>
+  </data>
+  <data name="pnlDirect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnlB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="ctlOverUnder05A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxAWLD.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gbxTeamB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15B.Parent" xml:space="preserve">
+    <value>gbxOverUnder15B</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05A.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35Direct.Name" xml:space="preserve">
+    <value>ctlOverUnder35Direct</value>
+  </data>
+  <data name="ctlCommonDirect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 61</value>
+  </data>
+  <data name="gbxScoreMatrixTeamB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 191</value>
+  </data>
+  <data name="&gt;&gt;ctlWLDA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlOverUnder05A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;gbxTeamA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxDirect.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ctlCommonB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="pnlB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 1271</value>
+  </data>
+  <data name="gbxCommonA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 365</value>
+  </data>
+  <data name="ctlWLDA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05A.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="pnlB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ctlOverUnder45Direct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctlOverUnder35A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxOver05B.Text" xml:space="preserve">
+    <value>Over/Under 0.5</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25B.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15A.Parent" xml:space="preserve">
+    <value>gbxOver15A</value>
+  </data>
+  <data name="&gt;&gt;gbxOver25A.Parent" xml:space="preserve">
+    <value>pnlA</value>
+  </data>
+  <data name="ctlOverUnder25B.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlTeamB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixTeamB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 30</value>
+  </data>
+  <data name="&gt;&gt;gbxDirect.Name" xml:space="preserve">
+    <value>gbxDirect</value>
+  </data>
+  <data name="&gt;&gt;pnlTeamA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxOver05A.Text" xml:space="preserve">
+    <value>Over/Under 0.5</value>
+  </data>
+  <data name="gbxOver25A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 775</value>
+  </data>
+  <data name="&gt;&gt;gbxOverUnder45B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctlOverUnder15Direct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 146</value>
+  </data>
+  <data name="gbxOver15A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ctlCommonDirect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbxOver35A.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="gbxTeamA.Text" xml:space="preserve">
+    <value>Team A</value>
+  </data>
+  <data name="gbxOverUnder15B.Text" xml:space="preserve">
+    <value>Over/Under 1.5</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35B.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="btnBack.Text" xml:space="preserve">
+    <value>&amp;Back</value>
+  </data>
+  <data name="&gt;&gt;gbxOver15A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxOverUnder45B.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05Direct.Name" xml:space="preserve">
+    <value>ctlOverUnder05Direct</value>
+  </data>
+  <data name="ctlOverUnder15A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05Direct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixTeamB.Name" xml:space="preserve">
+    <value>ctlMatrixTeamB</value>
+  </data>
+  <data name="&gt;&gt;gbxDirectWLD.Name" xml:space="preserve">
+    <value>gbxDirectWLD</value>
+  </data>
+  <data name="&gt;&gt;gbxDirectWLD.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;gbxOver45A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxOverUnder15B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 165</value>
+  </data>
+  <data name="gbxCommonDirect.Text" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="&gt;&gt;pnlA.Parent" xml:space="preserve">
+    <value>gbxTeamA</value>
+  </data>
+  <data name="&gt;&gt;ctlMatrixDirect.Parent" xml:space="preserve">
+    <value>gbxScoreMatrixDirect</value>
+  </data>
+  <data name="&gt;&gt;pnlTeamB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxOver35Direct.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctlOverUnder15A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05Direct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35A.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="&gt;&gt;gbxOver45Direct.Parent" xml:space="preserve">
+    <value>pnlDirekt</value>
+  </data>
+  <data name="&gt;&gt;gbxAWLD.Parent" xml:space="preserve">
+    <value>pnlA</value>
+  </data>
+  <data name="ctlOverUnder25Direct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 146</value>
+  </data>
+  <data name="ctlCommonDirect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxAWLD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 191</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05B.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxOverUnder25B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ctlCommonB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 61</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder35A.Parent" xml:space="preserve">
+    <value>gbxOver35A</value>
+  </data>
+  <data name="pnlDirect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ctlMatrixDirect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 15</value>
+  </data>
+  <data name="ctlOverUnder45B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 146</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder15Direct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxOver15A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 610</value>
+  </data>
+  <data name="gbxAWLD.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxCommonB.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="pnlSelectorB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gbxTeamB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 1290</value>
+  </data>
+  <data name="ctlOverUnder35A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;ctlCommonDirect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxCommonA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 80</value>
+  </data>
+  <data name="gbxOver25Direct.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ctlOverUnder35Direct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45A.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctlOverUnder35Direct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 146</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ctlMatrixDirect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbxOver35A.Parent" xml:space="preserve">
+    <value>pnlA</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder05A.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder25Direct.Type" xml:space="preserve">
+    <value>net.sxtrader.bftradingstrategies.common.Statistics.ctlOverUnderWithTrend, CommonHistoryGraph, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a2be846c6526c835</value>
+  </data>
+  <data name="gbxOver35Direct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 940</value>
+  </data>
+  <data name="cbxSelectorA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="gbxOverUnder25B.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="pnlSelectorA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;gbxCommonDirect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlDirekt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlWLDA.Parent" xml:space="preserve">
+    <value>gbxAWLD</value>
+  </data>
+  <data name="gbxScoreMatrixDirect.Text" xml:space="preserve">
+    <value>Score Matrix</value>
+  </data>
+  <data name="gbxOverUnder35B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctlOverUnder45Direct.Parent" xml:space="preserve">
+    <value>gbxOver45Direct</value>
+  </data>
+  <data name="&gt;&gt;ctlA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxOver25A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlSelectorB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbxOver05B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>German</value>
+  </metadata>
+</root>

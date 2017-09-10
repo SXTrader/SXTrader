@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strASCETradeTypeCbx" xml:space="preserve">
+    <value>Trade Type:</value>
+  </data>
+  <data name="strASLS00AndLbl" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="strASLS00OddsBetweenLbl" xml:space="preserve">
+    <value>Odds between</value>
+  </data>
+  <data name="strASSL00CheckIPCbx" xml:space="preserve">
+    <value>Check Inplay</value>
+  </data>
+  <data name="strASSL00CheckPPCbx" xml:space="preserve">
+    <value>Check Preplay</value>
+  </data>
+  <data name="strASSL00CommonGbx" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="strASSL00EqualRCRbn" xml:space="preserve">
+    <value>Equal Red Cards</value>
+  </data>
+  <data name="strASSL00InplayGbx" xml:space="preserve">
+    <value>Inplay</value>
+  </data>
+  <data name="strASSL00MarketVolumeLbl" xml:space="preserve">
+    <value>Market Volume between</value>
+  </data>
+  <data name="strASSL00NewRangeBtn" xml:space="preserve">
+    <value>&amp;New Range</value>
+  </data>
+  <data name="strASSL00NoRbn" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="strASSL00NoRCRbn" xml:space="preserve">
+    <value>No Red Cards</value>
+  </data>
+  <data name="strASSL00ObserveRCcbx" xml:space="preserve">
+    <value>Observe Red Cards</value>
+  </data>
+  <data name="strASSL00PlaytimeLbl" xml:space="preserve">
+    <value>Playtime between</value>
+  </data>
+  <data name="strASSL00PreplayGbx" xml:space="preserve">
+    <value>Preplay</value>
+  </data>
+  <data name="strASSL00RCBehaviourGbx" xml:space="preserve">
+    <value>Red Card Behaviour</value>
+  </data>
+  <data name="strASSL00SettledMarketGbx" xml:space="preserve">
+    <value>Open Trade if there is a settled market</value>
+  </data>
+  <data name="strASSL00StatisticsGbx" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="strASSL00StepTakenChk" xml:space="preserve">
+    <value>Step has already traded</value>
+  </data>
+  <data name="strASSL00TAMoreRCRbn" xml:space="preserve">
+    <value>Team A more Red Cards</value>
+  </data>
+  <data name="strASSL00TBMoreRCRbn" xml:space="preserve">
+    <value>Team B more Red Cards</value>
+  </data>
+  <data name="strASSL00TradeConfigBtn" xml:space="preserve">
+    <value>Trade Configuration</value>
+  </data>
+  <data name="strASSL00UnsettledMarketGbx" xml:space="preserve">
+    <value>Open Trade if there is a unsettled market</value>
+  </data>
+  <data name="strASSL00YesRbn" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="strDescription" xml:space="preserve">
+    <value>Trades on Soccer Markets</value>
+  </data>
+  <data name="strFQTradeTheReaction" xml:space="preserve">
+    <value>Soccer/Trade The Reaction</value>
+  </data>
+  <data name="strName" xml:space="preserve">
+    <value>Trade The Reaction</value>
+  </data>
+  <data name="strScoreLine00" xml:space="preserve">
+    <value>Scoreline 0 - 0</value>
+  </data>
+  <data name="strASDisplayDeleteBtn" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="strASDisplayEditBtn" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="strMarketVolumeHighLowMismatch" xml:space="preserve">
+    <value>The upper end of the Market Volume interval must be greater than the lower end.</value>
+  </data>
+  <data name="strOddsHighLowMismatch" xml:space="preserve">
+    <value>The upper end of the odds interval must be greater than the lower end.</value>
+  </data>
+  <data name="strPlaytimeHighLowMismatch" xml:space="preserve">
+    <value>The upper end of the Playtime interval must be greater than the lower end.</value>
+  </data>
+  <data name="strMatchAdded" xml:space="preserve">
+    <value>Match added.</value>
+  </data>
+  <data name="strNoParameter" xml:space="preserve">
+    <value>No Parameter was provided in Module {0}</value>
+  </data>
+  <data name="strWrongParameterCount" xml:space="preserve">
+    <value>Too many or too less parameters provided in Module {0}</value>
+  </data>
+  <data name="strWrongParameterType" xml:space="preserve">
+    <value>Parameter {0}: Wrong Parametertype. Expected Parametertype {1}</value>
+  </data>
+  <data name="strPluginLoaded" xml:space="preserve">
+    <value>Plugin {0} loaded</value>
+  </data>
+  <data name="strCfgFBAlwaysBet" xml:space="preserve">
+    <value>Always Bet</value>
+  </data>
+  <data name="strCfgFBAvailableAmount" xml:space="preserve">
+    <value>Available Bankroll</value>
+  </data>
+  <data name="strCfgFBPercentOf" xml:space="preserve">
+    <value>% of</value>
+  </data>
+  <data name="strCfgFBTotalAmount" xml:space="preserve">
+    <value>Total Bankroll</value>
+  </data>
+  <data name="strCfgSL00CheckLayOdds" xml:space="preserve">
+    <value>Check Lay Odds smaller than Back Odds</value>
+  </data>
+  <data name="strCfgSL00GreenPercentage" xml:space="preserve">
+    <value>Percentage of Back Odds Lay Odds must have before Greening:</value>
+  </data>
+  <data name="strCfgSL00GreenWaitTime" xml:space="preserve">
+    <value>Wait Time before Greening in Seconds:</value>
+  </data>
+  <data name="strCfgSL00HedgePercentage" xml:space="preserve">
+    <value>Percentage of Back Odds Lay Odds must have before Hedging:</value>
+  </data>
+  <data name="strCfgSL00HedgeWaitTime" xml:space="preserve">
+    <value>Wait Time before Hedging in Seconds:</value>
+  </data>
+  <data name="strCfgSL00OddsPercentage" xml:space="preserve">
+    <value>Odds Percentage</value>
+  </data>
+  <data name="strCfgSL00OnlyHedge" xml:space="preserve">
+    <value>Only Hedge</value>
+  </data>
+  <data name="strCfgSL00UseOddsPercentage" xml:space="preserve">
+    <value>Calculate Target Lay Odds relativly to Back Odds</value>
+  </data>
+  <data name="strCfgSL00UseWaitTime" xml:space="preserve">
+    <value>Use Wait Times</value>
+  </data>
+  <data name="strCfgSL00WaitTime" xml:space="preserve">
+    <value>Wait Times</value>
+  </data>
+  <data name="strCancelBtn" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="strOKBtn" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="strTTRLocalConfigTitel" xml:space="preserve">
+    <value>Local Configuration</value>
+  </data>
+  <data name="strASTmpltSaveSuccMessage" xml:space="preserve">
+    <value>Successfully saved template:\r\n{0}</value>
+  </data>
+  <data name="strASTmpltSaveTitle" xml:space="preserve">
+    <value>Save Template</value>
+  </data>
+  <data name="strASTmpltOpenErrorCaption" xml:space="preserve">
+    <value>Error while loading Template</value>
+  </data>
+  <data name="strASTmpltOpenFileOpenError" xml:space="preserve">
+    <value>There was an error while opening file {0}</value>
+  </data>
+  <data name="strASTmpltOpenNoType" xml:space="preserve">
+    <value>Template File has no identification</value>
+  </data>
+  <data name="strASTmpltOpenWrongType" xml:space="preserve">
+    <value>Template File is not a Trade The Reaction Template</value>
+  </data>
+  <data name="strCfgGenPreplayRuleStartMinuteLbl" xml:space="preserve">
+    <value>Amount of Minutes the Preplay Rule Check starts before Match begins:</value>
+  </data>
+  <data name="strOvwSL00AvgBackOddsLbl" xml:space="preserve">
+    <value>Average Back Odds:</value>
+  </data>
+  <data name="strOvwSL00AvgBackPriceLbl" xml:space="preserve">
+    <value>Average Back Amount:</value>
+  </data>
+  <data name="strOvwSL00AvgLayOddsLbl" xml:space="preserve">
+    <value>Average Lay Odds:</value>
+  </data>
+  <data name="strOvwSL00AvgLayPriceLbl" xml:space="preserve">
+    <value>Average Lay Amount:</value>
+  </data>
+  <data name="strOvwSL00TradeStateLbl" xml:space="preserve">
+    <value>Trade State:</value>
+  </data>
+  <data name="strMsgTradeStateChanged" xml:space="preserve">
+    <value>State has changed from {0} to {1}</value>
+  </data>
+  <data name="strASOUGoalSumLbl" xml:space="preserve">
+    <value>Goal Sum between</value>
+  </data>
+  <data name="strGreened" xml:space="preserve">
+    <value>Greened</value>
+  </data>
+  <data name="strHedged" xml:space="preserve">
+    <value>Hedged</value>
+  </data>
+  <data name="strNoMatter" xml:space="preserve">
+    <value>No Matter</value>
+  </data>
+  <data name="strOpened" xml:space="preserve">
+    <value>Opened</value>
+  </data>
+  <data name="strOver15" xml:space="preserve">
+    <value>Over 1.5</value>
+  </data>
+  <data name="strOver25" xml:space="preserve">
+    <value>Over 2.5</value>
+  </data>
+  <data name="strOver35" xml:space="preserve">
+    <value>Over 3.5</value>
+  </data>
+  <data name="strOver45" xml:space="preserve">
+    <value>Over 4.5</value>
+  </data>
+  <data name="strUnassigned" xml:space="preserve">
+    <value>Unassigned</value>
+  </data>
+  <data name="strStake" xml:space="preserve">
+    <value>Stake</value>
+  </data>
+  <data name="strWinning" xml:space="preserve">
+    <value>Winning</value>
+  </data>
+  <data name="strOrder" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="strRuleId" xml:space="preserve">
+    <value>Rule ID</value>
+  </data>
+  <data name="strTitelTradeOutRulesDlg" xml:space="preserve">
+    <value>Trading Out Rules</value>
+  </data>
+  <data name="strTradeOutRule" xml:space="preserve">
+    <value>Trade Out Rule</value>
+  </data>
+  <data name="strTradeOutSetting" xml:space="preserve">
+    <value>Trade Out Setting</value>
+  </data>
+  <data name="strTrigger" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="strTriggerGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="strTriggerGoalScored" xml:space="preserve">
+    <value>Goal Scored</value>
+  </data>
+  <data name="strTriggerRedCard" xml:space="preserve">
+    <value>Red Card</value>
+  </data>
+  <data name="strAnd" xml:space="preserve">
+    <value>and </value>
+  </data>
+  <data name="strBetween" xml:space="preserve">
+    <value>between</value>
+  </data>
+  <data name="strCheckGoalSum" xml:space="preserve">
+    <value>Check Goal Sum</value>
+  </data>
+  <data name="strCheckLayOdds" xml:space="preserve">
+    <value>Check Lay Odds</value>
+  </data>
+  <data name="strCheckOrder" xml:space="preserve">
+    <value>Check Order</value>
+  </data>
+  <data name="strCheckPlaytime" xml:space="preserve">
+    <value>Check Playtime</value>
+  </data>
+  <data name="strCheckRules" xml:space="preserve">
+    <value>Check Rules</value>
+  </data>
+  <data name="strEqualRCR" xml:space="preserve">
+    <value>Equal Red Cards</value>
+  </data>
+  <data name="strGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="strGoal" xml:space="preserve">
+    <value>Goal</value>
+  </data>
+  <data name="strGoalSum" xml:space="preserve">
+    <value>Goal Sum</value>
+  </data>
+  <data name="strGreenPercentage" xml:space="preserve">
+    <value>Green Percentage</value>
+  </data>
+  <data name="strGreenPlaytime" xml:space="preserve">
+    <value>Green Playtime</value>
+  </data>
+  <data name="strGreenWaittime" xml:space="preserve">
+    <value>Green Wait Time</value>
+  </data>
+  <data name="strHedgeOnly" xml:space="preserve">
+    <value>Only Hedge</value>
+  </data>
+  <data name="strHedgePercentage" xml:space="preserve">
+    <value>Hedge Percentage</value>
+  </data>
+  <data name="strHedgePlaytime" xml:space="preserve">
+    <value>Hedge Playtime</value>
+  </data>
+  <data name="strHedgeWaitTime" xml:space="preserve">
+    <value>Hedge Wait Time</value>
+  </data>
+  <data name="strNoRCCheck" xml:space="preserve">
+    <value>No Red Card Check</value>
+  </data>
+  <data name="strPercent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="strPlaytime" xml:space="preserve">
+    <value>Playtime</value>
+  </data>
+  <data name="strRCEqual" xml:space="preserve">
+    <value>Both Team Equal Red Cards</value>
+  </data>
+  <data name="strRedCard" xml:space="preserve">
+    <value>Red Card</value>
+  </data>
+  <data name="strScore" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="strSeconds" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="strTAMoreRCCheck" xml:space="preserve">
+    <value>Team A More Red Cards Check</value>
+  </data>
+  <data name="strTAMoreRCR" xml:space="preserve">
+    <value>Team A more Red Cards</value>
+  </data>
+  <data name="strTBMoreRCCheck" xml:space="preserve">
+    <value>Team B More Red Cards Check</value>
+  </data>
+  <data name="strTBMoreRCR" xml:space="preserve">
+    <value>Team B more Red Cards</value>
+  </data>
+  <data name="strUseGreenMinutes" xml:space="preserve">
+    <value>Use Green Minutes</value>
+  </data>
+  <data name="strUseHedgeWaitTime" xml:space="preserve">
+    <value>Use Hedge Wait Time</value>
+  </data>
+  <data name="strUseOddsPercentage" xml:space="preserve">
+    <value>Use Odds Percentage</value>
+  </data>
+  <data name="strUseWaitTime" xml:space="preserve">
+    <value>Use Wait Time</value>
+  </data>
+  <data name="strOverUnder" xml:space="preserve">
+    <value>Over/Under</value>
+  </data>
+  <data name="strOvwPLSnapshot" xml:space="preserve">
+    <value>Profit/Loss Snapshot</value>
+  </data>
+  <data name="strError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="strNoMatchSelected" xml:space="preserve">
+    <value>Please select a match first.</value>
+  </data>
+  <data name="strCfgNoTrade" xml:space="preserve">
+    <value>No Trade</value>
+  </data>
+  <data name="strNoTrading" xml:space="preserve">
+    <value>No Trading!</value>
+  </data>
+  <data name="strAverageFirstGoal" xml:space="preserve">
+    <value>Average 1st Goal</value>
+  </data>
+  <data name="strEarliestGoal" xml:space="preserve">
+    <value>Earlist 1st Goal</value>
+  </data>
+  <data name="strLatestFirstGoal" xml:space="preserve">
+    <value>Latest 1st Goal</value>
+  </data>
+  <data name="strCfgDelta" xml:space="preserve">
+    <value>Delta</value>
+  </data>
+  <data name="strCfgFixed" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="strCfgGreen" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="strCfgHedge" xml:space="preserve">
+    <value>Hedge</value>
+  </data>
+  <data name="strCfgPlaytimes" xml:space="preserve">
+    <value>Playtimes</value>
+  </data>
+  <data name="strCfgStatistical" xml:space="preserve">
+    <value>Statistical</value>
+  </data>
+  <data name="strOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="strOver05" xml:space="preserve">
+    <value>Over 0.5</value>
+  </data>
+  <data name="strOver55" xml:space="preserve">
+    <value>Over 5.5</value>
+  </data>
+  <data name="strOver65" xml:space="preserve">
+    <value>Over 6.5</value>
+  </data>
+  <data name="strOver75" xml:space="preserve">
+    <value>Over 7.5</value>
+  </data>
+  <data name="strOver85" xml:space="preserve">
+    <value>Over 8.5</value>
+  </data>
+  <data name="strDelta" xml:space="preserve">
+    <value>Delta</value>
+  </data>
+  <data name="strGreenSpecialTime" xml:space="preserve">
+    <value>Greening Special Playtime</value>
+  </data>
+  <data name="strHedgeSpecialTime" xml:space="preserve">
+    <value>Hedging Special Playtime</value>
+  </data>
+  <data name="strDlgScoreSelection" xml:space="preserve">
+    <value>Score Selection</value>
+  </data>
+  <data name="strOther" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="strScoresASBtn" xml:space="preserve">
+    <value>Scores: </value>
+  </data>
+  <data name="strScoreline00Back" xml:space="preserve">
+    <value>Scoreline 0 - 0 Back</value>
+  </data>
+  <data name="strScoreline00Lay" xml:space="preserve">
+    <value>Scoreline 0 - 0 Lay</value>
+  </data>
+  <data name="strScoreline01Back" xml:space="preserve">
+    <value>Scoreline 0 - 1 Back</value>
+  </data>
+  <data name="strScoreline01Lay" xml:space="preserve">
+    <value>Scoreline 0 - 1 Lay</value>
+  </data>
+  <data name="strScoreline02Back" xml:space="preserve">
+    <value>Scoreline 0 - 2 Back</value>
+  </data>
+  <data name="strScoreline02Lay" xml:space="preserve">
+    <value>Scoreline 0 - 2 Lay</value>
+  </data>
+  <data name="strScoreline03Back" xml:space="preserve">
+    <value>Scoreline 0 - 3 Back</value>
+  </data>
+  <data name="strScoreline03Lay" xml:space="preserve">
+    <value>Scoreline 0 - 3 Lay</value>
+  </data>
+  <data name="strScoreline10Back" xml:space="preserve">
+    <value>Scoreline 1 - 0 Back</value>
+  </data>
+  <data name="strScoreline10Lay" xml:space="preserve">
+    <value>Scoreline 1 - 0 Lay</value>
+  </data>
+  <data name="strScoreline11Back" xml:space="preserve">
+    <value>Scoreline 1 - 1 Back</value>
+  </data>
+  <data name="strScoreline11Lay" xml:space="preserve">
+    <value>Scoreline 1 - 1 Lay</value>
+  </data>
+  <data name="strScoreline12Back" xml:space="preserve">
+    <value>Scoreline 1 - 2 Back</value>
+  </data>
+  <data name="strScoreline12Lay" xml:space="preserve">
+    <value>Scoreline 1 - 2 Lay</value>
+  </data>
+  <data name="strScoreline13Back" xml:space="preserve">
+    <value>Scoreline 1- 3 Back</value>
+  </data>
+  <data name="strScoreline13Lay" xml:space="preserve">
+    <value>Scoreline 1 - 3 Lay</value>
+  </data>
+  <data name="strScoreline20Back" xml:space="preserve">
+    <value>Scoreline 2 - 0 Back</value>
+  </data>
+  <data name="strScoreline20Lay" xml:space="preserve">
+    <value>Scoreline 2 - 0 Lay</value>
+  </data>
+  <data name="strScoreline21Back" xml:space="preserve">
+    <value>Scoreline 2 - 1 Back</value>
+  </data>
+  <data name="strScoreline21Lay" xml:space="preserve">
+    <value>Scoreline 2 - 1 Lay</value>
+  </data>
+  <data name="strScoreline22Back" xml:space="preserve">
+    <value>Scoreline 2 - 2 Back</value>
+  </data>
+  <data name="strScoreline22Lay" xml:space="preserve">
+    <value>Scoreline 2 - 2 Lay</value>
+  </data>
+  <data name="strScoreline23Back" xml:space="preserve">
+    <value>Scoreline 2 - 3 Back</value>
+  </data>
+  <data name="strScoreline23Lay" xml:space="preserve">
+    <value>Scoreline 2 - 3 Lay</value>
+  </data>
+  <data name="strScoreline30Back" xml:space="preserve">
+    <value>Scoreline 3 - 0 Back</value>
+  </data>
+  <data name="strScoreline30Lay" xml:space="preserve">
+    <value>Scoreline 3 - 0 Lay</value>
+  </data>
+  <data name="strScoreline31Back" xml:space="preserve">
+    <value>Scoreline 3 - 1 Back</value>
+  </data>
+  <data name="strScoreline31Lay" xml:space="preserve">
+    <value>Scoreline 3 - 1 Lay</value>
+  </data>
+  <data name="strScoreline32Back" xml:space="preserve">
+    <value>Scoreline 3 - 2 Back</value>
+  </data>
+  <data name="strScoreline32Lay" xml:space="preserve">
+    <value>Scoreline 3 - 2 Lay</value>
+  </data>
+  <data name="strScoreline33Back" xml:space="preserve">
+    <value>Scoreline 3 - 3 Back</value>
+  </data>
+  <data name="strScoreline33Lay" xml:space="preserve">
+    <value>Scoreline 3 - 3 Lay</value>
+  </data>
+  <data name="strScorelineOtherLay" xml:space="preserve">
+    <value>Scoreline Other Lay</value>
+  </data>
+  <data name="strScorelineOthersBack" xml:space="preserve">
+    <value>Scoreline Other Back</value>
+  </data>
+  <data name="strCheckScores" xml:space="preserve">
+    <value>Check Scores</value>
+  </data>
+  <data name="strTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="strCorrectScore" xml:space="preserve">
+    <value>Correct Score</value>
+  </data>
+  <data name="strASBetAmountByTarget" xml:space="preserve">
+    <value>Always calculate so that Liability/Win is</value>
+  </data>
+  <data name="strCfgFBTargetPercentOfBankroll" xml:space="preserve">
+    <value>% of Total Bankroll</value>
+  </data>
+  <data name="strBetAmount" xml:space="preserve">
+    <value>Bet Amount</value>
+  </data>
+  <data name="strBetOdds" xml:space="preserve">
+    <value>Bet Odds</value>
+  </data>
+  <data name="strChangeOddsBy" xml:space="preserve">
+    <value>Change Odds by</value>
+  </data>
+  <data name="strTicks" xml:space="preserve">
+    <value>Ticks.</value>
+  </data>
+  <data name="strTicksExplain" xml:space="preserve">
+    <value>Back:  - Ticks. Lay: + Ticks</value>
+  </data>
+  <data name="strUseGivenOdds" xml:space="preserve">
+    <value>Use given Odds</value>
+  </data>
+  <data name="strKeepInplay" xml:space="preserve">
+    <value>Keep Inplay</value>
+  </data>
+  <data name="strKeepUnmatched" xml:space="preserve">
+    <value>Keep Unmatched</value>
+  </data>
+</root>

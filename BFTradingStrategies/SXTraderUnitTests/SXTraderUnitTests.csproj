@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F4E1711A-E815-4104-9C64-2EE712FA94C0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SXTraderUnitTests</RootNamespace>
+    <AssemblyName>SXTraderUnitTests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.core">
+      <HintPath>..\packages\NUnitTestAdapter.WithFramework.0.96.0\lib\nunit.core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.core.interfaces">
+      <HintPath>..\packages\NUnitTestAdapter.WithFramework.0.96.0\lib\nunit.core.interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.2.12296, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnitTestAdapter.WithFramework.0.96.0\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.util">
+      <HintPath>..\packages\NUnitTestAdapter.WithFramework.0.96.0\lib\nunit.util.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NUnit.VisualStudio.TestAdapter">
+      <HintPath>..\packages\NUnitTestAdapter.WithFramework.0.96.0\lib\NUnit.VisualStudio.TestAdapter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="BetGreenTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BetdaqIF\BetdaqIF.csproj">
+      <Project>{cce4d428-3570-4362-9bc3-0939e0ec3053}</Project>
+      <Name>BetdaqIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BetFairIF\BetFairIF.csproj">
+      <Project>{b08014c4-2e3a-4879-a44e-70f5a3309d83}</Project>
+      <Name>BetFairIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BFTSGUI\BFTSGUI.csproj">
+      <Project>{41d6d6b4-3695-4a9a-ab50-f964dd49dd90}</Project>
+      <Name>BFTSGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BFUEStrategy\BFUEStrategy.csproj">
+      <Project>{bcf2abdd-58a4-4387-9f59-1b0abd1f78d2}</Project>
+      <Name>BFUEStrategy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonHistoryGraph\CommonHistoryGraph.csproj">
+      <Project>{faa5ed6d-4606-4a47-8979-765c22fb8987}</Project>
+      <Name>CommonHistoryGraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LiveScoreParser\LiveScoreParser.csproj">
+      <Project>{b23844e2-09df-4cf3-866b-4dc7e1a76a84}</Project>
+      <Name>LiveScoreParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSParserInterfaces\LSParserInterfaces.csproj">
+      <Project>{4e60bc29-ba92-4d93-b880-145f9d84bce4}</Project>
+      <Name>LSParserInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlugInIF\PlugInIF.csproj">
+      <Project>{62850bcf-339f-47f2-934a-d3592ea87b76}</Project>
+      <Name>PlugInIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXALInterfaces\SXALInterfaces.csproj">
+      <Project>{d311cc73-e41e-4c5f-bcec-337d37a3c0bf}</Project>
+      <Name>SXALInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXAL\SXAL.csproj">
+      <Project>{1d29135d-1deb-40b8-8506-6d05f586068c}</Project>
+      <Name>SXAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXFastBet\SXFastBet.csproj">
+      <Project>{4b277ca4-28bc-40de-84cc-60e747e7a27c}</Project>
+      <Name>SXFastBet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXHelper\SXHelper.csproj">
+      <Project>{c30454f3-f2e6-422f-9a6d-68a285e3cb93}</Project>
+      <Name>SXHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXMUK\SXMUK.csproj">
+      <Project>{c14a6a65-342a-4172-b666-6bac5ef8b09d}</Project>
+      <Name>SXMUK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SXStatisticBase\SXStatisticBase.csproj">
+      <Project>{7b85279b-9fde-410c-885d-84c98bfbccda}</Project>
+      <Name>SXStatisticBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheLowLay\TheLowLay.csproj">
+      <Project>{5a9875e1-abb8-45a3-a784-5abd8a2c7a2d}</Project>
+      <Name>TheLowLay</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TradeInterfaces\TradeInterfaces.csproj">
+      <Project>{6be2d983-5d3b-4fab-a76f-ec21a1199389}</Project>
+      <Name>TradeInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TradeTheReaction\TradeTheReaction.csproj">
+      <Project>{eb0788fd-0431-4fac-9c29-40b037982fd2}</Project>
+      <Name>TradeTheReaction</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

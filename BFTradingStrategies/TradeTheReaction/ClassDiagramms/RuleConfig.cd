@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.GUI.Configuration.ctlTradeOutRuleEditOver" Collapsed="true">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RACgB4VSgCCqqQEEAEqAAAYCSIwIjRgKACghAAYIgXA=</HashCode>
+      <FileName>TradeModuls\OverUnder\Controls\ctlTradeOutRuleEditOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.TradeModuls.Scoreline00.Controls.ctlTradeOutRuleEditCSBack" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hABQBYVQAGKqoQEEAEKAAA4CyQxIjxgiACAxIwcIgWA=</HashCode>
+      <FileName>TradeModuls\CorrectScore\Controls\ctlTradeOutRuleEditCSBack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.GUI.Configuration.ctlTradeOutRuleEditAbstract" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAJAACAAIQgAAgCAAAACAAkQAAAAAEAQBAgIgAA=</HashCode>
+      <FileName>GUI\Configuration\ctlTradeOutRuleEditAbstract.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_tradeOutCheck" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.GUI.Configuration.frmTradeOutConfig" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAiAiAAEEAAKAggASAAAAAEQAAAAIQIAAAAA=</HashCode>
+      <FileName>GUI\Configuration\frmTradeOutConfig.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_ctl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRConfigurationRW" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>tIxB0U6AmYbiAwE4lDCQzkgsKI2MoLxQID2mYogJHXk=</HashCode>
+      <FileName>Configuration\TTRConfigRWCS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutRuleFragment" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIIAAAAAAAAAAAAAAAIAAAAAAABAAAAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutGoalSumRule" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAIAAAAAAAgAIAAAAAAABAAAAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutPlayTimeRule" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAIAAAAAAAgAIAAAAAAABAAAAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutRCTeamAMore" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAAAAAAAAAIAAAAAAABAAAAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutRCTeamBMore" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAAAAAAAAAIAAAAAAABAAAAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutRCEqual" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAAAAAAAAAIAAAAAAABAAAAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutRulesList" Collapsed="true">
+    <Position X="12.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutSettings" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEiIAABAAAAEkwIgCQAAoAgIAACBBBBEAAIiEEIA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutCheck" Collapsed="true">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgECAABAAAEAABAkgAAAAAAAAAAACBAAEAAAAAAAQAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_settings" />
+      <Field Name="_ruleList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TTRTradeOutCheckSortedList" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.TradeStarter.ctlASConfigElement" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAICABSAgAAFQAAKAABACAAAYABgAAAAAgAJAAEA=</HashCode>
+      <FileName>GUI\ctlASConfigElement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_element" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.TradeStarter.TTRASElementSaveEventArgs" Collapsed="true">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GUI\ctlASConfigElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.TradeStarter.TradeStarterConfigElement" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ZwIYEBBlIIAMAKgECACQBRABMAcAAQIGA8QYQgAkCBU=</HashCode>
+      <FileName>TradeStarter\TradeStarterConfigElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.GUI.ctlASConfigElementDisplay" Collapsed="true">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAACAgAQIAAAKAAAgCAAAYAAAAAQAgAAAAASQ=</HashCode>
+      <FileName>GUI\ctlASConfigElementDisplay.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_configElement" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.GUI.TTRASElementDeleteEventArgs" Collapsed="true">
+    <Position X="4.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GUI\ctlASConfigElementDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="net.sxtrader.bftradingstrategies.ttr.GUI.TTRASElementEditEventArgs" Collapsed="true">
+    <Position X="4.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GUI\ctlASConfigElementDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="net.sxtrader.bftradingstrategies.ttr.Configuration.TRADEOUTTRIGGER" Collapsed="true">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="net.sxtrader.bftradingstrategies.ttr.Configuration.SPECIALPLAYTIME" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAACAAAABAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Configuration\TTRConfigurationRW.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

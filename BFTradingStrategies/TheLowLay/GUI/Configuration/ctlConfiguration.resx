@@ -1,0 +1,1553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;chkActive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkSubscription.Name" xml:space="preserve">
+    <value>lnkSubscription</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 103</value>
+  </data>
+  <data name="&gt;&gt;spnMoreThan20.Name" xml:space="preserve">
+    <value>spnMoreThan20</value>
+  </data>
+  <data name="chkNonRunner.Text" xml:space="preserve">
+    <value>Non Runner Observation (Not recommended by The Low Lay)</value>
+  </data>
+  <data name="lblTradeStartTime.Text" xml:space="preserve">
+    <value>Begin Trade </value>
+  </data>
+  <data name="spnMoreThan20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="chkDynamicBetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 275</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;spn16To20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;spn11To15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbpMail.Parent" xml:space="preserve">
+    <value>tbcConfiguration</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="spnMaxOdds.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblNonRunners.Name" xml:space="preserve">
+    <value>lblNonRunners</value>
+  </data>
+  <data name="lblInfo.Text" xml:space="preserve">
+    <value>SXTrader is using IMAP for accessing your mailbox and is looking for the daily tip mails from 
+The Low Lay in your Inbox.
+</value>
+  </data>
+  <data name="&gt;&gt;rbnAsRisk.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="&gt;&gt;spn11To15.Name" xml:space="preserve">
+    <value>spn11To15</value>
+  </data>
+  <data name="&gt;&gt;lblMailServer.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="&gt;&gt;chkActive.Name" xml:space="preserve">
+    <value>chkActive</value>
+  </data>
+  <data name="chkLastBet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartTime2.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="cbxSSL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl1To5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="txtMailUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 174</value>
+  </data>
+  <data name="spn16To20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 85</value>
+  </data>
+  <data name="cbxSSL.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblCurrency.Text" xml:space="preserve">
+    <value>&lt;Currency&gt;</value>
+  </data>
+  <data name="&gt;&gt;spn6To10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbpMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="rbnAsRisk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 43</value>
+  </data>
+  <data name="&gt;&gt;spnStartMinute.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="&gt;&gt;lblSubscription.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spn11To15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="txtMailUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 20</value>
+  </data>
+  <data name="&gt;&gt;spnIMAPPort.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="gbxNonRunner.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btnTest.Text" xml:space="preserve">
+    <value>Test Settings</value>
+  </data>
+  <data name="&gt;&gt;lblMaximumOdds.Name" xml:space="preserve">
+    <value>lblMaximumOdds</value>
+  </data>
+  <data name="&gt;&gt;spn1To5.Name" xml:space="preserve">
+    <value>spn1To5</value>
+  </data>
+  <data name="&gt;&gt;lnkSubscription.Parent" xml:space="preserve">
+    <value>gbxInfo</value>
+  </data>
+  <data name="spnMoreThan20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 108</value>
+  </data>
+  <data name="&gt;&gt;lblMaximumOdds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTipAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="&gt;&gt;lblStartTime2.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="&gt;&gt;lbl1To5.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="&gt;&gt;spnLastTime.Name" xml:space="preserve">
+    <value>spnLastTime</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbpMail.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;lblTimeToStart.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="lnkSubscription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="spnHours.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lbl16To20.Name" xml:space="preserve">
+    <value>lbl16To20</value>
+  </data>
+  <data name="&gt;&gt;lblMailAccess.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="&gt;&gt;lblCheck.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="lbl16To20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 89</value>
+  </data>
+  <data name="&gt;&gt;spnMaxOdds.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lnkSubscription.Text" xml:space="preserve">
+    <value>The Low Lay</value>
+  </data>
+  <data name="&gt;&gt;gbxIncoming.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="&gt;&gt;cbxSSL.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="tbpTrade.Text" xml:space="preserve">
+    <value>Trade Behaviour</value>
+  </data>
+  <data name="lblInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>437, 26</value>
+  </data>
+  <data name="&gt;&gt;lblMailServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxIncoming.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 468</value>
+  </data>
+  <data name="&gt;&gt;chkNonRunner.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cbxSSL.Name" xml:space="preserve">
+    <value>cbxSSL</value>
+  </data>
+  <data name="tbpCommon.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtMailAccess.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="&gt;&gt;lblStartTime2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;spn6To10.Name" xml:space="preserve">
+    <value>spn6To10</value>
+  </data>
+  <data name="spn16To20.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;spnHours.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="lblTicks.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;lbl16To20.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="&gt;&gt;lblPort.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblNonRunners.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblCurrency.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl11To15.Text" xml:space="preserve">
+    <value>11 - 15 Starters:</value>
+  </data>
+  <data name="&gt;&gt;gbxNonRunner.Name" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="&gt;&gt;lbl11To15.Name" xml:space="preserve">
+    <value>lbl11To15</value>
+  </data>
+  <data name="&gt;&gt;lblTradeStartTime.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="&gt;&gt;lblMailUser.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="&gt;&gt;spn6To10.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="&gt;&gt;lnkSubscription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbnAsRisk.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkInRunning.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblMailUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 158</value>
+  </data>
+  <data name="&gt;&gt;txtMailAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gbxInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxInfo.Parent" xml:space="preserve">
+    <value>tbpCommon</value>
+  </data>
+  <data name="&gt;&gt;spnMoreThan20.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbpMail.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbxNonRunner.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="rbnAsBetAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="lblMailServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 20</value>
+  </data>
+  <data name="&gt;&gt;lblSubscription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCurrency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lbl16To20.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnTest.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="txtMailAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 20</value>
+  </data>
+  <data name="&gt;&gt;spnTippAmount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkLastBet.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="lblHours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 266</value>
+  </data>
+  <data name="cbxSSL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 74</value>
+  </data>
+  <data name="cbxSSL.Text" xml:space="preserve">
+    <value>Use SSL?</value>
+  </data>
+  <data name="&gt;&gt;chkDynamicBetting.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;gbxInfo.Name" xml:space="preserve">
+    <value>gbxInfo</value>
+  </data>
+  <data name="lblMoreThan20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="&gt;&gt;tbcConfiguration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;spnHours.Name" xml:space="preserve">
+    <value>spnHours</value>
+  </data>
+  <data name="&gt;&gt;gbxAmountKind.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;spnTippAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMailServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="&gt;&gt;tbpBankroll.Parent" xml:space="preserve">
+    <value>tbcConfiguration</value>
+  </data>
+  <data name="&gt;&gt;spnIMAPPort.Name" xml:space="preserve">
+    <value>spnIMAPPort</value>
+  </data>
+  <data name="&gt;&gt;spnMaxOdds.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="spnMoreThan20.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkDynamicBetting.Text" xml:space="preserve">
+    <value>Dynamic Betting if there is an gap between back and lay odds greater than</value>
+  </data>
+  <data name="txtMailAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 228</value>
+  </data>
+  <data name="&gt;&gt;spn11To15.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="lblTimeToStart.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;lblSubscription.Parent" xml:space="preserve">
+    <value>gbxInfo</value>
+  </data>
+  <data name="lblCurrency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 7</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMailHost.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblMaximumOdds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblTicks.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="spnStartMinute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="txtMailAccess.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblMailServer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkInRunning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMoreThan20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 112</value>
+  </data>
+  <data name="lblMailAccess.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblPort.Name" xml:space="preserve">
+    <value>lblPort</value>
+  </data>
+  <data name="&gt;&gt;lblMoreThan20.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;spnStartMinute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDynamicBetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spnLastTime.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;lblCheck.Name" xml:space="preserve">
+    <value>lblCheck</value>
+  </data>
+  <data name="&gt;&gt;lbl6To10.Name" xml:space="preserve">
+    <value>lbl6To10</value>
+  </data>
+  <data name="lblMailUser.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblMailServer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblTicks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnLastTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbnAsBetAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkPlaceForMaxOdds.Name" xml:space="preserve">
+    <value>chkPlaceForMaxOdds</value>
+  </data>
+  <data name="spnMaxOdds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="lblTicks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="&gt;&gt;lblMailAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbpTrade.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblMaximumOdds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 13</value>
+  </data>
+  <data name="spnTicks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 273</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxNonRunner.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtMailAccess.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gbxIncoming.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="spnIMAPPort.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;spn11To15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMailUser.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;spnTippAmount.Name" xml:space="preserve">
+    <value>spnTippAmount</value>
+  </data>
+  <data name="lblTradeStartTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkActive.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbxAmountKind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 73</value>
+  </data>
+  <data name="lblMailAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="&gt;&gt;txtMailUser.Name" xml:space="preserve">
+    <value>txtMailUser</value>
+  </data>
+  <data name="chkDynamicBetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 17</value>
+  </data>
+  <data name="&gt;&gt;lbl6To10.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="lblSubscription.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtMailHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 37</value>
+  </data>
+  <data name="&gt;&gt;rbnAsBetAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkPlaceForMaxOdds.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tbpCommon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMoreThan20.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl1To5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnTippAmount.Parent" xml:space="preserve">
+    <value>tbpBankroll</value>
+  </data>
+  <data name="lblPort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;spn16To20.Name" xml:space="preserve">
+    <value>spn16To20</value>
+  </data>
+  <data name="&gt;&gt;chkLastBet.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbpTrade.Name" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="lbl1To5.Text" xml:space="preserve">
+    <value>1 - 5 Starters:</value>
+  </data>
+  <data name="lblNonRunners.Text" xml:space="preserve">
+    <value>Non Runners: Do not place bet.</value>
+  </data>
+  <data name="&gt;&gt;lblMailUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurrency.Name" xml:space="preserve">
+    <value>lblCurrency</value>
+  </data>
+  <data name="lblTradeStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="&gt;&gt;txtMailAccess.Name" xml:space="preserve">
+    <value>txtMailAccess</value>
+  </data>
+  <data name="lblStartTime2.Text" xml:space="preserve">
+    <value>Minutes before race starts.</value>
+  </data>
+  <data name="&gt;&gt;lblMoreThan20.Name" xml:space="preserve">
+    <value>lblMoreThan20</value>
+  </data>
+  <data name="lblTradeStartTime.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;lblSubscription.Name" xml:space="preserve">
+    <value>lblSubscription</value>
+  </data>
+  <data name="&gt;&gt;lblMaximumOdds.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="lblSubscription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 50</value>
+  </data>
+  <data name="spnLastTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 296</value>
+  </data>
+  <data name="&gt;&gt;chkDynamicBetting.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="&gt;&gt;lblHours.Name" xml:space="preserve">
+    <value>lblHours</value>
+  </data>
+  <data name="gbxInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lblMailAccess.Name" xml:space="preserve">
+    <value>lblMailAccess</value>
+  </data>
+  <data name="&gt;&gt;lnkSubscription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMoreThan20.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="tbpCommon.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblNonRunners.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;spnMoreThan20.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="&gt;&gt;lblMailServer.Name" xml:space="preserve">
+    <value>lblMailServer</value>
+  </data>
+  <data name="&gt;&gt;spn1To5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbxSSL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lnkSubscription.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblMailServer.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="spnMaxOdds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 3</value>
+  </data>
+  <data name="chkLastBet.Text" xml:space="preserve">
+    <value>If time until race start lower than</value>
+  </data>
+  <data name="gbxIncoming.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="lblStartTime2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;spn6To10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 293</value>
+  </data>
+  <data name="chkLastBet.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblPort.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="spnStartMinute.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="spnHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="chkInRunning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="lbl16To20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbxNonRunner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbpBankroll.Text" xml:space="preserve">
+    <value>Bankroll Management</value>
+  </data>
+  <data name="lnkSubscription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 50</value>
+  </data>
+  <data name="spnTicks.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;lblStartTime2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStartTime2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 13</value>
+  </data>
+  <data name="lblTicks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 277</value>
+  </data>
+  <data name="&gt;&gt;lblCurrency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkPlaceForMaxOdds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 17</value>
+  </data>
+  <data name="&gt;&gt;gbxIncoming.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtMailHost.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="lblMoreThan20.Text" xml:space="preserve">
+    <value>More than 20 Starters:</value>
+  </data>
+  <data name="chkPlaceForMaxOdds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 71</value>
+  </data>
+  <data name="lblMoreThan20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHours.Text" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="&gt;&gt;lblTicks.Name" xml:space="preserve">
+    <value>lblTicks</value>
+  </data>
+  <data name="lblCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblHours.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="&gt;&gt;chkNonRunner.Name" xml:space="preserve">
+    <value>chkNonRunner</value>
+  </data>
+  <data name="lbl11To15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkLastBet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 17</value>
+  </data>
+  <data name="lblMailUser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartTime2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 27</value>
+  </data>
+  <data name="&gt;&gt;lblMaximumOdds.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblMailAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 212</value>
+  </data>
+  <data name="lbl6To10.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbpMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 474</value>
+  </data>
+  <data name="&gt;&gt;lbl6To10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtMailHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 20</value>
+  </data>
+  <data name="&gt;&gt;lblMailAccess.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="spnStartMinute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="txtMailAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblMailUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblMaximumOdds.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblNonRunners.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNonRunners.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Parent" xml:space="preserve">
+    <value>gbxInfo</value>
+  </data>
+  <data name="&gt;&gt;chkInRunning.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblTimeToStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkNonRunner.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMailAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblCurrency.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chkPlaceForMaxOdds.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbcConfiguration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkPlaceForMaxOdds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMailUser.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblTipAmount.Parent" xml:space="preserve">
+    <value>tbpBankroll</value>
+  </data>
+  <data name="&gt;&gt;lblMoreThan20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTest.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkActive.Parent" xml:space="preserve">
+    <value>tbpCommon</value>
+  </data>
+  <data name="&gt;&gt;spnStartMinute.Name" xml:space="preserve">
+    <value>spnStartMinute</value>
+  </data>
+  <data name="&gt;&gt;spn16To20.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="&gt;&gt;lblCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTest.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbxInfo.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="&gt;&gt;spnIMAPPort.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="spnTippAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gbxAmountKind.Parent" xml:space="preserve">
+    <value>tbpBankroll</value>
+  </data>
+  <data name="spn6To10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="&gt;&gt;spnHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkNonRunner.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;tbpTrade.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 13</value>
+  </data>
+  <data name="lbl6To10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="tbcConfiguration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbxInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;gbxIncoming.Parent" xml:space="preserve">
+    <value>tbpMail</value>
+  </data>
+  <data name="spn6To10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 39</value>
+  </data>
+  <data name="&gt;&gt;lblPort.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="lblSubscription.Text" xml:space="preserve">
+    <value>If you do not have an Subscription for The Low Lay yet you can get one here:</value>
+  </data>
+  <data name="&gt;&gt;lbl11To15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxAmountKind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spn1To5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spn1To5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;spn1To5.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="&gt;&gt;lbl16To20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbpTrade.Parent" xml:space="preserve">
+    <value>tbcConfiguration</value>
+  </data>
+  <data name="tbpBankroll.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;spnHours.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;spnLastTime.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="tbpTrade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;cbxSSL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnMaxOdds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl1To5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="&gt;&gt;lbl11To15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;spn16To20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbpMail.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbnAsBetAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="spnTicks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="gbxNonRunner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 120</value>
+  </data>
+  <data name="tbpMail.Text" xml:space="preserve">
+    <value>Mail Settings</value>
+  </data>
+  <data name="&gt;&gt;lblTicks.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gbxIncoming.Text" xml:space="preserve">
+    <value>Incoming</value>
+  </data>
+  <data name="&gt;&gt;gbxIncoming.Name" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="tbpBankroll.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbpBankroll.Name" xml:space="preserve">
+    <value>tbpBankroll</value>
+  </data>
+  <data name="&gt;&gt;spnTicks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spn11To15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 62</value>
+  </data>
+  <data name="&gt;&gt;rbnAsBetAmount.Name" xml:space="preserve">
+    <value>rbnAsBetAmount</value>
+  </data>
+  <data name="tbcConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 500</value>
+  </data>
+  <data name="lblCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="tbpTrade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 474</value>
+  </data>
+  <data name="&gt;&gt;txtMailUser.Parent" xml:space="preserve">
+    <value>gbxIncoming</value>
+  </data>
+  <data name="&gt;&gt;spnTicks.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtMailHost.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl11To15.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="gbxNonRunner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>526, 147</value>
+  </data>
+  <data name="&gt;&gt;lblHours.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtMailHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTimeToStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 13</value>
+  </data>
+  <data name="spn16To20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="chkLastBet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 298</value>
+  </data>
+  <data name="&gt;&gt;lbl16To20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spn1To5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="btnTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 23</value>
+  </data>
+  <data name="lblTipAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkInRunning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ctlConfiguration</value>
+  </data>
+  <data name="tbpTrade.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="spn11To15.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chkDynamicBetting.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Name" xml:space="preserve">
+    <value>lblInfo</value>
+  </data>
+  <data name="&gt;&gt;gbxAmountKind.Name" xml:space="preserve">
+    <value>gbxAmountKind</value>
+  </data>
+  <data name="lbl6To10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 43</value>
+  </data>
+  <data name="&gt;&gt;lblCurrency.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkPlaceForMaxOdds.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="lbl1To5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl11To15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="&gt;&gt;chkPlaceForMaxOdds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbxNonRunner.Text" xml:space="preserve">
+    <value>Non Runner </value>
+  </data>
+  <data name="spn1To5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 16</value>
+  </data>
+  <data name="&gt;&gt;spnTicks.Name" xml:space="preserve">
+    <value>spnTicks</value>
+  </data>
+  <data name="&gt;&gt;spnIMAPPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkActive.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;spnStartMinute.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 500</value>
+  </data>
+  <data name="tbpCommon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lblHours.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbpTrade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTimeToStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 300</value>
+  </data>
+  <data name="&gt;&gt;txtMailUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLastBet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbpCommon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 474</value>
+  </data>
+  <data name="&gt;&gt;lblTradeStartTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkPlaceForMaxOdds.Text" xml:space="preserve">
+    <value>If lay odds are greater than max. odds then place bet for max. odd</value>
+  </data>
+  <data name="lbl11To15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 66</value>
+  </data>
+  <data name="&gt;&gt;lbl6To10.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblTicks.Text" xml:space="preserve">
+    <value>Ticks</value>
+  </data>
+  <data name="cbxSSL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="&gt;&gt;chkDynamicBetting.Name" xml:space="preserve">
+    <value>chkDynamicBetting</value>
+  </data>
+  <data name="spnIMAPPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="tbpCommon.Text" xml:space="preserve">
+    <value>Common Settings</value>
+  </data>
+  <data name="lblTicks.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbxIncoming.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rbnAsRisk.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="spnTippAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 3</value>
+  </data>
+  <data name="spnHours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 262</value>
+  </data>
+  <data name="lbl6To10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCurrency.Parent" xml:space="preserve">
+    <value>tbpBankroll</value>
+  </data>
+  <data name="lblCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 266</value>
+  </data>
+  <data name="&gt;&gt;lblTipAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTradeStartTime.Name" xml:space="preserve">
+    <value>lblTradeStartTime</value>
+  </data>
+  <data name="gbxAmountKind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 36</value>
+  </data>
+  <data name="&gt;&gt;lblTipAmount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblTimeToStart.Name" xml:space="preserve">
+    <value>lblTimeToStart</value>
+  </data>
+  <data name="&gt;&gt;tbcConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbpBankroll.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbpCommon.Name" xml:space="preserve">
+    <value>tbpCommon</value>
+  </data>
+  <data name="rbnAsRisk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="chkDynamicBetting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl16To20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="&gt;&gt;lblTradeStartTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHours.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl1To5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lnkSubscription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="&gt;&gt;tbpBankroll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnLastTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;rbnAsRisk.Parent" xml:space="preserve">
+    <value>gbxAmountKind</value>
+  </data>
+  <data name="&gt;&gt;chkActive.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblMaximumOdds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 7</value>
+  </data>
+  <data name="lbl1To5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkLastBet.Name" xml:space="preserve">
+    <value>chkLastBet</value>
+  </data>
+  <data name="&gt;&gt;gbxInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblNonRunners.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 13</value>
+  </data>
+  <data name="gbxInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 91</value>
+  </data>
+  <data name="lblTradeStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="&gt;&gt;lblHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Name" xml:space="preserve">
+    <value>btnTest</value>
+  </data>
+  <data name="&gt;&gt;tbpMail.Name" xml:space="preserve">
+    <value>tbpMail</value>
+  </data>
+  <data name="rbnAsBetAmount.Text" xml:space="preserve">
+    <value>as Bet Amount</value>
+  </data>
+  <data name="spnLastTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="&gt;&gt;lblTimeToStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMailUser.Name" xml:space="preserve">
+    <value>lblMailUser</value>
+  </data>
+  <data name="spn6To10.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblNonRunners.Parent" xml:space="preserve">
+    <value>gbxNonRunner</value>
+  </data>
+  <data name="lblTipAmount.Text" xml:space="preserve">
+    <value>Tipp Amount: </value>
+  </data>
+  <data name="lblTipAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblTimeToStart.Text" xml:space="preserve">
+    <value>Minutes then place bet for given Lay Odd or Maximum Odd</value>
+  </data>
+  <data name="rbnAsRisk.Text" xml:space="preserve">
+    <value>as Risk</value>
+  </data>
+  <data name="chkActive.Text" xml:space="preserve">
+    <value>Strategy Active?</value>
+  </data>
+  <data name="tbcConfiguration.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPort.Text" xml:space="preserve">
+    <value>IMAP Port (Default: 143; SSL: 993)</value>
+  </data>
+  <data name="&gt;&gt;tbpCommon.Parent" xml:space="preserve">
+    <value>tbcConfiguration</value>
+  </data>
+  <data name="spnIMAPPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 120</value>
+  </data>
+  <data name="rbnAsBetAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkInRunning.Name" xml:space="preserve">
+    <value>chkInRunning</value>
+  </data>
+  <data name="&gt;&gt;tbpMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTimeToStart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbnAsRisk.Name" xml:space="preserve">
+    <value>rbnAsRisk</value>
+  </data>
+  <data name="chkActive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 100</value>
+  </data>
+  <data name="&gt;&gt;rbnAsBetAmount.Parent" xml:space="preserve">
+    <value>gbxAmountKind</value>
+  </data>
+  <data name="chkActive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="&gt;&gt;chkNonRunner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnTicks.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="&gt;&gt;spnMaxOdds.Name" xml:space="preserve">
+    <value>spnMaxOdds</value>
+  </data>
+  <data name="lblMailAccess.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lbl6To10.Text" xml:space="preserve">
+    <value>6 - 10 Starters:</value>
+  </data>
+  <data name="chkNonRunner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 95</value>
+  </data>
+  <data name="lblTipAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="&gt;&gt;rbnAsRisk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spnMoreThan20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMailUser.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;rbnAsBetAmount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spnTippAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="lblMailServer.Text" xml:space="preserve">
+    <value>Mail Host</value>
+  </data>
+  <data name="&gt;&gt;lblStartTime2.Name" xml:space="preserve">
+    <value>lblStartTime2</value>
+  </data>
+  <data name="lblNonRunners.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 66</value>
+  </data>
+  <data name="tbcConfiguration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tbpBankroll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 474</value>
+  </data>
+  <data name="&gt;&gt;chkNonRunner.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="gbxAmountKind.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblSubscription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMailUser.Text" xml:space="preserve">
+    <value>Mail User</value>
+  </data>
+  <data name="&gt;&gt;lblCheck.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtMailHost.Name" xml:space="preserve">
+    <value>txtMailHost</value>
+  </data>
+  <data name="&gt;&gt;tbcConfiguration.Name" xml:space="preserve">
+    <value>tbcConfiguration</value>
+  </data>
+  <data name="lblInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblMaximumOdds.Text" xml:space="preserve">
+    <value>Maximum acceptable lay odd (Will be used if Maximum Odds in Tipp Mail cannot be read)</value>
+  </data>
+  <data name="lbl11To15.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chkInRunning.Text" xml:space="preserve">
+    <value>Keep Bet In Running? (Recommended by The Low Lay)</value>
+  </data>
+  <data name="&gt;&gt;chkInRunning.Parent" xml:space="preserve">
+    <value>tbpTrade</value>
+  </data>
+  <data name="&gt;&gt;tbpCommon.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbpBankroll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="chkNonRunner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 17</value>
+  </data>
+  <data name="lbl16To20.Text" xml:space="preserve">
+    <value>16 - 20 Starters:</value>
+  </data>
+  <data name="chkInRunning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 17</value>
+  </data>
+  <data name="&gt;&gt;lblTipAmount.Name" xml:space="preserve">
+    <value>lblTipAmount</value>
+  </data>
+  <data name="lblCheck.Text" xml:space="preserve">
+    <value>Check for Mail every</value>
+  </data>
+  <data name="lblSubscription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 13</value>
+  </data>
+  <data name="&gt;&gt;lbl1To5.Name" xml:space="preserve">
+    <value>lbl1To5</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="9E9E4424-28D5-463D-AE26-764DEAA95C90" Language="1033" Manufacturer="SXTrader Developer" Name="SXTrader" Version="1.0">
+        <Package Id="*" Keywords="Installer" Description="SXTrader for Betfair Installer" Manufacturer="SXTrader Development" InstallerVersion="100" Languages="1033" Compressed="yes" SummaryCodepage="1252" />
+        <Media Id="1" Cabinet="Sample.cab" EmbedCab="yes" DiskPrompt="CD-ROM #1" />
+        <Property Id="DiskPrompt" Value="SXTrader for Betfair 1.0 Installation [1]" />
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder" Name="PFiles">
+                <Directory Id="SXTrader" Name="SXTrader">
+                    <Directory Id="INSTALLDIR" Name="SXTrader 1.0">
+                        <Directory Id="Plugins" Name="Plugins">
+                            <Directory Id="BackThe4" Name="BackThe4" />
+                            <Directory Id="LayThe4" Name="LayThe4" />
+                            <Directory Id="LayTheDraw" Name="LayTheDraw" />
+                            <Directory Id="Common" Name="Common" />
+                        </Directory>
+                        <Component Id="MainExecutable" Guid="a5fd43f3-405d-4458-8134-f73917dd779d">
+                            <File Id="SXTraderGUIEXE" Name="BFTSGUI.exe" Source="BFTSGUI.exe" KeyPath="yes">
+                                <Shortcut Id="startmenuFoobar10" Directory="ProgramMenuDir" Name="SXTrader for Betfair 1.0" WorkingDirectory="INSTALLDIR" Icon="BFTSGUI.exe" IconIndex="0" Advertise="yes" />
+                                <Shortcut Id="desktopFoobar10" Directory="DesktopFolder" Name="SXTrader for Betfair 1.0" WorkingDirectory="INSTALLDIR" Icon="BFTSGUI.exe" IconIndex="0" Advertise="yes" />
+                                <Permission User="Everyone" GenericAll="yes" Write="yes" Read="yes" Delete="yes" ChangePermission="yes" TakeOwnership="yes" />
+                            </File>
+                            <File Id="BFTSGUI.vshost.exe" Name="BFTSGUI.vshost.exe" Source="BFTSGUI.vshost.exe" />
+                            <File Id="BFTSGUI.vshost.exe.manifest" Name="BFTSGUI.vshost.exe.manifest" Source="BFTSGUI.vshost.exe.manifest" />
+                            <File Id="LiveScoreParser.dll" Name="LiveScoreParser.dll" Source="LiveScoreParser.dll" />
+                            <File Id="LSParserInterfaces.dll" Name="LSParserInterfaces.dll" Source="LSParserInterfaces.dll" />
+                            <File Id="PlugInIF.dll" Name="PlugInIF.dll" Source="PlugInIF.dll" />
+                            <File Id="SXHelper.dll" Name="SXHelper.dll" Source="SXHelper.dll" />
+                            <File Id="BetFairIF.dll" Name="BetFairIF.dll" Source="BetFairIF.dll" />
+                            <File Id="BetFairIF.XmlSerializers.dll" Name="BetFairIF.XmlSerializers.dll" Source="BetFairIF.XmlSerializers.dll" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Directory Id="ProgramMenuFolder" Name="Programs">
+                <Directory Id="ProgramMenuDir" Name="SXTrader for Betfair 1.0">
+                    <Component Id="ProgramMenuDir" Guid="421486e2-cba8-4e13-8864-92c2135c43a5">
+                        <RemoveFolder Id="ProgramMenuDir" On="uninstall" />
+                        <RegistryValue Root="HKCU" Key="Software\SXTrader\SXTrader for Betfair" Type="string" Value="" KeyPath="yes" />
+                    </Component>
+                </Directory>
+            </Directory>
+            <Directory Id="DesktopFolder" Name="Desktop" />
+        </Directory>
+        <Component Id="BackThe4" Guid="ab5ec731-7161-4555-baaa-6ab2bdbbbff3" Directory="BackThe4">
+            <File Id="BFBackThe4.dll" Name="BFBackThe4.dll" Source="Plugins\BackThe4\BFBackThe4.dll" />
+        </Component>
+        <Component Id="LayThe4" Guid="c0d9183f-248a-47e9-bf0f-a0c2fc43e82d" Directory="LayThe4">
+            <File Id="LayThe4.dll" Name="LayThe4.dll" Source="Plugins\LayThe4\LayThe4.dll" />
+        </Component>
+        <Component Id="LayTheDraw" Guid="e838934b-6354-41ac-a6b9-c183e5c94e84" Directory="LayTheDraw">
+            <File Id="BFUEStrategy.dll" Name="BFUEStrategy.dll" Source="Plugins\LayTheDraw\BFUEStrategy.dll" />
+        </Component>
+        <Component Id="Common" Guid="48d79d97-23ce-431e-bdf1-c3be4f3c14d9" Directory="Common">
+            <File Id="CommonHistoryGraph.dll" Name="CommonHistoryGraph.dll" Source="Plugins\Common\CommonHistoryGraph.dll" />
+        </Component>
+        <UI />
+        <Feature Id="Complete" Level="1">
+            <ComponentRef Id="MainExecutable" />
+            <ComponentRef Id="ProgramMenuDir" />
+            <ComponentRef Id="BackThe4" />
+            <ComponentRef Id="LayThe4" />
+            <ComponentRef Id="LayTheDraw" />
+            <ComponentRef Id="Common" />
+        </Feature>
+        <Icon Id="BFTSGUI.exe" SourceFile="BFTSGUI.exe" />
+    </Product>
+</Wix>

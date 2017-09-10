@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <country id="GB">
+    <race abbr="Aint" full="Aintree"/>
+    <race abbr="Ascot" full="Ascot"/>
+    <race abbr="Ayr" full="Ayr"/>
+    <race abbr="Bang" full="Bangor"/>
+    <race full="Bath" abbr="Bath" />
+    <race full="Beverley" abbr="Bev" />
+    <race full="Brighton" abbr="Brig" />
+    <race full="Carlisle" abbr="Carl" />
+    <race full="Cartmel" abbr="Cart" />
+    <race full="Catterick" abbr="Catt" />
+    <race full="Cheltenham" abbr="Chelt" />
+    <race full="Chepstow" abbr="Chep" />
+    <race full="Chester" abbr="Chest" />
+    <race full="Doncaster" abbr="Donc" />
+    <race full="Epsom" abbr="Epsm" />
+    <race full="Exeter" abbr="Extr" />
+    <race full="Fakenham" abbr="Fake" />
+    <race full="Ffos Las" abbr="FfosL" />
+    <race full="Folkstone" abbr="Folk" />
+    <race full="Fontwell" abbr="Font" />
+    <race full="Great Leighs" abbr="GLghs" />
+    <race full="Goodwood" abbr="Good" />
+    <race full="Hamilton" abbr="Ham" />
+    <race full="Haydock" abbr="Hayd" />
+    <race full="Hereford" abbr="Here" />
+    <race full="Hexham" abbr="Hex" />
+    <race full="Huntingdon" abbr="Hunt" />
+    <race full="Kelso" abbr="Kelso" />
+    <race full="Kempton" abbr="Kemp" />
+    <race full="Leicester" abbr="Leic" />
+    <race full="Lingfield" abbr="Ling" />
+    <race full="Ludlow" abbr="Ludl" />
+    <race full="Market Rasen" abbr="MrktR" />
+    <race full="Musselburgh" abbr="Muss" />
+    <race full="Newbury" abbr="Newb" />
+    <race full="Newcastle" abbr="Newc" />
+    <race full="Newmarket" abbr="Newm" />
+    <race full="Newton Abbot" abbr="Newt" />
+    <race full="Nottingham" abbr="Nott" />
+    <race full="Perth" abbr="Perth" />
+    <race full="Plumpton" abbr="Plump" />
+    <race full="Pontefract" abbr="Ponte" />
+    <race full="Redcar" abbr="Redc" />
+    <race full="Ripon" abbr="Ripon" />
+    <race full="Salisbury" abbr="Salis" />
+    <race full="Sandown" abbr="Sand" />
+    <race full="Sedgefield" abbr="Sedge" />
+    <race full="Southwell" abbr="Sthl" />
+    <race full="Stratford" abbr="Strat" />
+    <race full="Taunton" abbr="Taun" />
+    <race full="Thirsk" abbr="Thirsk" />
+    <race full="Towcester" abbr="Towc" />
+    <race full="Uttoxeter" abbr="Uttox" />
+    <race full="Warwick" abbr="Warw" />
+    <race full="Wetherby" abbr="Weth" />
+    <race full="Wincanton" abbr="Winc" />
+    <race full="Windsor" abbr="Wind" />
+    <race full="Wolverhampton" abbr="Wolv" />
+    <race full="Worcester" abbr="Worc" />
+    <race full="Yarmouth" abbr="Yarm" />
+    <race full="York" abbr="York" />
+  </country>
+  <country id ="USA">
+    <race full="Albuquerque" abbr="Albu" />
+    <race full="Aqueduct" abbr="Aque" />
+    <race full="Arapahoe Park" abbr="Arap" />
+    <race full="Arlington Park" abbr="Arl" />
+    <race full="Assiniboia Downs" abbr="Assin" />
+    <race full="Atlantic City" abbr="AtlanC" />
+    <race full="Bay Meadows" abbr="BayM" />
+    <race full="Belmont Park" abbr="Belmont" />
+    <race full="Beulah Park" abbr="Beulah" />
+    <race full="Blue Ribbon Downs" abbr="BlueRD" />
+    <race full="Calder Race Course" abbr="Calder" />
+    <race full="Canterbury Park" abbr="Cant" />
+    <race full="Charles Town" abbr="CharlT" />
+    <race full="Churchill Downs" abbr="Church" />
+    <race full="Colonial Downs" abbr="ColD" />
+    <race full="Del Mar" abbr="Del Mar" />
+    <race full="Delta Downs" abbr="DeltaD" />
+    <race full="Delaware Park" abbr="Delaw" />
+    <race full="Ellis Park" abbr="Ellis" />
+    <race full="Emerald Downs" abbr="Emer" />
+    <race full="Evangeline Downs" abbr="EvangD" />
+    <race full="Fair Grounds" abbr="FairG" />
+    <race full="Fair Meadows" abbr="FairM" />
+    <race full="Fairmount Park" abbr="FairmP" />
+    <race full="Fairplex Park" abbr="FairP" />
+    <race full="Ferndale" abbr="Fern" />
+    <race full="Finger Lakes" abbr="FingL" />
+    <race full="Fonner Park" abbr="FonnP" />
+    <race full="Fort Erie" abbr="FortE" />
+    <race full="Fresno Fair" abbr="FresnoF" />
+    <race full="Golden Gate Fields" abbr="Golden" />
+    <race full="Great Lakes Downs" abbr="GreatLK" />
+    <race full="Gulfstream Park" abbr="Gulf" />
+    <race full="Hastings Park" abbr="Hast" />
+    <race full="Hawthorne" abbr="Hawth" />
+    <race full="Hialeah" abbr="Hialeah" />
+    <race full="Hollywood Park" abbr="HollyP" />
+    <race full="Hoosier Park" abbr="Hoos" />
+    <race full="Horsemen's Park" abbr="HorsemP" />
+    <race full="Indiana" abbr="Indiana" />
+    <race full="Keeneland" abbr="Keenl" />
+    <race full="Kentucky Downs" abbr="KentD" />
+    <race full="Laurel Park" abbr="Laurel" />
+    <race full="Les Bois Park" abbr="Les Bois" />
+    <race full="Lone Star Park" abbr="Lone St" />
+    <race full="Los Alamitos" abbr="Los Ala" />
+    <race full="Louisiana Downs" abbr="Louis" />
+    <race full="Marquis Downs" abbr="Marq" />
+    <race full="Meadowlands" abbr="Meadowv" />
+    <race full="Monmouth Park" abbr="Monm" />
+    <race full="Mountaineer Park" abbr="MountP" />
+    <race full="Northlands Park" abbr="NorthP" />
+    <race full="Oaklawn Park" abbr="OaklP" />
+    <race full="Penn National" abbr="Penn" />
+    <race full="Philadelphia Park" abbr="Philly" />
+    <race full="Pimlico" abbr="Pimlico" />
+    <race full="Playfair" abbr="Playf" />
+    <race full="Pleasanton" abbr="Pleas" />
+    <race full="Portland Meadows" abbr="PortlM" />
+    <race full="Prairie Meadows" abbr="PrairM" />
+    <race full="Presque Isle Downs" abbr="PrIsleD" />
+    <race full="Remington Park" abbr="RemmP" />
+    <race full="Retama Park" abbr="RetamP" />
+    <race full="Rillito Park" abbr="RillitP" />
+    <race full="River Downs" abbr="RiverD" />
+    <race full="Rockingham Park" abbr="RockP" />
+    <race full="Ruidoso Downs" abbr="RuidD" />
+    <race full="Sacramento" abbr="Sacra" />
+    <race full="Sam Houston" abbr="SamH" />
+    <race full="Santa Anita" abbr="Santa" />
+    <race full="Santa Rosa" abbr="SantaR" />
+    <race full="Saratoga" abbr="Sara" />
+    <race full="Solano" abbr="Solan" />
+    <race full="Sportsman's Park" abbr="SportsP" />
+    <race full="Stockton" abbr="Stock" />
+    <race full="Suffolk Downs" abbr="SuffD" />
+    <race full="Sunland Park" abbr="SunP" />
+    <race full="Sun Ray Park" abbr="SunRP" />
+    <race full="Tampa Bay Downs" abbr="Tampa" />
+    <race full="Thistledown" abbr="Thistle" />
+    <race full="Turf Paradise" abbr="TPara" />
+    <race full="Turfway Park" abbr="Turfway" />
+    <race full="Will Rogers Downs" abbr="WillRD" />
+    <race full="Woodbine" abbr="Woodb" />
+    <race full="Woodlands" abbr="Woodl" />
+    <race full="Yavapai Downs" abbr="Yavap" />
+    <race full="Zia Park" abbr="ZiaP" />
+    <race full="Thistle / Beulah" abbr="Thi/Beu" />
+    <race full="Thistle / River" abbr="Thi/Riv" />
+    <race full="Kentucky / Turfway" abbr="TwP/Ken" />
+  </country>
+  <country id ="RSA">
+    <race full="Arlington" abbr="Arl (RSA)" />
+    <race full="Fairview" abbr="Fair (RSA)" />
+    <race full="Clairwood" abbr="Clair (RSA)" />
+    <race full="Greyville" abbr="Grey (RSA)" />
+    <race full="Scottsville" abbr="Scots (RSA)" />
+    <race full="Flamingo Park" abbr="FlamP (RSA)" />
+    <race full="Bloemfontein" abbr="Bloem (RSA)" />
+    <race full="Gosforth" abbr="Gosf (RSA)" />
+    <race full="Newmarket" abbr="Newmkt (RSA)" />
+    <race full="Turffontein" abbr="Turf (RSA)" />
+    <race full="Vaal" abbr="Vaal (RSA)" />
+    <race full="Durbanville" abbr="Durban (RSA)" />
+    <race full="Kenilworth" abbr="Kenil (RSA)" />
+  </country>
+  <country id="IRE">
+    <race full="Ballinrobe" abbr="Ballin"/>
+    <race full="Bellewstown" abbr="Belle"/>
+    <race full="Clonmel" abbr="Clon"/>
+    <race full="Cork" abbr="Cork"/>
+    <race full="Down Royal" abbr="DownR"/>
+    <race full="Downpatrick" abbr="DownP"/>
+    <race full="Dundalk" abbr="Dund"/>
+    <race full="Fairyhouse" abbr="Fairy"/>
+    <race full="Galway" abbr="Gal"/>
+    <race full="Gowran Park" abbr="GowP"/>
+    <race full="Killarney" abbr="Killar"/>
+    <race full="Kilbeggan" abbr="Kilb"/>
+    <race full="Laytown" abbr="Layt"/>
+    <race full="Leopardstown" abbr="Leop"/>
+    <race full="Limerick" abbr="Lim"/>
+    <race full="Listowel" abbr="List"/>
+    <race full="Naas" abbr="Naas"/>
+    <race full="Navan" abbr="Navan"/>
+    <race full="Punchestown" abbr="Punch"/>
+    <race full="Roscommon" abbr="Rosc"/>
+    <race full="Shelbourne" abbr="Shelb"/>
+    <race full="Sligo" abbr="Sligo"/>
+    <race full="The Curragh" abbr="Curr"/>
+    <race full="Thurles" abbr="Thurl"/>
+    <race full="Tipperary" abbr="Tipp"/>
+    <race full="Tralee" abbr="Tral"/>
+    <race full="Tramore" abbr="Tram"/>
+    <race full="Wexford" abbr="Wex"/>
+ </country>
+  <country id="FRA">
+    <race full="Auteuil" abbr="Aut" />
+    <race full="Bordeaux" abbr="Bord" />
+    <race full="Cagnes Sur Mer" abbr="Cagnes" />
+    <race full="Chantilly" abbr="Chant" />
+    <race full="Clairfontaine" abbr="Cfont" />
+    <race full="Compiegne" abbr="Comp" />
+    <race full="Deauville" abbr="Deau" />
+    <race full="Dieppe" abbr="Dieppe" />
+    <race full="Enghien-Soisy" abbr="Engh" />
+    <race full="Longchamp" abbr="Long" />
+    <race full="Lyon Parilly" abbr="Lyon" />
+    <race full="Maisons-Laffite" abbr="MLaff" />
+    <race full="Pau" abbr="Pau" />
+    <race full="Saint-Cloud" abbr="Saint" />
+    <race full="Toulouse" abbr="Toul" />
+    <race full="Vichy" abbr="Vichy" />
+    <race full="Vincennes" abbr="Vincen" />
+  </country>
+  <country id="AUS">
+    <race full="Gunnedah" abbr="Gunn (AUS)" />
+    <race full="Hawkesbury" abbr="Hawk (AUS)" />
+    <race full="Inverell" abbr="Inve (AUS)" />
+    <race full="Junee" abbr="Jnee (AUS)" />
+    <race full="Kembla Grange" abbr="KemG (AUS)" />
+    <race full="Kempsey" abbr="Kemp (AUS)" />
+    <race full="Leeton" abbr="Leet (AUS)" />
+    <race full="Lismore" abbr="Lism (AUS)" />
+    <race full="Maitland" abbr="Mait (AUS)" />
+    <race full="Menangle" abbr="Mngl (AUS)" />
+    <race full="Moree" abbr="Mree (AUS)" />
+    <race full="Moruya" abbr="Moru (AUS)" />
+    <race full="Mudgee" abbr="Mudg (AUS)" />
+    <race full="Murwillumbah" abbr="Murw (AUS)" />
+    <race full="Muswellbrook" abbr="Musw (AUS)" />
+    <race full="Narrabri" abbr="Nbri (AUS)" />
+    <race full="Narrandera" abbr="Ndra (AUS)" />
+    <race full="Narromine" abbr="Narr (AUS)" />
+    <race full="Newcastle" abbr="Newc (AUS)" />
+    <race full="Nowra" abbr="Nowr (AUS)" />
+    <race full="Orange" abbr="Orng (AUS)" />
+    <race full="Parkes" abbr="Park (AUS)" />
+    <race full="Penrith" abbr="Penr (AUS)" />
+    <race full="Port Macquarie" abbr="PMaq (AUS)" />
+    <race full="Queanbeyan" abbr="Quea (AUS)" />
+    <race full="Quirindi" abbr="Quir (AUS)" />
+    <race full="Sapphire Coast" abbr="Sapp (AUS)" />
+    <race full="Scone" abbr="Scne (AUS)" />
+    <race full="Tamworth" abbr="Tamw (AUS)" />
+    <race full="Taree" abbr="Tare (AUS)" />
+    <race full="Temora" abbr="Temo (AUS)" />
+    <race full="Wagga" abbr="Wagg (AUS)" />
+    <race full="Walcha" abbr="Walc (AUS)" />
+    <race full="Warren" abbr="Warn (AUS)" />
+    <race full="Wauchope" abbr="Wauc (AUS)" />
+    <race full="Wellington" abbr="Well (AUS)" />
+    <race full="Wyong" abbr="Wyng (AUS)" />
+    <race full="Young" abbr="Youn (AUS)" />
+    <race full="Cheltenham" abbr="Chel (AUS)" />
+    <race full="Morphettville" abbr="Morp (AUS)" />
+    <race full="Victoria Park" abbr="VPrk (AUS)" />
+    <race full="Globe Derby" abbr="GlbD (AUS)" />
+    <race full="Balaklava" abbr="Bala (AUS)" />
+    <race full="Bordertown" abbr="Bord (AUS)" />
+    <race full="Clare" abbr="Clre (AUS)" />
+    <race full="Gawler" abbr="Gawl (AUS)" />
+    <race full="Halidon" abbr="Hali (AUS)" />
+    <race full="Kadina" abbr="Kadn (AUS)" />
+    <race full="Kapunda" abbr="Kapd (AUS)" />
+    <race full="Mount Gambier" abbr="MGam (AUS)" />
+    <race full="Murray Bridge" abbr="MBdg (AUS)" />
+    <race full="Naracoorte" abbr="Nara (AUS)" />
+    <race full="Oakbank" abbr="Oakb (AUS)" />
+    <race full="Penola" abbr="Peno (AUS)" />
+    <race full="Port Augusta" abbr="PAug (AUS)" />
+    <race full="Port Lincoln" abbr="PLin (AUS)" />
+    <race full="Port Pirie" abbr="PtPr (AUS)" />
+    <race full="Strathalbyn" abbr="Stra (AUS)" />
+    <race full="Victor Harbor" abbr="VicH (AUS)" />
+    <race full="Whyalla" abbr="Whya (AUS)" />
+    <race full="Burnie" abbr="Burn (AUS)" />
+    <race full="Carrick" abbr="Carr (AUS)" />
+    <race full="Devonport" abbr="Devn (AUS)" />
+    <race full="Deloraine" abbr="Delo (AUS)" />
+    <race full="Hobart" abbr="Hoba (AUS)" />
+    <race full="Launceston" abbr="Laun (AUS)" />
+    <race full="Longford" abbr="Long (AUS)" />
+    <race full="Darwin" abbr="Darw (AUS)" />
+    <race full="Alice Springs" abbr="ASpr (AUS)" />
+    <race full="Caulfield" abbr="Caul (AUS)" />
+    <race full="Flemington" abbr="Flem (AUS)" />
+    <race full="Betfair Park (prev. Sandown)" abbr="BPrk (AUS)" />
+    <race full="Moonee Valley" abbr="MVal (AUS)" />
+    <race full="Ararat" abbr="Arar (AUS)" />
+    <race full="Avoca" abbr="Avoc (AUS)" />
+    <race full="Bacchus Marsh" abbr="BMsh (AUS)" />
+    <race full="Bairnsdale" abbr="Bair (AUS)" />
+    <race full="Ballarat" abbr="Ball (AUS)" />
+    <race full="Benalla" abbr="Bena (AUS)" />
+    <race full="Bendigo" abbr="Bend (AUS)" />
+    <race full="Boort" abbr="Boor (AUS)" />
+    <race full="Camperdown" abbr="Camp (AUS)" />
+    <race full="Casterton" abbr="Cast (AUS)" />
+    <race full="Charlton" abbr="Char (AUS)" />
+    <race full="Cobram" abbr="Cobr (AUS)" />
+    <race full="Colac" abbr="Cola (AUS)" />
+    <race full="Coleraine" abbr="Cole (AUS)" />
+    <race full="Cranbourne" abbr="Cran (AUS)" />
+    <race full="Donald" abbr="Donl (AUS)" />
+    <race full="Dunkeld" abbr="Dunk (AUS)" />
+    <race full="Echuca" abbr="Echu (AUS)" />
+    <race full="Edenhope" abbr="Eden (AUS)" />
+    <race full="Geelong" abbr="Geel (AUS)" />
+    <race full="Gunbower" abbr="Gunb (AUS)" />
+    <race full="Hamilton" abbr="Haml (AUS)" />
+    <race full="Hanging Rock" abbr="HRck (AUS)" />
+    <race full="Horsham" abbr="Hshm (AUS)" />
+    <race full="Kilmore" abbr="Kilm (AUS)" />
+    <race full="Kyneton" abbr="Kyne (AUS)" />
+    <race full="Maryborough" abbr="Mary (AUS)" />
+    <race full="Melton" abbr="Melt (AUS)" />
+    <race full="Mildura" abbr="Mdra (AUS)" />
+    <race full="Moe" abbr="Moe (AUS)" />
+    <race full="Mornington" abbr="Morn (AUS)" />
+    <race full="Mortlake" abbr="Mort (AUS)" />
+    <race full="Murtoa" abbr="Murt (AUS)" />
+    <race full="Nyah" abbr="Nyah (AUS)" />
+    <race full="Ouyen" abbr="Ouyn (AUS)" />
+    <race full="Pakenham" abbr="Pakn (AUS)" />
+    <race full="Penshurst" abbr="Pens (AUS)" />
+    <race full="Sale" abbr="Sale (AUS)" />
+    <race full="Seymour" abbr="Seym (AUS)" />
+    <race full="Shepparton" abbr="Shep (AUS)" />
+    <race full="St.Arnaud" abbr="StAr (AUS)" />
+    <race full="Stawell" abbr="Staw (AUS)" />
+    <race full="Stony Creek" abbr="StCr (AUS)" />
+    <race full="Swan Hill" abbr="SwnH (AUS)" />
+    <race full="Tatura" abbr="Tatu (AUS)" />
+    <race full="Terang" abbr="Tera (AUS)" />
+    <race full="Traralgon" abbr="Trar (AUS)" />
+    <race full="Wangaratta" abbr="Wang (AUS)" />
+    <race full="Warracknabeal" abbr="Wrck (AUS)" />
+    <race full="Warragul" abbr="Wgul (AUS)" />
+    <race full="Warrnambool" abbr="Warr (AUS)" />
+    <race full="Wedderburn" abbr="Wedd (AUS)" />
+    <race full="Werribee" abbr="Werr (AUS)" />
+    <race full="Wodonga" abbr="Wodg (AUS)" />
+    <race full="Yarra Glen" abbr="YGln (AUS)" />
+    <race full="Yarra Valley" abbr="YarV (AUS)" />
+    <race full="Albion Park" abbr="APrk (AUS)" />
+    <race full="Doomben" abbr="Doom (AUS)" />
+    <race full="Eagle Farm" abbr="EFrm (AUS)" />
+    <race full="Atherton" abbr="Athe (AUS)" />
+    <race full="Bundaberg" abbr="Bund (AUS)" />
+    <race full="Cairns" abbr="Crns (AUS)" />
+    <race full="Charleville" abbr="Chrv (AUS)" />
+    <race full="Dalby" abbr="Dalb (AUS)" />
+    <race full="Deagon" abbr="Deag (AUS)" />
+    <race full="Emerald" abbr="Emer (AUS)" />
+    <race full="Gold Coast" abbr="GCst (AUS)" />
+    <race full="Innisfail" abbr="Inni (AUS)" />
+    <race full="Ipswich" abbr="Ipsw (AUS)" />
+    <race full="Mackay" abbr="Mack (AUS)" />
+    <race full="Mount Isa" abbr="MIsa (AUS)" />
+    <race full="Redcliffe" abbr="Redc (AUS)" />
+    <race full="Rockhampton" abbr="Rock (AUS)" />
+    <race full="Roma" abbr="Roma (AUS)" />
+    <race full="Sunshine Coast" abbr="SCst (AUS)" />
+    <race full="Toowoomba" abbr="Toow (AUS)" />
+    <race full="Townsville" abbr="Town (AUS)" />
+    <race full="Warwick" abbr="Warw (AUS)" />
+    <race full="Yeppoon" abbr="Yepp (AUS)" />
+    <race full="Ascot" abbr="Asct (AUS)" />
+    <race full="Belmont Park" abbr="Belm (AUS)" />
+    <race full="Gloucester Park" abbr="GlPk (AUS)" />
+    <race full="Albany" abbr="Alba (AUS)" />
+    <race full="Bunbury" abbr="Bunb (AUS)" />
+    <race full="Busselton" abbr="Buss (AUS)" />
+    <race full="Geraldton" abbr="Gera (AUS)" />
+    <race full="Harvey" abbr="Harv (AUS)" />
+    <race full="Kalgoorlie" abbr="Kalg (AUS)" />
+    <race full="Kellerberrin" abbr="Kell (AUS)" />
+    <race full="Mount Barker" abbr="MtBk (AUS)" />
+    <race full="Narrogin" abbr="Ngin (AUS)" />
+    <race full="Northam" abbr="Nort (AUS)" />
+    <race full="Pinjarra" abbr="Pinj (AUS)" />
+    <race full="Toodyay" abbr="Tood (AUS)" />
+    <race full="Wagin" abbr="Wagi (AUS)" />
+    <race full="York" abbr="York (AUS)" />
+  </country>
+  <country id="NZL">
+    <race full="Addington" abbr="Addi (NZL)" />
+    <race full="Alexandra Park" abbr="Alex (NZL)" />
+    <race full="Arawa Park" abbr="Araw (NZL)" />
+    <race full="Ascot Park" abbr="AsPk (NZL)" />
+    <race full="Ashburton" abbr="Ashb (NZL)" />
+    <race full="Avondale" abbr="Avon (NZL)" />
+    <race full="Awapuni" abbr="Awap (NZL)" />
+    <race full="Blenheim" abbr="Blen (NZL)" />
+    <race full="Cambridge" abbr="Camb (NZL)" />
+    <race full="Cromwell" abbr="Crom (NZL)" />
+    <race full="Dargaville" abbr="Darg (NZL)" />
+    <race full="Egmont" abbr="Egmo (NZL)" />
+    <race full="Ellerslie" abbr="Elle (NZL)" />
+    <race full="Foxton" abbr="Foxt (NZL)" />
+    <race full="Geraldine" abbr="Gdne (NZL)" />
+    <race full="Gisborne" abbr="Gisb (NZL)" />
+    <race full="Gore" abbr="Gore (NZL)" />
+    <race full="Greymouth" abbr="Grey (NZL)" />
+    <race full="Hastings" abbr="Hast (NZL)" />
+    <race full="Hatrick" abbr="Hatr (NZL)" />
+    <race full="Hawera" abbr="Hawe (NZL)" />
+    <race full="Hokitika" abbr="Hoki (NZL)" />
+    <race full="Hutt Park" abbr="Hutt (NZL)" />
+    <race full="Kurow" abbr="Kuro (NZL)" />
+    <race full="Makaraka" abbr="Maka (NZL)" />
+    <race full="Manawatu" abbr="Mana (NZL)" />
+    <race full="Matamata" abbr="Mata (NZL)" />
+    <race full="Manukau" abbr="Mkau (NZL)" />
+    <race full="Motukarara" abbr="Motu (NZL)" />
+    <race full="Mt Harding" abbr="MtHa (NZL)" />
+    <race full="Oamaru" abbr="Oama (NZL)" />
+    <race full="Omoto" abbr="Omot (NZL)" />
+    <race full="Otaki" abbr="Otak (NZL)" />
+    <race full="Paeroa" abbr="Paro (NZL)" />
+    <race full="Phar Lap" abbr="PLap (NZL)" />
+    <race full="Pukekohe" abbr="Puke (NZL)" />
+    <race full="Pukekura" abbr="Pkur (NZL)" />
+    <race full="Reefton" abbr="Reef (NZL)" />
+    <race full="Riccarton Park" abbr="Ricc (NZL)" />
+    <race full="Riverton" abbr="Rive (NZL)" />
+    <race full="Rotorua" abbr="Roto (NZL)" />
+    <race full="Ruakaka" abbr="Ruak (NZL)" />
+    <race full="Stratford" abbr="Stfd (NZL)" />
+    <race full="Taupo" abbr="Taup (NZL)" />
+    <race full="Tauherenikau" abbr="Tauh (NZL)" />
+    <race full="Tauranga" abbr="Taur (NZL)" />
+    <race full="Te Aroha" abbr="TeAr (NZL)" />
+    <race full="Te Awamutu" abbr="TeAw (NZL)" />
+    <race full="Te Kapua" abbr="Tkap (NZL)" />
+    <race full="Te Kupenga" abbr="TKup (NZL)" />
+    <race full="Te Rapa" abbr="TRap (NZL)" />
+    <race full="Te Teko" abbr="TeTe (NZL)" />
+    <race full="Thames" abbr="Tmes (NZL)" />
+    <race full="Trentham" abbr="Tren (NZL)" />
+    <race full="Waikouaiti" abbr="Waik (NZL)" />
+    <race full="Waimate" abbr="Waim (NZL)" />
+    <race full="Waipukurau" abbr="Waip (NZL)" />
+    <race full="Wairoa" abbr="Wair (NZL)" />
+    <race full="Waterlea" abbr="Wlea (NZL)" />
+    <race full="Waverley" abbr="Wave (NZL)" />
+    <race full="Wanganui" abbr="Wnui (NZL)" />
+    <race full="Wingatui" abbr="Wing (NZL)" />
+    <race full="Winton" abbr="Wint (NZL)" />
+    <race full="Woodville" abbr="Wood (NZL)" />
+    <race full="Wyndham" abbr="Wynd (NZL)" />
+  </country>
+  <country id="GER">
+    <race full="Baden-Baden" abbr="Baden" />
+    <race full="Bremen" abbr="Brem" />
+    <race full="Cologne" abbr="Col" />
+    <race full="Dortmund" abbr="Dort" />
+    <race full="Dusseldorf" abbr="Duss" />
+    <race full="Frankfurt" abbr="Frank" />
+    <race full="Hamburg" abbr="Hamb" />
+    <race full="Hannover" abbr="Hann" />
+    <race full="Krefeld" abbr="Kref" />
+    <race full="Munich" abbr="Munich" />
+    <race full="Neuss" abbr="Neuss" />
+  </country>
+  <country id="SWE">
+    <race full="Axevalla" abbr="Axev" />
+    <race full="Åby" abbr="Aby" />
+    <race full="Amal" abbr="Amal" />
+    <race full="Are" abbr="Are" />
+    <race full="Arjang" abbr="Arjang" />
+    <race full="Arvika" abbr="Arvika" />
+    <race full="Bergsåker" abbr="Berg" />
+    <race full="Boden" abbr="Boden" />
+    <race full="Bollnas" abbr="Boll" />
+    <race full="Dannero" abbr="Dann" />
+    <race full="Eskilstuna" abbr="Eskil" />
+    <race full="Färjestad" abbr="Farje" />
+    <race full="Gävle" abbr="Gavle" />
+    <race full="Goteburg" abbr="Gote" />
+    <race full="Hagfors" abbr="Hagf" />
+    <race full="Hagmyren" abbr="Hagmy" />
+    <race full="Halmstad" abbr="Halm" />
+    <race full="Jägersro" abbr="Jager" />
+    <race full="Kalmar" abbr="Kalmar" />
+    <race full="Karlshamn" abbr="Karls" />
+    <race full="Klampenborg" abbr="Klamp" />
+    <race full="Lindesberg" abbr="Lind" />
+    <race full="Lycksele" abbr="Lyck" />
+    <race full="Mantorp" abbr="Mant" />
+    <race full="Örebro" abbr="Orebro" />
+    <race full="Östersund" abbr="Oser" />
+    <race full="Oviken" abbr="Ovik" />
+    <race full="Rättvik" abbr="Ratt" />
+    <race full="Romme" abbr="Romme" />
+    <race full="Skelleftea" abbr="Skell" />
+    <race full="Solänget" abbr="Solan" />
+    <race full="Solvalla" abbr="Solv" />
+    <race full="Taby" abbr="Taby" />
+    <race full="Tingsryd" abbr="Ting" />
+    <race full="Umeå" abbr="Umea" />
+    <race full="Visby" abbr="Visby" />
+    <race full="Vaggeryd" abbr="Vagg" />
+  </country>
+  <country id="ITA">
+    <race full="Capannelle (Rome)" abbr="Capan" />
+    <race full="Firenze" abbr="Firen" />
+    <race full="Livorno" abbr="Livor" />
+    <race full="Merano" abbr="Merano" />
+    <race full="Pisa" abbr="Pisa" />
+    <race full="San Siro (Milan)" abbr="San" />
+    <race full="Siena" abbr="Siena" />
+    <race full="Treviso" abbr="Trev" />
+  </country>
+  <country id="TUR">
+    <race full="Istanbul" abbr="Istanb (TUR)" />
+  </country>
+  <country id="UAE">
+    <race full="Nad Al Sheba" abbr="Nad Al" />
+    <race full="Jebel Ali" abbr="Jebel" />
+    <race full="Meydan" abbr="Meydan" />
+  </country>
+</root>

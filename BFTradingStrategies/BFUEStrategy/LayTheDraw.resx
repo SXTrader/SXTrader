@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strActivateStopLossWatch" xml:space="preserve">
+    <value>Activate Stop/Loss-Watch after</value>
+  </data>
+  <data name="strAdded" xml:space="preserve">
+    <value>Match added.</value>
+  </data>
+  <data name="strAddLivescore" xml:space="preserve">
+    <value>Add Liveticker</value>
+  </data>
+  <data name="strAfterGoal" xml:space="preserve">
+    <value>After goal was scored close trade after a waiting time of</value>
+  </data>
+  <data name="strAvailibleScores" xml:space="preserve">
+    <value>Available Livescores</value>
+  </data>
+  <data name="strBetMatched" xml:space="preserve">
+    <value>Market {0} Placed bet {1:C}@{2}</value>
+  </data>
+  <data name="strBetUnmatched" xml:space="preserve">
+    <value>Market  {0} Placed unmatched bet {1:C}@{2}</value>
+  </data>
+  <data name="strCancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="strCheckExitOddsSeconds" xml:space="preserve">
+    <value>CheckExitOddsSeconds</value>
+  </data>
+  <data name="strCheckForStopLoss" xml:space="preserve">
+    <value>Check for Stop/Loss-Trade every </value>
+  </data>
+  <data name="strCheckServerBetsSeconds" xml:space="preserve">
+    <value>CheckServerBetsSeconds</value>
+  </data>
+  <data name="strCheckStopLossOdds" xml:space="preserve">
+    <value>Check for Stop/Loss Odds every</value>
+  </data>
+  <data name="strConfigurationLTD" xml:space="preserve">
+    <value>Configuration Lay The Draw</value>
+  </data>
+  <data name="strConnect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="strDefaultActivation" xml:space="preserve">
+    <value>Strategy is activated at program start?</value>
+  </data>
+  <data name="strDescription" xml:space="preserve">
+    <value>Lays the Draw and Backs it after a goal was scored</value>
+  </data>
+  <data name="strDontCloseOdds" xml:space="preserve">
+    <value>DontCloseOdds</value>
+  </data>
+  <data name="strDontCloseRetrySeconds" xml:space="preserve">
+    <value>DontCloseRetrySeconds</value>
+  </data>
+  <data name="strDontCloseTrade" xml:space="preserve">
+    <value>Don't close when there's a undraw and bet differ minus </value>
+  </data>
+  <data name="strExitCloseOdds" xml:space="preserve">
+    <value>ExitCloseOdds</value>
+  </data>
+  <data name="strExitWatchActivationPlaytime" xml:space="preserve">
+    <value>ExitWatchActivationPlaytime</value>
+  </data>
+  <data name="strFQLayTheDraw" xml:space="preserve">
+    <value>Soccer/Lay The Draw</value>
+  </data>
+  <data name="strGeneralBehaviour" xml:space="preserve">
+    <value>Behaviour General</value>
+  </data>
+  <data name="strGoalScoredBehaviour" xml:space="preserve">
+    <value>Behaviour Goal Scored</value>
+  </data>
+  <data name="strGoalScoredCloseTradeSeconds" xml:space="preserve">
+    <value>GoalScoredCloseTradeSeconds</value>
+  </data>
+  <data name="strLivescoreMatches" xml:space="preserve">
+    <value>Livescore Matches</value>
+  </data>
+  <data name="strLocalConfig" xml:space="preserve">
+    <value>Local Configuration for Single Match</value>
+  </data>
+  <data name="strManualConnectionAdvise" xml:space="preserve">
+    <value>You have to chose a match! If you don't want to connect this match to a Liveticker then please chose the Match Team None - Team None.</value>
+  </data>
+  <data name="strManuallyAdded" xml:space="preserve">
+    <value>The Betfair Match {0} was manually linked with Livescore Match {1}</value>
+  </data>
+  <data name="strMatchNotFound" xml:space="preserve">
+    <value>Match not found!</value>
+  </data>
+  <data name="strModule" xml:space="preserve">
+    <value>Lay The Draw</value>
+  </data>
+  <data name="strName" xml:space="preserve">
+    <value>Lay The Draw</value>
+  </data>
+  <data name="strNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="strNoParameter" xml:space="preserve">
+    <value>No Parameter was provided in Module {0}</value>
+  </data>
+  <data name="strOK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="strPlaceBet" xml:space="preserve">
+    <value>Place Back-Bet for Market {0} with Odds {1} for {2} €</value>
+  </data>
+  <data name="strPlaytimeMinute" xml:space="preserve">
+    <value>Minutes of Playtime</value>
+  </data>
+  <data name="strPluginActivated" xml:space="preserve">
+    <value>Plugin {0} was activated</value>
+  </data>
+  <data name="strPluginDeactivated" xml:space="preserve">
+    <value>Plugin {0} was deactivated</value>
+  </data>
+  <data name="strPluginLoaded" xml:space="preserve">
+    <value>Plugin {0} loaded</value>
+  </data>
+  <data name="strSeconds" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="strServerCheck" xml:space="preserve">
+    <value>Check server for new bets every </value>
+  </data>
+  <data name="strStopLossBehaviour" xml:space="preserve">
+    <value>Behaviour Stop/Loss</value>
+  </data>
+  <data name="strStopLossTrade" xml:space="preserve">
+    <value>Start Stop/Loss-Trade when Odds are lower than</value>
+  </data>
+  <data name="strStrategyActivated" xml:space="preserve">
+    <value>StrategyActivated</value>
+  </data>
+  <data name="strStrategyActive" xml:space="preserve">
+    <value>Strategy Active</value>
+  </data>
+  <data name="strTicksBet" xml:space="preserve">
+    <value>Ticks from initial bet.</value>
+  </data>
+  <data name="strTitle" xml:space="preserve">
+    <value>Manual Livescore Connection</value>
+  </data>
+  <data name="strTradeCloseUnmatched" xml:space="preserve">
+    <value>Cancel unmatched trade-close-bet and rebet after </value>
+  </data>
+  <data name="strTradeCloseWait" xml:space="preserve">
+    <value>If no Trade was placed wait for retry</value>
+  </data>
+  <data name="strUnmatchedWaitSeconds" xml:space="preserve">
+    <value>UnmatchedWaitSeconds</value>
+  </data>
+  <data name="strWrongParameterCount" xml:space="preserve">
+    <value>Too many or too less parameters provided in Module {0}</value>
+  </data>
+  <data name="strWrongParameterType" xml:space="preserve">
+    <value>Parameter {0}: Wrong Parametertype. Expected Parametertype {1}</value>
+  </data>
+  <data name="strYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="strPercentStopLoss" xml:space="preserve">
+    <value>% of initial Bet</value>
+  </data>
+  <data name="strFileGameEndedSound" xml:space="preserve">
+    <value>FileGameEndedSound</value>
+  </data>
+  <data name="strFileMatchAddedSound" xml:space="preserve">
+    <value>FileMatchAddedSound</value>
+  </data>
+  <data name="strFileScoreChangedSound" xml:space="preserve">
+    <value>FileScoreChangedSound</value>
+  </data>
+  <data name="strFileTradingChangedSound" xml:space="preserve">
+    <value>FileTradingChangedSound</value>
+  </data>
+  <data name="strPlayGameEndedSound" xml:space="preserve">
+    <value>PlayMatchEndedSound</value>
+  </data>
+  <data name="strPlayMatchAddedSound" xml:space="preserve">
+    <value>PlayMatchAddedSound</value>
+  </data>
+  <data name="strPlayScoreChangedSound" xml:space="preserve">
+    <value>PlayScoreChangedSound</value>
+  </data>
+  <data name="strPlaySounds" xml:space="preserve">
+    <value>Play Sounds</value>
+  </data>
+  <data name="strPlayTradingChangedSound" xml:space="preserve">
+    <value>PlayTradingChangedSound</value>
+  </data>
+  <data name="strBrowse" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="strGameBehavior" xml:space="preserve">
+    <value>Game Behavior</value>
+  </data>
+  <data name="strGameEnded" xml:space="preserve">
+    <value>Game Ended</value>
+  </data>
+  <data name="strMatchAdded" xml:space="preserve">
+    <value>Match Added</value>
+  </data>
+  <data name="strPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="strPlaySoundsText" xml:space="preserve">
+    <value>Play Sounds</value>
+  </data>
+  <data name="strScoreChanged" xml:space="preserve">
+    <value>Score Changed</value>
+  </data>
+  <data name="strSound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="strTradingChanged" xml:space="preserve">
+    <value>Trading Changed</value>
+  </data>
+  <data name="strMarketSettled" xml:space="preserve">
+    <value>Market is already settled.</value>
+  </data>
+  <data name="strBelowMinOdds" xml:space="preserve">
+    <value>Score is undraw and market odss are below the calculated value of {0}</value>
+  </data>
+  <data name="strMarketSuspended" xml:space="preserve">
+    <value>Market is suspended. Retrying.</value>
+  </data>
+  <data name="strNoMarketInfo" xml:space="preserve">
+    <value>No market info. Retrying.</value>
+  </data>
+  <data name="strNoMarketPrices" xml:space="preserve">
+    <value>No market prices. Retrying.</value>
+  </data>
+  <data name="strNoStopLossRun" xml:space="preserve">
+    <value>No Stop/Loss because Close-Trade is running.</value>
+  </data>
+  <data name="strOdds2HighForStopLoss" xml:space="preserve">
+    <value>Current Odds are higher than expected odds of {0}. Retrying.</value>
+  </data>
+  <data name="strDontCloseDrawPlaytime" xml:space="preserve">
+    <value>DontCloseDrawPlaytime</value>
+  </data>
+  <data name="strDontCloseDrawPlaytimeLabel" xml:space="preserve">
+    <value>Don't Close Trade when score is draw and playtime is lower than</value>
+  </data>
+  <data name="strDontCloseDrawPlaytimeMessage" xml:space="preserve">
+    <value>Score is draw and playtime is less than {0}. Leaving</value>
+  </data>
+  <data name="strNoLivescore" xml:space="preserve">
+    <value>No Liveticker</value>
+  </data>
+  <data name="strLivescore1" xml:space="preserve">
+    <value>Livescore 1</value>
+  </data>
+  <data name="strLivescore2" xml:space="preserve">
+    <value>Livescore 2</value>
+  </data>
+  <data name="strDisCLivescore" xml:space="preserve">
+    <value>Disconnect Livescore {0}</value>
+  </data>
+  <data name="strAlwaysBet" xml:space="preserve">
+    <value>Always bet</value>
+  </data>
+  <data name="strAvailibleAmount" xml:space="preserve">
+    <value>Available Balance</value>
+  </data>
+  <data name="strBetAmount" xml:space="preserve">
+    <value>BetAmount</value>
+  </data>
+  <data name="strCancelBet" xml:space="preserve">
+    <value>Cancel bet</value>
+  </data>
+  <data name="strFastBetFixedAmountValue" xml:space="preserve">
+    <value>FastBetFixedAmountValue</value>
+  </data>
+  <data name="strFastBetPercentAmountValue" xml:space="preserve">
+    <value>FastBetPercentAmountValue</value>
+  </data>
+  <data name="strFastBetPercentTotalAmount" xml:space="preserve">
+    <value>FastBetPercentTotalAmount</value>
+  </data>
+  <data name="strFastBetUnmatchBehaviourLabel" xml:space="preserve">
+    <value>Unmatched/Partly matched behaviour</value>
+  </data>
+  <data name="strFastBetUnmatchedCancel" xml:space="preserve">
+    <value>FastBetUnmatchedCancel</value>
+  </data>
+  <data name="strFastBetUnmatchedWaitSeconds" xml:space="preserve">
+    <value>FastBetUnmatchedWaitSeconds</value>
+  </data>
+  <data name="strFastLay" xml:space="preserve">
+    <value>Fast Lay</value>
+  </data>
+  <data name="strFastLayFixedAmount" xml:space="preserve">
+    <value>FastLayFixedAmount</value>
+  </data>
+  <data name="strPercentOf" xml:space="preserve">
+    <value>% of</value>
+  </data>
+  <data name="strTotalAmount" xml:space="preserve">
+    <value>Total Balance</value>
+  </data>
+  <data name="strWait" xml:space="preserve">
+    <value>Wait</value>
+  </data>
+  <data name="strConfirmFastBet" xml:space="preserve">
+    <value>Do you really want to place a Lay bet of {0} {1} for the odds of {2}?</value>
+  </data>
+  <data name="strOdds" xml:space="preserve">
+    <value>Odds</value>
+  </data>
+  <data name="strTargetOdds" xml:space="preserve">
+    <value>Place Lay with Odds of</value>
+  </data>
+  <data name="strNoMorePreplayTargetBet" xml:space="preserve">
+    <value>The match is already Inplay. No more preplay target bet possible</value>
+  </data>
+  <data name="strPreplayTargetError" xml:space="preserve">
+    <value>Preplay Target Bet Error</value>
+  </data>
+  <data name="strTargetBetMatchEnded" xml:space="preserve">
+    <value>Match already ended. No betting possible anymore.</value>
+  </data>
+  <data name="strAnd" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="strButtonDelete" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="strButtonEdit" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="strButtonNew" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="strButtonSave" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="strOddsBetween" xml:space="preserve">
+    <value>Odds between</value>
+  </data>
+  <data name="strOpenTradeSettled" xml:space="preserve">
+    <value>Open Trade if there is a settled market</value>
+  </data>
+  <data name="strOpenTradeUnsettled" xml:space="preserve">
+    <value>Open Trade if there is a unsettled market</value>
+  </data>
+  <data name="strPlaytimeBetween" xml:space="preserve">
+    <value>Playtime between</value>
+  </data>
+  <data name="strScore" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="strTradeConfig" xml:space="preserve">
+    <value>Trade Configuration</value>
+  </data>
+  <data name="strMarketVolumeBetween" xml:space="preserve">
+    <value>Market Volume between</value>
+  </data>
+  <data name="strMarketVolumeHighLowMismatch" xml:space="preserve">
+    <value>The upper end of the market volume interval must be greater than the lower end!</value>
+  </data>
+  <data name="strOddsHighLowMismatch" xml:space="preserve">
+    <value>The upper end of the odd interval must be greater than the lower end!</value>
+  </data>
+  <data name="strPlayTimeHighLowMismatch" xml:space="preserve">
+    <value>The upper end of the playtime interval must be greater than the lower end!</value>
+  </data>
+  <data name="strEqualRedCards" xml:space="preserve">
+    <value>Equal Red Cards</value>
+  </data>
+  <data name="strNoRedCards" xml:space="preserve">
+    <value>No Red Cards</value>
+  </data>
+  <data name="strObserveRedCards" xml:space="preserve">
+    <value>Observe Red Cards</value>
+  </data>
+  <data name="strRedCardBehaviour" xml:space="preserve">
+    <value>Red Card Behaviour</value>
+  </data>
+  <data name="strTeamAMoreRedCards" xml:space="preserve">
+    <value>Team A more Red Cards</value>
+  </data>
+  <data name="strTeamBMoreRedCards" xml:space="preserve">
+    <value>Team B more Red Cards</value>
+  </data>
+  <data name="str00NoStoppLoss" xml:space="preserve">
+    <value>check00nostopploss</value>
+  </data>
+  <data name="str00StopLossPercentage" xml:space="preserve">
+    <value>stopploss00percentage</value>
+  </data>
+  <data name="str00WinPercentage" xml:space="preserve">
+    <value>win00percentage</value>
+  </data>
+  <data name="strCheck00StoppLoss" xml:space="preserve">
+    <value>check00stopploss</value>
+  </data>
+  <data name="strCheckScoreline00Cfg" xml:space="preserve">
+    <value>If Score is 0 - 0 and there's a Scoreline Trade and the Win on the 0 - 0 Market compared to
+ the Loss on Draw Market isthe Loss on Draw Market is</value>
+  </data>
+  <data name="strScoreline00" xml:space="preserve">
+    <value>Scoreline 0 - 0</value>
+  </data>
+  <data name="strSL00NoStopLoss" xml:space="preserve">
+    <value>No Stop/Loss</value>
+  </data>
+  <data name="strSL00StopLoss" xml:space="preserve">
+    <value>Place Stop/Loss for</value>
+  </data>
+  <data name="strCantCreateTemplate" xml:space="preserve">
+    <value>A Template File can't be created
+if there are no rules defined</value>
+  </data>
+  <data name="strErrorSaveTemplate" xml:space="preserve">
+    <value>Error saving Template</value>
+  </data>
+  <data name="strOpenFileError" xml:space="preserve">
+    <value>There was an error while opening file {0}</value>
+  </data>
+  <data name="strTemplateErrorDelete" xml:space="preserve">
+    <value>There was an error while deleting the existing template file</value>
+  </data>
+  <data name="strTemplateErrorNoId" xml:space="preserve">
+    <value>Template File has no identification</value>
+  </data>
+  <data name="strTemplateErrorNoLTD" xml:space="preserve">
+    <value>Template File is not a Lay The Draw Template</value>
+  </data>
+  <data name="strTemplateErrorUnexpected" xml:space="preserve">
+    <value>There was an unexpected error while opening file</value>
+  </data>
+  <data name="strTemplateLoadeError" xml:space="preserve">
+    <value>Error while loading Template</value>
+  </data>
+  <data name="strTemplateSave" xml:space="preserve">
+    <value>Save Template</value>
+  </data>
+  <data name="strTemplateSaveErrorUnexpected" xml:space="preserve">
+    <value>There was an unexpected error while saving file</value>
+  </data>
+  <data name="strTemplateSaveSuccess" xml:space="preserve">
+    <value>Successfully saved template:
+{0}</value>
+  </data>
+  <data name="strDontCloseDrawOddsMessage" xml:space="preserve">
+    <value>Score is draw and odd is less than {0}. Leaving</value>
+  </data>
+  <data name="strNoCloseTradeDrawOdds" xml:space="preserve">
+    <value>NoCloseTradeDrawOdds</value>
+  </data>
+  <data name="strNoStoppLossOdds" xml:space="preserve">
+    <value>NoStoppLossOdds</value>
+  </data>
+</root>

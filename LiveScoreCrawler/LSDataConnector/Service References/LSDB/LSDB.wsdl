@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://sxtrader.net/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://sxtrader.net/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://sxtrader.net/">
+      <s:element name="GetTeamNames">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="teamId" type="s:unsignedLong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTeamNamesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTeamNamesResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InsertMatchEvent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="matchId" type="s:unsignedLong" />
+            <s:element minOccurs="1" maxOccurs="1" name="teamId" type="s:unsignedLong" />
+            <s:element minOccurs="1" maxOccurs="1" name="eventType" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="eventMinute" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="infoEvent1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="infoEvent2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertMatchEventResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="InsertMatch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="matchId" type="s:unsignedLong" />
+            <s:element minOccurs="0" maxOccurs="1" name="matchDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="teamA" type="s:unsignedLong" />
+            <s:element minOccurs="1" maxOccurs="1" name="teamB" type="s:unsignedLong" />
+            <s:element minOccurs="0" maxOccurs="1" name="devisionId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="scoreTeamA" type="s:unsignedInt" />
+            <s:element minOccurs="1" maxOccurs="1" name="scoreTeamB" type="s:unsignedInt" />
+            <s:element minOccurs="0" maxOccurs="1" name="halftimeScore" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertMatchResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="InsertDevision">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="devisionId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="devisionName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertDevisionResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="InsertTeamName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="teamId" type="s:unsignedLong" />
+            <s:element minOccurs="0" maxOccurs="1" name="teamName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertTeamNameResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="InsertTeam">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="teamId" type="s:unsignedLong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertTeamResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="TeamExists">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="teamId" type="s:unsignedLong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TeamExistsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TeamExistsResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MatchExist">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="matchId" type="s:unsignedLong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MatchExistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MatchExistResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DevisionExist">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="devisionId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DevisionExistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DevisionExistResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetTeamNamesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTeamNames" />
+  </wsdl:message>
+  <wsdl:message name="GetTeamNamesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTeamNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertMatchEventSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertMatchEvent" />
+  </wsdl:message>
+  <wsdl:message name="InsertMatchEventSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertMatchEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertMatchSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertMatch" />
+  </wsdl:message>
+  <wsdl:message name="InsertMatchSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertMatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertDevisionSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertDevision" />
+  </wsdl:message>
+  <wsdl:message name="InsertDevisionSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertDevisionResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertTeamNameSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertTeamName" />
+  </wsdl:message>
+  <wsdl:message name="InsertTeamNameSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertTeamNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertTeamSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertTeam" />
+  </wsdl:message>
+  <wsdl:message name="InsertTeamSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertTeamResponse" />
+  </wsdl:message>
+  <wsdl:message name="TeamExistsSoapIn">
+    <wsdl:part name="parameters" element="tns:TeamExists" />
+  </wsdl:message>
+  <wsdl:message name="TeamExistsSoapOut">
+    <wsdl:part name="parameters" element="tns:TeamExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="MatchExistSoapIn">
+    <wsdl:part name="parameters" element="tns:MatchExist" />
+  </wsdl:message>
+  <wsdl:message name="MatchExistSoapOut">
+    <wsdl:part name="parameters" element="tns:MatchExistResponse" />
+  </wsdl:message>
+  <wsdl:message name="DevisionExistSoapIn">
+    <wsdl:part name="parameters" element="tns:DevisionExist" />
+  </wsdl:message>
+  <wsdl:message name="DevisionExistSoapOut">
+    <wsdl:part name="parameters" element="tns:DevisionExistResponse" />
+  </wsdl:message>
+  <wsdl:portType name="LSDB1Soap">
+    <wsdl:operation name="GetTeamNames">
+      <wsdl:input message="tns:GetTeamNamesSoapIn" />
+      <wsdl:output message="tns:GetTeamNamesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertMatchEvent">
+      <wsdl:input message="tns:InsertMatchEventSoapIn" />
+      <wsdl:output message="tns:InsertMatchEventSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertMatch">
+      <wsdl:input message="tns:InsertMatchSoapIn" />
+      <wsdl:output message="tns:InsertMatchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertDevision">
+      <wsdl:input message="tns:InsertDevisionSoapIn" />
+      <wsdl:output message="tns:InsertDevisionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertTeamName">
+      <wsdl:input message="tns:InsertTeamNameSoapIn" />
+      <wsdl:output message="tns:InsertTeamNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertTeam">
+      <wsdl:input message="tns:InsertTeamSoapIn" />
+      <wsdl:output message="tns:InsertTeamSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TeamExists">
+      <wsdl:input message="tns:TeamExistsSoapIn" />
+      <wsdl:output message="tns:TeamExistsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MatchExist">
+      <wsdl:input message="tns:MatchExistSoapIn" />
+      <wsdl:output message="tns:MatchExistSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DevisionExist">
+      <wsdl:input message="tns:DevisionExistSoapIn" />
+      <wsdl:output message="tns:DevisionExistSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LSDB1Soap" type="tns:LSDB1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTeamNames">
+      <soap:operation soapAction="http://sxtrader.net/GetTeamNames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMatchEvent">
+      <soap:operation soapAction="http://sxtrader.net/InsertMatchEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMatch">
+      <soap:operation soapAction="http://sxtrader.net/InsertMatch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDevision">
+      <soap:operation soapAction="http://sxtrader.net/InsertDevision" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertTeamName">
+      <soap:operation soapAction="http://sxtrader.net/InsertTeamName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertTeam">
+      <soap:operation soapAction="http://sxtrader.net/InsertTeam" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TeamExists">
+      <soap:operation soapAction="http://sxtrader.net/TeamExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MatchExist">
+      <soap:operation soapAction="http://sxtrader.net/MatchExist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DevisionExist">
+      <soap:operation soapAction="http://sxtrader.net/DevisionExist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LSDB1Soap12" type="tns:LSDB1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTeamNames">
+      <soap12:operation soapAction="http://sxtrader.net/GetTeamNames" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMatchEvent">
+      <soap12:operation soapAction="http://sxtrader.net/InsertMatchEvent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMatch">
+      <soap12:operation soapAction="http://sxtrader.net/InsertMatch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDevision">
+      <soap12:operation soapAction="http://sxtrader.net/InsertDevision" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertTeamName">
+      <soap12:operation soapAction="http://sxtrader.net/InsertTeamName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertTeam">
+      <soap12:operation soapAction="http://sxtrader.net/InsertTeam" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TeamExists">
+      <soap12:operation soapAction="http://sxtrader.net/TeamExists" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MatchExist">
+      <soap12:operation soapAction="http://sxtrader.net/MatchExist" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DevisionExist">
+      <soap12:operation soapAction="http://sxtrader.net/DevisionExist" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LSDB1">
+    <wsdl:port name="LSDB1Soap" binding="tns:LSDB1Soap">
+      <soap:address location="http://markusheid.vpscustomer.com/LSDB.asmx" />
+    </wsdl:port>
+    <wsdl:port name="LSDB1Soap12" binding="tns:LSDB1Soap12">
+      <soap12:address location="http://markusheid.vpscustomer.com/LSDB.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
